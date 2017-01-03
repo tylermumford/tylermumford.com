@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Tyler Mumford</title>
+    <link>http://tylermumford.com/tags/css/index.xml</link>
+    <description>Recent content in Css on Tyler Mumford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://tylermumford.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>On CSS Polyfills</title>
+      <link>http://tylermumford.com/post/on-css-polyfills/</link>
+      <pubDate>Fri, 23 Dec 2016 15:41:54 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/on-css-polyfills/</guid>
+      <description>&lt;p&gt;I want to respond to &amp;ldquo;&lt;a href=&#34;https://philipwalton.com/articles/the-dark-side-of-polyfilling-css/&#34;&gt;The Dark Side of Polyfilling CSS&lt;/a&gt;&amp;rdquo; by Philip Walton. At the end of the article is this hashtag:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;#makecssfatigueathing&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I disagree completely. Putting aside the fact that the word &amp;ldquo;fatigue&amp;rdquo; has only negative connotations, CSS is already different enough between browsers. If a CSS snippet&amp;rsquo;s meaning can be changed at will by JavaScript, then:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;There will be more code in the rendering pipeline, and therefore more bugs&lt;/li&gt;
+&lt;li&gt;Scripts can change the meaning of &lt;em&gt;valid&lt;/em&gt; CSS, interfering with the CSS author&amp;rsquo;s expectations and intentions&lt;/li&gt;
+&lt;li&gt;Browser vendors can justify ignoring niche new features because the JS community will already have an implementation&lt;/li&gt;
+&lt;li&gt;More JS has to be included in the page (yes, less than a polyfill, but a nonzero amount nonetheless)&lt;/li&gt;
+&lt;li&gt;Instead of being processed by compiled and (hopefully) well-tested code, CSS will have to rely on JS &amp;ndash; let that sink in.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Where does it end?? I strongly believe in the separation of concerns, and in using the right tool for the job. At what point does an application just ignore HTML/CSS and run entirely in JavaScript? (Yes, I&amp;rsquo;m sure it&amp;rsquo;s already being done.) You might as well ship a desktop app if you&amp;rsquo;re just using the browser as an execution environment.&lt;/p&gt;
+
+&lt;p&gt;The difficulty of polyfilling CSS should convince developers to write simple, backwards-compatible, and extensible CSS; not to make it more complicated.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

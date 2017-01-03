@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://tylermumford.com/page/sitemap/</loc>
+    <lastmod>2017-01-02T15:56:10-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/page/contact/</loc>
+    <lastmod>2017-01-02T15:44:42-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/post/on-css-polyfills/</loc>
+    <lastmod>2016-12-23T15:41:54-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/this-site/</loc>
+    <lastmod>2016-12-22T12:27:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/savvie/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/advanced-content/</loc>
+    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/suu-to-everywhere/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/falling-spikes/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/gdk-website/</loc>
+    <lastmod>2015-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/juxtapros/</loc>
+    <lastmod>2014-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/post/inaugural-entry/</loc>
+    <lastmod>2013-06-13T17:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/goodness/</loc>
+    <lastmod>2013-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/c-sharp/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/chrome/</loc>
+    <lastmod>2013-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/cms/</loc>
+    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/codeigniter/</loc>
+    <lastmod>2015-08-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/css/</loc>
+    <lastmod>2016-12-23T15:41:54-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/design/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/game/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/go/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/ios/</loc>
+    <lastmod>2016-04-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/page/</loc>
+    <lastmod>2017-01-02T15:56:10-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/php/</loc>
+    <lastmod>2015-08-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/post/</loc>
+    <lastmod>2016-12-23T15:41:54-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/project/</loc>
+    <lastmod>2016-12-22T12:27:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/project/</loc>
+    <lastmod>2016-12-22T12:27:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/suu/</loc>
+    <lastmod>2016-07-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/</loc>
+    <lastmod>2017-01-02T15:56:10-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/web/</loc>
+    <lastmod>2016-12-22T12:27:47-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/tags/writing/</loc>
+    <lastmod>2016-12-23T15:41:54-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

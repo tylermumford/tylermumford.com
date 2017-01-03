@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codeigniter on Tyler Mumford</title>
+    <link>http://tylermumford.com/tags/codeigniter/index.xml</link>
+    <description>Recent content in Codeigniter on Tyler Mumford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://tylermumford.com/tags/codeigniter/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Casino Game Maker GDK</title>
+      <link>http://tylermumford.com/project/gdk-website/</link>
+      <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://tylermumford.com/project/gdk-website/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.casinogamemaker.com/&#34;&gt;Casino Game Maker&lt;/a&gt;, a local startup, approached me to create a new website. The company had me develop the site online, so I believe it&amp;rsquo;s public knowledge, but they never marketed the site and it is currently down. It involved large file distribution, multi-level managed user accounts, and online payments.&lt;/p&gt;
+
+&lt;p&gt;The site had two parts: the majority of it was built using CodeIgniter, an older PHP framework that was easy to use and nice to work with. I built several public-facing pages as well as an admin area by hand. The second part of the site was running on DokuWiki, which I customized to integrate with the user authentication system of the main site.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I&amp;rsquo;ll dig up the source code and get some screenshots sometime, especially if there is a request for more information.&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;It&amp;rsquo;s been quite a while since I made this website. If I were to do it again, with what I know now, I&amp;rsquo;d probably use CodeIgniter again. However, I think Django would be a more appropriate choice. I&amp;rsquo;d be much easier to build the admin area, and Django is better suited for code reuse than CodeIgniter. I just don&amp;rsquo;t have any real experience with Django yet.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

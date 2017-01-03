@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on Tyler Mumford</title>
+    <link>http://tylermumford.com/tags/design/index.xml</link>
+    <description>Recent content in Design on Tyler Mumford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://tylermumford.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SUU to Everywhere</title>
+      <link>http://tylermumford.com/project/suu-to-everywhere/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://tylermumford.com/project/suu-to-everywhere/</guid>
+      <description>&lt;p&gt;When the marketing department asked us to build a site for their newest campaign, &amp;ldquo;&lt;a href=&#34;https://www.suu.edu/everywhere/&#34;&gt;SUU to Everywhere&lt;/a&gt;,&amp;rdquo; I implemented the CMS page types and the CSS for the site&amp;rsquo;s design.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://tylermumford.com/images/everywhere.png&#34;&gt;
+        &lt;img src=&#34;http://tylermumford.com/images/everywhere-thumb.png&#34; alt=&#34;SUU to Everywhere front page&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        SUU to Everywhere front page
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;hr /&gt;
+
+&lt;p&gt;At the time, our site didn&amp;rsquo;t really have anything like this. A coworker and I planned a way for the new code to be &lt;strong&gt;reusable&lt;/strong&gt; in other areas (specifically the university news). We made structured page types for the stories so Marketing could easily create and edit the stories. We used &lt;a href=&#34;http://masonry.desandro.com/&#34;&gt;Masonry&lt;/a&gt; to keep the lower section of images flexible and visually interesting, and I used &lt;strong&gt;flexbox&lt;/strong&gt; to ensure the top three images would be responsive regardless of aspect ratios.&lt;/p&gt;
+
+
+&lt;figure &gt;
+    &lt;a href=&#34;http://tylermumford.com/images/everywhere-editing.png&#34;&gt;
+        &lt;img src=&#34;http://tylermumford.com/images/everywhere-editing.png&#34; alt=&#34;WYSIWYG interface for editing a story in the CMS&#34; /&gt;
+    &lt;/a&gt;
+    
+    &lt;figcaption&gt;
+        &lt;p&gt;
+        WYSIWYG interface for editing a story in the CMS
+        
+            
+        
+        &lt;/p&gt; 
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
