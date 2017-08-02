@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tylermumford.com/post/using-go/</loc>
+    <lastmod>2017-08-01T23:58:00-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://tylermumford.com/page/sitemap/</loc>
     <lastmod>2017-01-02T15:56:10-07:00</lastmod>
   </url>
@@ -105,7 +110,7 @@
   
   <url>
     <loc>http://tylermumford.com/tags/go/</loc>
-    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2017-08-01T23:58:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -129,7 +134,7 @@
   
   <url>
     <loc>http://tylermumford.com/post/</loc>
-    <lastmod>2016-12-23T15:41:54-07:00</lastmod>
+    <lastmod>2017-08-01T23:58:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -158,7 +163,7 @@
   
   <url>
     <loc>http://tylermumford.com/</loc>
-    <lastmod>2017-01-02T15:56:10-07:00</lastmod>
+    <lastmod>2017-08-01T23:58:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   

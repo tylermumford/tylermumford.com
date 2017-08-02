@@ -6,8 +6,40 @@
     <description>Recent content on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 Jan 2017 15:56:10 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 01 Aug 2017 23:58:00 -0700</lastBuildDate>
     <atom:link href="http://tylermumford.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using Go</title>
+      <link>http://tylermumford.com/post/using-go/</link>
+      <pubDate>Tue, 01 Aug 2017 23:58:00 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/using-go/</guid>
+      <description>
+
+&lt;p&gt;I chose to learn Go during my Programming Languages course in college, when we were told to find a new language to learn. I was tired of the chaos of JavaScript and PHP, and I was drawn to the idea of non-OO, statically typed code without manual memory management. While I haven&amp;rsquo;t built anything professional-grade with Go yet, I have used it to begin building two sites (one of which works! ;), and I love it.&lt;/p&gt;
+
+&lt;p&gt;Even though I don&amp;rsquo;t have a lot of experience with Go, I feel confident in my ability to use the language well. And even though I haven&amp;rsquo;t finished these side projects, I do finish the work I get paid for.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-i-ve-done&#34;&gt;What I&amp;rsquo;ve Done&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Meal Picker (not working)&lt;br /&gt;
+This is a tiny project I started to help my wife and I choose what to eat. It was some of the first Go code I wrote, and I tried to do it without depending on a database, so it stores data in CSV files. When I pick it up again, I think I want to use &lt;a href=&#34;https://github.com/boltdb/bolt&#34;&gt;Bolt&lt;/a&gt; instead.&lt;/li&gt;
+&lt;li&gt;SAVvie (working, but not finished)&lt;br /&gt;
+This was a group project that I made with fellow students. We each wanted to use a different language, so it&amp;rsquo;s not an example of how I&amp;rsquo;d structure a production service! But I did do a (to my mind) substantial amount of work in Go, and the site&amp;rsquo;s basic functionality is usable.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;what-i-still-want-to-do&#34;&gt;What I Still Want to Do&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Work on a large Go codebase&lt;br /&gt;
+Go is so easy to read and work with. I&amp;rsquo;m looking forward to the day when I can really use this language in a big project.&lt;/li&gt;
+&lt;li&gt;Port Space Trader to Go&lt;br /&gt;
+Back in the day, I used to absolutely love playing the game &lt;a href=&#34;http://www.spronck.net/spacetrader/STFrames.html&#34;&gt;Space Trader&lt;/a&gt; on my Palm Pilot. I want to bring it back with modern ports for some combination of desktop, web, and mobile, and I think I want to do it in Go.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Sitemap</title>
