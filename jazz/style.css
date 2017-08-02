@@ -1,0 +1,255 @@
+/* Using ITCSS and RSCSS */
+
+/* Layer: Variables */
+
+:root {
+  --display-font: "Trebuchet MS";
+  --body-font: "Segoe UI";
+  --baseline: 1.4rem;
+  --baseline-half: calc(var(--baseline) / 2);
+  --small-font-size: 0.7rem;
+  --body-font-size: 1rem;
+  --large-font-size: 1.4rem;
+  --super-font-size: 1.8rem;
+
+  --color-black: #111;
+  --color-white: #FAFAFA;
+  --jazz-green: #2D5235;
+  --jazz-yellow: #F89F1F;
+  --jazz-blue: #0D223F;
+
+  --standard-box-shadow: 0 2px 15px -5px var(--color-black);
+  --special-box-shadow: 0 2px 15px -5px var(--jazz-blue);
+  --shimmer-animation: shimmer ease-out 0.2s 0.9s 3 both;
+  --fadein-animation: fade ease-in-out 0.2s both;
+}
+
+@keyframes shimmer {
+  0% {
+    opacity: 0.2;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Layer: Generic */
+
+:root {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  font: var(--body-font-size) var(--body-font);
+  line-height: var(--baseline);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+* + * {
+  margin-top: var(--baseline);
+}
+
+/* Layer: Base elements */
+
+body {
+  background: var(--color-white);
+  padding: var(--baseline-half);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--display-font);
+}
+
+h1 {
+  font-size: var(--super-font-size);
+  line-height: calc(var(--baseline-half) * 3);
+}
+
+h2 {
+  font-size: var(--large-font-size);
+  line-height: calc(var(--baseline-half) * 3);
+}
+
+h5, h6 {
+  line-height: var(--baseline-half);
+}
+
+h6 + * {
+  margin-top: var(--baseline-half);
+}
+
+p {
+  color: var(--color-black);
+  line-height: var(--baseline);
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  margin-top: 0;
+}
+
+expand-content {
+  display: block;
+}
+
+/* Layer: Components */
+
+.site-title {
+  font-family: var(--display-font);
+  font-size: var(--super-font-size);
+  font-style: italic;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  animation: var(--fadein-animation);
+  animation-delay: 0;
+}
+  .site-title > .logo {
+    height: calc(var(--baseline) * 3);
+    width: auto;
+  }
+
+.site-navigation {
+  text-align: center;
+  line-height: calc(var(--baseline-half) * 3);
+  animation: var(--fadein-animation);
+  animation-delay: 0.2s;
+}
+  .site-navigation > .link {
+    color: var(--jazz-blue);
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0 var(--baseline-half);
+  }
+  .site-navigation > .link:hover {
+    text-decoration: underline var(--jazz-yellow);
+  }
+  .site-navigation > .active {
+    background: var(--jazz-yellow);
+  }
+
+.page-title {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  border-bottom: solid 2px var(--jazz-green);
+  margin-bottom: -2px;
+  animation: var(--fadein-animation);
+  animation-delay: 0.4s;
+}
+
+.page-body {
+  animation: var(--fadein-animation);
+  animation-delay: 0.6s;
+}
+
+.page-navigation {
+  animation: var(--fadein-animation);
+  animation-delay: 0.8s;
+}
+  .page-navigation > .section > .link {
+    width: auto;
+    text-indent: var(--baseline-half);
+    text-decoration: none;
+    white-space: nowrap;
+    margin-left: var(--baseline-half);
+  }
+  .page-navigation > .section > .link:hover {
+    text-decoration: underline var(--jazz-yellow);
+  }
+  .page-navigation > .section > .active {
+    background: var(--jazz-yellow);
+    padding: 0 var(--baseline-half);
+  }
+  .page-navigation > .section > * + .link {
+    margin-top: var(--baseline-half);
+  }
+
+.image-showcase {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-footer {
+  animation: var(--fadein-animation);
+  animation-delay: 1s;
+}
+
+.action-btn {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  text-decoration: none;
+  box-shadow: var(--special-box-shadow);
+  padding: var(--baseline-half);
+}
+
+@media (min-width: 55rem) {
+  .page-title {
+    text-indent: calc((100% - 55rem) / 2);
+  }
+  .page-body, .page-navigation {
+    width: 55rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .page-navigation {
+    order: 1;
+  }
+  .page-body {
+    order: 2;
+  }
+  .page-footer {
+    order: 3;
+  }
+  .image-showcase {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .image-showcase > .wrapper {
+    flex-basis: calc((55rem - var(--baseline)) / 2);
+  }
+  .image-showcase > .wrapper:nth-of-type(2n) {
+    margin-top: 0;
+  }
+  .action-btn {
+    display: inline-block;
+  }
+}
+
+/* Layer: Helpers */
+
+.with-shadow {
+  box-shadow: var(--standard-box-shadow);
+}
+
+/* Layer: Overrides */
+
+._centercontent {
+  text-align: center !important;
+}
+
+._fullwidth {
+  /* This was made with top-level children of <body> in mind. */
+  margin-left: calc(0em - var(--baseline-half)) !important;
+  margin-right: calc(0em - var(--baseline-half)) !important;
+}
+
+/* Layer: Shame (empty!) */
