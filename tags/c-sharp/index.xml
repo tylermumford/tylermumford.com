@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C Sharp on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/c-sharp/index.xml</link>
+    <link>http://tylermumford.com/tags/c-sharp/</link>
     <description>Recent content in C Sharp on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://tylermumford.com/tags/c-sharp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tylermumford.com/tags/c-sharp/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>SAVvie</title>
@@ -14,57 +17,8 @@
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/savvie/</guid>
-      <description>
-
-&lt;p&gt;Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and &lt;strong&gt;group decision-making&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a &lt;strong&gt;team leader&lt;/strong&gt; for the four student developers who created the app: &lt;a href=&#34;https://github.com/ktrinanm&#34;&gt;Katrina Mehring&lt;/a&gt;, Nick Rossi, &lt;a href=&#34;http://jacobcward.com/&#34;&gt;Jacob Ward&lt;/a&gt;, and myself. After the hackathon, I continued to work on SAVvie with Katrina.&lt;/p&gt;
-
-&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots:&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-1.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-1.png&#34; alt=&#34;List of all arguments on the site including their voting scores&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-2.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-2.png&#34; alt=&#34;Detail page for a single argument, including voting buttons and comments&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-3.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-3.png&#34; alt=&#34;Login page with an error message&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;architecture-and-stack&#34;&gt;Architecture and stack:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MVC pattern&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vagrant&lt;/strong&gt; dev environments&lt;/li&gt;
-&lt;li&gt;Controller: Go&amp;rsquo;s standard &lt;strong&gt;net/http&lt;/strong&gt; package&lt;/li&gt;
-&lt;li&gt;Views: Go&amp;rsquo;s standard html/template package&lt;/li&gt;
-&lt;li&gt;Models:
-
-&lt;ul&gt;
-&lt;li&gt;C# CLI for persisting arguments and votes to filesystem&lt;/li&gt;
-&lt;li&gt;Go packages for persisting users and comments to filesystem&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;No browser JavaScript yet&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and group decision-making.
+SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a team leader for the four student developers who created the app: Katrina Mehring, Nick Rossi, Jacob Ward, and myself.</description>
     </item>
     
   </channel>

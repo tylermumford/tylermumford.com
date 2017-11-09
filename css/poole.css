@@ -117,11 +117,6 @@ ul, ol, dl {
   margin-bottom: 1rem;
 }
 
-/* No extra spacing on indented lists. */
-li > ul, li > ol {
-  margin-bottom: 0;
-}
-
 dt {
   font-weight: bold;
 }

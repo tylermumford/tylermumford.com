@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Suu on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/suu/index.xml</link>
+    <link>http://tylermumford.com/tags/suu/</link>
     <description>Recent content in Suu on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://tylermumford.com/tags/suu/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Jul 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tylermumford.com/tags/suu/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Advanced Content Management</title>
@@ -14,75 +17,8 @@
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/advanced-content/</guid>
-      <description>
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;To simplify the creation of complicated page layouts, I developed a new &amp;ldquo;Advanced Page&amp;rdquo; content type in our CMS. Advanced pages have automatic support for custom row-and-column layouts and pluggable, reusable, structured component blocks.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/advanced-3.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/advanced-3.png&#34; alt=&#34;Advanced page multi-column demo screenshot&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Advanced page multi-column demo screenshot
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;I work in the wonderful Web Services department of my university. I love my job, but our entire department has fewer than five employees supporting the entire university website: almost &lt;strong&gt;3,000&lt;/strong&gt; pages and hundreds of faculty and staff. Most of them contact us with updates, and a few make their own changes in the CMS.&lt;/p&gt;
-
-&lt;p&gt;Our site uses Bootstrap&amp;rsquo;s grid system, and many of our pages require custom multi-column layouts. Unfortunately, our CMS&amp;rsquo;s WYSIWYG editor doesn&amp;rsquo;t support multi-column layouts except via hand-coded HTML. This meant that Web Services had to be involved whenever someone needed a change to these pages, and we had to be careful not to &lt;strong&gt;break the layout&lt;/strong&gt; when adding or removing columns.&lt;/p&gt;
-
-&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
-
-&lt;p&gt;When summer started, I spent a few weeks learning how our CMS could be customized. I developed a &lt;strong&gt;new page rendering system&lt;/strong&gt; (using Apache Velocity, if you&amp;rsquo;re curious) that had built-in support for multi-row and multi-column layouts. At the same time, I added support for &lt;strong&gt;reusable&lt;/strong&gt; blocks of WYSIWYG content. These blocks are structured and their WYSYWIG interface can be customized.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/advanced-1.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/advanced-1.png&#34; alt=&#34;Advanced page editing interface&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Advanced page editing interface
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/advanced-2.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/advanced-2.png&#34; alt=&#34;Reusable accordion component&amp;#39;s editing interface&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Reusable accordion component&amp;#39;s editing interface
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-</description>
+      <description>Summary To simplify the creation of complicated page layouts, I developed a new &amp;ldquo;Advanced Page&amp;rdquo; content type in our CMS. Advanced pages have automatic support for custom row-and-column layouts and pluggable, reusable, structured component blocks.
+   Advanced page multi-column demo screenshot   Background I work in the wonderful Web Services department of my university. I love my job, but our entire department has fewer than five employees supporting the entire university website: almost 3,000 pages and hundreds of faculty and staff.</description>
     </item>
     
     <item>
@@ -91,48 +27,8 @@
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/suu-to-everywhere/</guid>
-      <description>&lt;p&gt;When the marketing department asked us to build a site for their newest campaign, &amp;ldquo;&lt;a href=&#34;https://www.suu.edu/everywhere/&#34;&gt;SUU to Everywhere&lt;/a&gt;,&amp;rdquo; I implemented the CMS page types and the CSS for the site&amp;rsquo;s design.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/everywhere.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/everywhere-thumb.png&#34; alt=&#34;SUU to Everywhere front page&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        SUU to Everywhere front page
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;hr /&gt;
-
-&lt;p&gt;At the time, our site didn&amp;rsquo;t really have anything like this. A coworker and I planned a way for the new code to be &lt;strong&gt;reusable&lt;/strong&gt; in other areas (specifically the university news). We made structured page types for the stories so Marketing could easily create and edit the stories. We used &lt;a href=&#34;http://masonry.desandro.com/&#34;&gt;Masonry&lt;/a&gt; to keep the lower section of images flexible and visually interesting, and I used &lt;strong&gt;flexbox&lt;/strong&gt; to ensure the top three images would be responsive regardless of aspect ratios.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/everywhere-editing.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/everywhere-editing.png&#34; alt=&#34;WYSIWYG interface for editing a story in the CMS&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        WYSIWYG interface for editing a story in the CMS
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-</description>
+      <description>When the marketing department asked us to build a site for their newest campaign, &amp;ldquo;SUU to Everywhere,&amp;rdquo; I implemented the CMS page types and the CSS for the site&amp;rsquo;s design.
+   SUU to Everywhere front page   At the time, our site didn&amp;rsquo;t really have anything like this. A coworker and I planned a way for the new code to be reusable in other areas (specifically the university news).</description>
     </item>
     
   </channel>

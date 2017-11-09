@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Game on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/game/index.xml</link>
+    <link>http://tylermumford.com/tags/game/</link>
     <description>Recent content in Game on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://tylermumford.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tylermumford.com/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Falling Spikes</title>
@@ -14,29 +17,8 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/falling-spikes/</guid>
-      <description>&lt;p&gt;January 2016 &amp;ndash; July 2016&lt;/p&gt;
-
-&lt;p&gt;Falling Spikes is an iPhone game based on an idea by Scott Chapman. The player controls a bouncing ball by moving it left and right to avoid randomly falling spikes. Scott and I wanted to develop and publish this game for iOS devices with the hopes of making semi-passive income. His field is business, and mine is programming. The game took about 90 hours to create.&lt;/p&gt;
-
-&lt;p&gt;The game is currently in the process of being submitted to the App Store.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Screenshot: 
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://tylermumford.com/images/falling-spikes-gameplay.png&#34; alt=&#34;Gameplay screenshot&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;Short demo video: 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/HyvMz-MD4wA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tylermumford/falling-spikes&#34;&gt;Source code on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>January 2016 &amp;ndash; July 2016
+Falling Spikes is an iPhone game based on an idea by Scott Chapman. The player controls a bouncing ball by moving it left and right to avoid randomly falling spikes. Scott and I wanted to develop and publish this game for iOS devices with the hopes of making semi-passive income. His field is business, and mine is programming. The game took about 90 hours to create.</description>
     </item>
     
   </channel>

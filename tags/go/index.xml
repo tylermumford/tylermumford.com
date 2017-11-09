@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Go on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/go/index.xml</link>
+    <link>http://tylermumford.com/tags/go/</link>
     <description>Recent content in Go on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://tylermumford.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2017 23:58:00 -0700</lastBuildDate>
+    
+	<atom:link href="http://tylermumford.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Using Go</title>
@@ -14,30 +17,7 @@
       <pubDate>Tue, 01 Aug 2017 23:58:00 -0700</pubDate>
       
       <guid>http://tylermumford.com/post/using-go/</guid>
-      <description>
-
-&lt;p&gt;I chose to learn Go during my Programming Languages course in college, when we were told to find a new language to learn. I was tired of the chaos of JavaScript and PHP, and I was drawn to the idea of non-OO, statically typed code without manual memory management. While I haven&amp;rsquo;t built anything professional-grade with Go yet, I have used it to begin building two sites (one of which works! ;), and I love it.&lt;/p&gt;
-
-&lt;p&gt;Even though I don&amp;rsquo;t have a lot of experience with Go, I feel confident in my ability to use the language well. And even though I haven&amp;rsquo;t finished these side projects, I do finish the work I get paid for.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-i-ve-done&#34;&gt;What I&amp;rsquo;ve Done&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Meal Picker (not working)&lt;br /&gt;
-This is a tiny project I started to help my wife and I choose what to eat. It was some of the first Go code I wrote, and I tried to do it without depending on a database, so it stores data in CSV files. When I pick it up again, I think I want to use &lt;a href=&#34;https://github.com/boltdb/bolt&#34;&gt;Bolt&lt;/a&gt; instead.&lt;/li&gt;
-&lt;li&gt;SAVvie (working, but not finished)&lt;br /&gt;
-This was a group project that I made with fellow students. We each wanted to use a different language, so it&amp;rsquo;s not an example of how I&amp;rsquo;d structure a production service! But I did do a (to my mind) substantial amount of work in Go, and the site&amp;rsquo;s basic functionality is usable.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;what-i-still-want-to-do&#34;&gt;What I Still Want to Do&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Work on a large Go codebase&lt;br /&gt;
-Go is so easy to read and work with. I&amp;rsquo;m looking forward to the day when I can really use this language in a big project.&lt;/li&gt;
-&lt;li&gt;Port Space Trader to Go&lt;br /&gt;
-Back in the day, I used to absolutely love playing the game &lt;a href=&#34;http://www.spronck.net/spacetrader/STFrames.html&#34;&gt;Space Trader&lt;/a&gt; on my Palm Pilot. I want to bring it back with modern ports for some combination of desktop, web, and mobile, and I think I want to do it in Go.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>I chose to learn Go during my Programming Languages course in college, when we were told to find a new language to learn. I was tired of the chaos of JavaScript and PHP, and I was drawn to the idea of non-OO, statically typed code without manual memory management. While I haven&amp;rsquo;t built anything professional-grade with Go yet, I have used it to begin building two sites (one of which works!</description>
     </item>
     
     <item>
@@ -46,57 +26,8 @@ Back in the day, I used to absolutely love playing the game &lt;a href=&#34;http
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/savvie/</guid>
-      <description>
-
-&lt;p&gt;Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and &lt;strong&gt;group decision-making&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a &lt;strong&gt;team leader&lt;/strong&gt; for the four student developers who created the app: &lt;a href=&#34;https://github.com/ktrinanm&#34;&gt;Katrina Mehring&lt;/a&gt;, Nick Rossi, &lt;a href=&#34;http://jacobcward.com/&#34;&gt;Jacob Ward&lt;/a&gt;, and myself. After the hackathon, I continued to work on SAVvie with Katrina.&lt;/p&gt;
-
-&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots:&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-1.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-1.png&#34; alt=&#34;List of all arguments on the site including their voting scores&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-2.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-2.png&#34; alt=&#34;Detail page for a single argument, including voting buttons and comments&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-3.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-3.png&#34; alt=&#34;Login page with an error message&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;architecture-and-stack&#34;&gt;Architecture and stack:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MVC pattern&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vagrant&lt;/strong&gt; dev environments&lt;/li&gt;
-&lt;li&gt;Controller: Go&amp;rsquo;s standard &lt;strong&gt;net/http&lt;/strong&gt; package&lt;/li&gt;
-&lt;li&gt;Views: Go&amp;rsquo;s standard html/template package&lt;/li&gt;
-&lt;li&gt;Models:
-
-&lt;ul&gt;
-&lt;li&gt;C# CLI for persisting arguments and votes to filesystem&lt;/li&gt;
-&lt;li&gt;Go packages for persisting users and comments to filesystem&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;No browser JavaScript yet&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and group decision-making.
+SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a team leader for the four student developers who created the app: Katrina Mehring, Nick Rossi, Jacob Ward, and myself.</description>
     </item>
     
   </channel>

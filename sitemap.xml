@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://tylermumford.com/post/space-trader-journal-2/</loc>
+    <lastmod>2017-10-31T15:35:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://tylermumford.com/post/space-trader-journal-1/</loc>
+    <lastmod>2017-10-30T16:16:00-07:00</lastmod>
+  </url>
   
   <url>
     <loc>http://tylermumford.com/post/using-go/</loc>
@@ -134,7 +145,7 @@
   
   <url>
     <loc>http://tylermumford.com/post/</loc>
-    <lastmod>2017-08-01T23:58:00-07:00</lastmod>
+    <lastmod>2017-10-31T15:35:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,6 +162,12 @@
   </url>
   
   <url>
+    <loc>http://tylermumford.com/tags/space-trader-returns/</loc>
+    <lastmod>2017-10-31T15:35:00-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://tylermumford.com/tags/suu/</loc>
     <lastmod>2016-07-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -158,12 +175,13 @@
   
   <url>
     <loc>http://tylermumford.com/tags/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://tylermumford.com/</loc>
-    <lastmod>2017-08-01T23:58:00-07:00</lastmod>
+    <lastmod>2017-10-31T15:35:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -175,7 +193,7 @@
   
   <url>
     <loc>http://tylermumford.com/tags/writing/</loc>
-    <lastmod>2016-12-23T15:41:54-07:00</lastmod>
+    <lastmod>2017-10-31T15:35:00-07:00</lastmod>
     <priority>0</priority>
   </url>
   

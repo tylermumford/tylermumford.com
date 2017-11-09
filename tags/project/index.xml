@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Project on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/project/index.xml</link>
+    <link>http://tylermumford.com/tags/project/</link>
     <description>Recent content in Project on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://tylermumford.com/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Dec 2016 12:27:47 -0700</lastBuildDate>
+    
+	<atom:link href="http://tylermumford.com/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>This Website!</title>
@@ -14,10 +17,8 @@
       <pubDate>Thu, 22 Dec 2016 12:27:47 -0700</pubDate>
       
       <guid>http://tylermumford.com/project/this-site/</guid>
-      <description>&lt;p&gt;Originally built with Jekyll and a fully custom theme, I decided to migrate the website to &lt;strong&gt;Hugo&lt;/strong&gt; for better cross-platform testing support. Hugo was easy to get running, but the customization system took a couple hours to fully understand.&lt;/p&gt;
-
-&lt;p&gt;The theme is a slightly modified version of &lt;a href=&#34;http://themes.gohugo.io/hyde/&#34;&gt;Hyde&lt;/a&gt; using the Merriweather font for the title. The Markdown parser automatically uses typographically correct quotes, and Hugo shortcodes help create a consistent visual appearance.&lt;/p&gt;
-</description>
+      <description>Originally built with Jekyll and a fully custom theme, I decided to migrate the website to Hugo for better cross-platform testing support. Hugo was easy to get running, but the customization system took a couple hours to fully understand.
+The theme is a slightly modified version of Hyde using the Merriweather font for the title. The Markdown parser automatically uses typographically correct quotes, and Hugo shortcodes help create a consistent visual appearance.</description>
     </item>
     
     <item>
@@ -26,57 +27,8 @@
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/savvie/</guid>
-      <description>
-
-&lt;p&gt;Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and &lt;strong&gt;group decision-making&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a &lt;strong&gt;team leader&lt;/strong&gt; for the four student developers who created the app: &lt;a href=&#34;https://github.com/ktrinanm&#34;&gt;Katrina Mehring&lt;/a&gt;, Nick Rossi, &lt;a href=&#34;http://jacobcward.com/&#34;&gt;Jacob Ward&lt;/a&gt;, and myself. After the hackathon, I continued to work on SAVvie with Katrina.&lt;/p&gt;
-
-&lt;h2 id=&#34;screenshots&#34;&gt;Screenshots:&lt;/h2&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-1.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-1.png&#34; alt=&#34;List of all arguments on the site including their voting scores&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-2.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-2.png&#34; alt=&#34;Detail page for a single argument, including voting buttons and comments&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/savvie-3.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/savvie-3.png&#34; alt=&#34;Login page with an error message&#34; /&gt;
-    &lt;/a&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;architecture-and-stack&#34;&gt;Architecture and stack:&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MVC pattern&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Vagrant&lt;/strong&gt; dev environments&lt;/li&gt;
-&lt;li&gt;Controller: Go&amp;rsquo;s standard &lt;strong&gt;net/http&lt;/strong&gt; package&lt;/li&gt;
-&lt;li&gt;Views: Go&amp;rsquo;s standard html/template package&lt;/li&gt;
-&lt;li&gt;Models:
-
-&lt;ul&gt;
-&lt;li&gt;C# CLI for persisting arguments and votes to filesystem&lt;/li&gt;
-&lt;li&gt;Go packages for persisting users and comments to filesystem&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;No browser JavaScript yet&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and group decision-making.
+SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a team leader for the four student developers who created the app: Katrina Mehring, Nick Rossi, Jacob Ward, and myself.</description>
     </item>
     
     <item>
@@ -85,75 +37,8 @@
       <pubDate>Fri, 15 Jul 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/advanced-content/</guid>
-      <description>
-
-&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
-
-&lt;p&gt;To simplify the creation of complicated page layouts, I developed a new &amp;ldquo;Advanced Page&amp;rdquo; content type in our CMS. Advanced pages have automatic support for custom row-and-column layouts and pluggable, reusable, structured component blocks.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/advanced-3.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/advanced-3.png&#34; alt=&#34;Advanced page multi-column demo screenshot&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Advanced page multi-column demo screenshot
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-
-&lt;p&gt;I work in the wonderful Web Services department of my university. I love my job, but our entire department has fewer than five employees supporting the entire university website: almost &lt;strong&gt;3,000&lt;/strong&gt; pages and hundreds of faculty and staff. Most of them contact us with updates, and a few make their own changes in the CMS.&lt;/p&gt;
-
-&lt;p&gt;Our site uses Bootstrap&amp;rsquo;s grid system, and many of our pages require custom multi-column layouts. Unfortunately, our CMS&amp;rsquo;s WYSIWYG editor doesn&amp;rsquo;t support multi-column layouts except via hand-coded HTML. This meant that Web Services had to be involved whenever someone needed a change to these pages, and we had to be careful not to &lt;strong&gt;break the layout&lt;/strong&gt; when adding or removing columns.&lt;/p&gt;
-
-&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
-
-&lt;p&gt;When summer started, I spent a few weeks learning how our CMS could be customized. I developed a &lt;strong&gt;new page rendering system&lt;/strong&gt; (using Apache Velocity, if you&amp;rsquo;re curious) that had built-in support for multi-row and multi-column layouts. At the same time, I added support for &lt;strong&gt;reusable&lt;/strong&gt; blocks of WYSIWYG content. These blocks are structured and their WYSYWIG interface can be customized.&lt;/p&gt;
-
-&lt;p&gt;
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/advanced-1.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/advanced-1.png&#34; alt=&#34;Advanced page editing interface&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Advanced page editing interface
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/advanced-2.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/advanced-2.png&#34; alt=&#34;Reusable accordion component&amp;#39;s editing interface&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        Reusable accordion component&amp;#39;s editing interface
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-&lt;/p&gt;
-</description>
+      <description>Summary To simplify the creation of complicated page layouts, I developed a new &amp;ldquo;Advanced Page&amp;rdquo; content type in our CMS. Advanced pages have automatic support for custom row-and-column layouts and pluggable, reusable, structured component blocks.
+   Advanced page multi-column demo screenshot   Background I work in the wonderful Web Services department of my university. I love my job, but our entire department has fewer than five employees supporting the entire university website: almost 3,000 pages and hundreds of faculty and staff.</description>
     </item>
     
     <item>
@@ -162,48 +47,8 @@
       <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/suu-to-everywhere/</guid>
-      <description>&lt;p&gt;When the marketing department asked us to build a site for their newest campaign, &amp;ldquo;&lt;a href=&#34;https://www.suu.edu/everywhere/&#34;&gt;SUU to Everywhere&lt;/a&gt;,&amp;rdquo; I implemented the CMS page types and the CSS for the site&amp;rsquo;s design.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/everywhere.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/everywhere-thumb.png&#34; alt=&#34;SUU to Everywhere front page&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        SUU to Everywhere front page
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-
-&lt;hr /&gt;
-
-&lt;p&gt;At the time, our site didn&amp;rsquo;t really have anything like this. A coworker and I planned a way for the new code to be &lt;strong&gt;reusable&lt;/strong&gt; in other areas (specifically the university news). We made structured page types for the stories so Marketing could easily create and edit the stories. We used &lt;a href=&#34;http://masonry.desandro.com/&#34;&gt;Masonry&lt;/a&gt; to keep the lower section of images flexible and visually interesting, and I used &lt;strong&gt;flexbox&lt;/strong&gt; to ensure the top three images would be responsive regardless of aspect ratios.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    &lt;a href=&#34;http://tylermumford.com/images/everywhere-editing.png&#34;&gt;
-        &lt;img src=&#34;http://tylermumford.com/images/everywhere-editing.png&#34; alt=&#34;WYSIWYG interface for editing a story in the CMS&#34; /&gt;
-    &lt;/a&gt;
-    
-    &lt;figcaption&gt;
-        &lt;p&gt;
-        WYSIWYG interface for editing a story in the CMS
-        
-            
-        
-        &lt;/p&gt; 
-    &lt;/figcaption&gt;
-    
-&lt;/figure&gt;
-
-</description>
+      <description>When the marketing department asked us to build a site for their newest campaign, &amp;ldquo;SUU to Everywhere,&amp;rdquo; I implemented the CMS page types and the CSS for the site&amp;rsquo;s design.
+   SUU to Everywhere front page   At the time, our site didn&amp;rsquo;t really have anything like this. A coworker and I planned a way for the new code to be reusable in other areas (specifically the university news).</description>
     </item>
     
     <item>
@@ -212,29 +57,8 @@
       <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/falling-spikes/</guid>
-      <description>&lt;p&gt;January 2016 &amp;ndash; July 2016&lt;/p&gt;
-
-&lt;p&gt;Falling Spikes is an iPhone game based on an idea by Scott Chapman. The player controls a bouncing ball by moving it left and right to avoid randomly falling spikes. Scott and I wanted to develop and publish this game for iOS devices with the hopes of making semi-passive income. His field is business, and mine is programming. The game took about 90 hours to create.&lt;/p&gt;
-
-&lt;p&gt;The game is currently in the process of being submitted to the App Store.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Screenshot: 
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://tylermumford.com/images/falling-spikes-gameplay.png&#34; alt=&#34;Gameplay screenshot&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-&lt;/li&gt;
-&lt;li&gt;Short demo video: 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/HyvMz-MD4wA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tylermumford/falling-spikes&#34;&gt;Source code on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>January 2016 &amp;ndash; July 2016
+Falling Spikes is an iPhone game based on an idea by Scott Chapman. The player controls a bouncing ball by moving it left and right to avoid randomly falling spikes. Scott and I wanted to develop and publish this game for iOS devices with the hopes of making semi-passive income. His field is business, and mine is programming. The game took about 90 hours to create.</description>
     </item>
     
     <item>
@@ -243,16 +67,8 @@
       <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/gdk-website/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://www.casinogamemaker.com/&#34;&gt;Casino Game Maker&lt;/a&gt;, a local startup, approached me to create a new website. The company had me develop the site online, so I believe it&amp;rsquo;s public knowledge, but they never marketed the site and it is currently down. It involved large file distribution, multi-level managed user accounts, and online payments.&lt;/p&gt;
-
-&lt;p&gt;The site had two parts: the majority of it was built using CodeIgniter, an older PHP framework that was easy to use and nice to work with. I built several public-facing pages as well as an admin area by hand. The second part of the site was running on DokuWiki, which I customized to integrate with the user authentication system of the main site.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;I&amp;rsquo;ll dig up the source code and get some screenshots sometime, especially if there is a request for more information.&lt;/em&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;It&amp;rsquo;s been quite a while since I made this website. If I were to do it again, with what I know now, I&amp;rsquo;d probably use CodeIgniter again. However, I think Django would be a more appropriate choice. I&amp;rsquo;d be much easier to build the admin area, and Django is better suited for code reuse than CodeIgniter. I just don&amp;rsquo;t have any real experience with Django yet.&lt;/p&gt;
-</description>
+      <description>Casino Game Maker, a local startup, approached me to create a new website. The company had me develop the site online, so I believe it&amp;rsquo;s public knowledge, but they never marketed the site and it is currently down. It involved large file distribution, multi-level managed user accounts, and online payments.
+The site had two parts: the majority of it was built using CodeIgniter, an older PHP framework that was easy to use and nice to work with.</description>
     </item>
     
     <item>
@@ -261,14 +77,7 @@
       <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/juxtapros/</guid>
-      <description>&lt;p&gt;Built during Southern Utah Code Camp 2014, JuxtaPros is a web app for quickly making lists of pros and cons. &lt;a href=&#34;http://jacobcward.com/&#34;&gt;Jacob Ward&lt;/a&gt; and I came up with the idea, and we actually tried to build it for Code Camp two years in a row. The first year, we built the front end but ran out of time before we could build the back end (it didn&amp;rsquo;t help that neither of us had built a back end before).&lt;/p&gt;
-
-&lt;p&gt;The second year, we decided to start with the back end. Unfortunately, we also decided to try learning Node and React for the first time&amp;hellip; We didn&amp;rsquo;t finish much that year, haha. But for only having worked on it for 48 hours, I&amp;rsquo;m proud that we&amp;rsquo;ve got a working front end.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If I were to try again without time constraints, I think this would be a good project on which to learn Angular. But if I wanted to actually finish it using tech I know, I&amp;rsquo;d use jQuery on the front and Go in the back.&lt;/p&gt;
-</description>
+      <description>Built during Southern Utah Code Camp 2014, JuxtaPros is a web app for quickly making lists of pros and cons. Jacob Ward and I came up with the idea, and we actually tried to build it for Code Camp two years in a row. The first year, we built the front end but ran out of time before we could build the back end (it didn&amp;rsquo;t help that neither of us had built a back end before).</description>
     </item>
     
     <item>
@@ -277,22 +86,8 @@
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/goodness/</guid>
-      <description>&lt;p&gt;For a long time, Goodness was my most successful project: a Chrome extension designed to help people overcome pornography addictions. I sold it in 2013 with about 11,000 users, and has since grown (unmodified, as best I can tell; you can still see my name in the screenshot) to many more than that.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://tylermumford.com/images/goodness.png&#34; alt=&#34;Screenshot of Goodness&amp;#39;s options page&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/goodness/ekdgbodaoampohmhmecigaomnjppbplb&#34;&gt;Goodness on the Chrome Web Store&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tylermumford/Goodness&#34;&gt;Source code on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>For a long time, Goodness was my most successful project: a Chrome extension designed to help people overcome pornography addictions. I sold it in 2013 with about 11,000 users, and has since grown (unmodified, as best I can tell; you can still see my name in the screenshot) to many more than that.
+  Goodness on the Chrome Web Store Source code on GitHub  </description>
     </item>
     
   </channel>

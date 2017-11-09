@@ -2,11 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chrome on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/chrome/index.xml</link>
+    <link>http://tylermumford.com/tags/chrome/</link>
     <description>Recent content in Chrome on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://tylermumford.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Apr 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://tylermumford.com/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Goodness</title>
@@ -14,22 +17,8 @@
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>http://tylermumford.com/project/goodness/</guid>
-      <description>&lt;p&gt;For a long time, Goodness was my most successful project: a Chrome extension designed to help people overcome pornography addictions. I sold it in 2013 with about 11,000 users, and has since grown (unmodified, as best I can tell; you can still see my name in the screenshot) to many more than that.&lt;/p&gt;
-
-
-&lt;figure &gt;
-    
-        &lt;img src=&#34;http://tylermumford.com/images/goodness.png&#34; alt=&#34;Screenshot of Goodness&amp;#39;s options page&#34; /&gt;
-    
-    
-&lt;/figure&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://chrome.google.com/webstore/detail/goodness/ekdgbodaoampohmhmecigaomnjppbplb&#34;&gt;Goodness on the Chrome Web Store&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tylermumford/Goodness&#34;&gt;Source code on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>For a long time, Goodness was my most successful project: a Chrome extension designed to help people overcome pornography addictions. I sold it in 2013 with about 11,000 users, and has since grown (unmodified, as best I can tell; you can still see my name in the screenshot) to many more than that.
+  Goodness on the Chrome Web Store Source code on GitHub  </description>
     </item>
     
   </channel>

@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Tyler Mumford</title>
-    <link>http://tylermumford.com/page/index.xml</link>
+    <link>http://tylermumford.com/page/</link>
     <description>Recent content in Pages on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Jan 2017 15:56:10 -0700</lastBuildDate>
-    <atom:link href="http://tylermumford.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://tylermumford.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Sitemap</title>
@@ -15,13 +17,7 @@
       <pubDate>Mon, 02 Jan 2017 15:56:10 -0700</pubDate>
       
       <guid>http://tylermumford.com/page/sitemap/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://tylermumford.com/post/&#34;&gt;Blog Posts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tylermumford.com/project/&#34;&gt;Projects&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tylermumford.com/page/&#34;&gt;Single Pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tylermumford.com/tags/&#34;&gt;Tags&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description> Blog Posts Projects Single Pages Tags  </description>
     </item>
     
     <item>
@@ -30,14 +26,7 @@
       <pubDate>Mon, 02 Jan 2017 15:44:42 -0700</pubDate>
       
       <guid>http://tylermumford.com/page/contact/</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;mailto:mail@tylermumford.com&#34;&gt;mail@tylermumford.com&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/tylermumford&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/tymumford&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;For more information (or a resume), email me! If you want me to work on a project, it might have to wait until I graduate in a few months, but shoot me an email and let&amp;rsquo;s see what happens.&lt;/p&gt;
-</description>
+      <description>mail@tylermumford.com GitHub LinkedIn  For more information (or a resume), email me! If you want me to work on a project, it might have to wait until I graduate in a few months, but shoot me an email and let&amp;rsquo;s see what happens.</description>
     </item>
     
   </channel>
