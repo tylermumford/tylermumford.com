@@ -4,7 +4,7 @@ languageCode: en-us
 title: Tyler Mumford
 theme: hyde
 description: Web Developer
-publishDir: publish
+publishDir: docs
 
 taxonomies:
     tag: "tags"
