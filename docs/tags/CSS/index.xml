@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CSS on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/CSS/</link>
+    <link>https://tylermumford.com/tags/CSS/</link>
     <description>Recent content in CSS on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 23 Dec 2016 15:41:54 -0700</lastBuildDate><atom:link href="http://tylermumford.com/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2016 15:41:54 -0700</lastBuildDate><atom:link href="https://tylermumford.com/tags/CSS/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On CSS Polyfills</title>
-      <link>http://tylermumford.com/post/on-css-polyfills/</link>
+      <link>https://tylermumford.com/post/on-css-polyfills/</link>
       <pubDate>Fri, 23 Dec 2016 15:41:54 -0700</pubDate>
       
-      <guid>http://tylermumford.com/post/on-css-polyfills/</guid>
+      <guid>https://tylermumford.com/post/on-css-polyfills/</guid>
       <description>I want to respond to &amp;ldquo;The Dark Side of Polyfilling CSS&amp;rdquo; by Philip Walton. At the end of the article is this hashtag:
  #makecssfatigueathing
  I disagree completely. Putting aside the fact that the word &amp;ldquo;fatigue&amp;rdquo; has only negative connotations, CSS is already different enough between browsers. If a CSS snippet&amp;rsquo;s meaning can be changed at will by JavaScript, then:

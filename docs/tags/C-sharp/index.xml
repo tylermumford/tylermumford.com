@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C sharp on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/C-sharp/</link>
+    <link>https://tylermumford.com/tags/C-sharp/</link>
     <description>Recent content in C sharp on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://tylermumford.com/tags/C-sharp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://tylermumford.com/tags/C-sharp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SAVvie</title>
-      <link>http://tylermumford.com/project/savvie/</link>
+      <link>https://tylermumford.com/project/savvie/</link>
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://tylermumford.com/project/savvie/</guid>
+      <guid>https://tylermumford.com/project/savvie/</guid>
       <description>Prounounced like &amp;ldquo;savvy,&amp;rdquo; the name SAVvie comes from our initial prototype name, &amp;ldquo;Social Argument Voting,&amp;rdquo; and the verb &amp;ldquo;vie,&amp;rdquo; which means to compete. We imagined it to be an online implementation of Robert&amp;rsquo;s Rules of Order &amp;mdash; a place suitable for online debate and group decision-making.
 SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a team leader for the four student developers who created the app: Katrina Mehring, Nick Rossi, Jacob Ward, and myself.</description>
     </item>

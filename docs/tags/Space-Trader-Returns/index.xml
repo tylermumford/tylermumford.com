@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Space Trader Returns on Tyler Mumford</title>
-    <link>http://tylermumford.com/tags/Space-Trader-Returns/</link>
+    <link>https://tylermumford.com/tags/Space-Trader-Returns/</link>
     <description>Recent content in Space Trader Returns on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Oct 2017 15:35:00 -0700</lastBuildDate><atom:link href="http://tylermumford.com/tags/Space-Trader-Returns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Oct 2017 15:35:00 -0700</lastBuildDate><atom:link href="https://tylermumford.com/tags/Space-Trader-Returns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Space Trader Journal 2</title>
-      <link>http://tylermumford.com/post/space-trader-journal-2/</link>
+      <link>https://tylermumford.com/post/space-trader-journal-2/</link>
       <pubDate>Tue, 31 Oct 2017 15:35:00 -0700</pubDate>
       
-      <guid>http://tylermumford.com/post/space-trader-journal-2/</guid>
+      <guid>https://tylermumford.com/post/space-trader-journal-2/</guid>
       <description>Here’s my current plan for the code of Space Trader Returns. Space Trader is written in C, and I want to rewrite it in Go. These two languages have fairly similar syntax, and I think Go can express all the same concepts as C (and then some). So I’m converting the source files, mostly by hand.
 I’d love to design the perfect architecture for this before writing a single line of code, and I’d love to rewrite everything from scratch rather than tweaking C source code.</description>
     </item>
     
     <item>
       <title>Space Trader Journal 1</title>
-      <link>http://tylermumford.com/post/space-trader-journal-1/</link>
+      <link>https://tylermumford.com/post/space-trader-journal-1/</link>
       <pubDate>Mon, 30 Oct 2017 16:16:00 -0700</pubDate>
       
-      <guid>http://tylermumford.com/post/space-trader-journal-1/</guid>
+      <guid>https://tylermumford.com/post/space-trader-journal-1/</guid>
       <description>A long time ago, in a galaxy far, far away, there was a game called Space Trader. Since smartphones hadn’t been invented yet, it ran on Palm devices. I was perhaps twelve years old at the time, and I loved to play this game. I spent weeks trading goods, fleeing from pirates and police, and trying to earn enough money to retire to my own moon.
 Like most software of days past, Space Trader has been all but forgotten.</description>
     </item>
