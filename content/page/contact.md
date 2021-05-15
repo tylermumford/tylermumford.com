@@ -1,12 +1,14 @@
 +++
-date = "2017-01-02T15:44:42-07:00"
+date = "2021-05-15T02:31:00-07:00"
 title = "Contacting Me"
 Tags = []
-Description = "Email or find me online"
+Description = "Find me online"
 +++
 
-1. [mail@tylermumford.com](mailto:mail@tylermumford.com)
-2. [GitHub](https://github.com/tylermumford)
-3. [LinkedIn](https://www.linkedin.com/in/tymumford)
+1. [GitHub](https://github.com/tylermumford)
+1. [LinkedIn](https://www.linkedin.com/in/tymumford)
 
-For more information (or a resume), email me! If you want me to work on a project, it might have to wait until I graduate in a few months, but shoot me an email and let's see what happens.
+Right now, I don't have much desire to be contacted by people who find me online. No offense.
+
+If you're here, hello. I just hope you have a great day, and I hope you find something useful
+or amusing on my site.
