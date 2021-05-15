@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tyler Mumford</title>
+    <link>http://tylermumford.com/post/</link>
+    <description>Recent content in Posts on Tyler Mumford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Oct 2017 15:35:00 -0700</lastBuildDate><atom:link href="http://tylermumford.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Space Trader Journal 2</title>
+      <link>http://tylermumford.com/post/space-trader-journal-2/</link>
+      <pubDate>Tue, 31 Oct 2017 15:35:00 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/space-trader-journal-2/</guid>
+      <description>Here’s my current plan for the code of Space Trader Returns. Space Trader is written in C, and I want to rewrite it in Go. These two languages have fairly similar syntax, and I think Go can express all the same concepts as C (and then some). So I’m converting the source files, mostly by hand.
+I’d love to design the perfect architecture for this before writing a single line of code, and I’d love to rewrite everything from scratch rather than tweaking C source code.</description>
+    </item>
+    
+    <item>
+      <title>Space Trader Journal 1</title>
+      <link>http://tylermumford.com/post/space-trader-journal-1/</link>
+      <pubDate>Mon, 30 Oct 2017 16:16:00 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/space-trader-journal-1/</guid>
+      <description>A long time ago, in a galaxy far, far away, there was a game called Space Trader. Since smartphones hadn’t been invented yet, it ran on Palm devices. I was perhaps twelve years old at the time, and I loved to play this game. I spent weeks trading goods, fleeing from pirates and police, and trying to earn enough money to retire to my own moon.
+Like most software of days past, Space Trader has been all but forgotten.</description>
+    </item>
+    
+    <item>
+      <title>Using Go</title>
+      <link>http://tylermumford.com/post/using-go/</link>
+      <pubDate>Tue, 01 Aug 2017 23:58:00 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/using-go/</guid>
+      <description>I chose to learn Go during my Programming Languages course in college, when we were told to find a new language to learn. I was tired of the chaos of JavaScript and PHP, and I was drawn to the idea of non-OO, statically typed code without manual memory management. While I haven&amp;rsquo;t built anything professional-grade with Go yet, I have used it to begin building two sites (one of which works!</description>
+    </item>
+    
+    <item>
+      <title>On CSS Polyfills</title>
+      <link>http://tylermumford.com/post/on-css-polyfills/</link>
+      <pubDate>Fri, 23 Dec 2016 15:41:54 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/on-css-polyfills/</guid>
+      <description>I want to respond to &amp;ldquo;The Dark Side of Polyfilling CSS&amp;rdquo; by Philip Walton. At the end of the article is this hashtag:
+ #makecssfatigueathing
+ I disagree completely. Putting aside the fact that the word &amp;ldquo;fatigue&amp;rdquo; has only negative connotations, CSS is already different enough between browsers. If a CSS snippet&amp;rsquo;s meaning can be changed at will by JavaScript, then:
+ There will be more code in the rendering pipeline, and therefore more bugs Scripts can change the meaning of valid CSS, interfering with the CSS author&amp;rsquo;s expectations and intentions Browser vendors can justify ignoring niche new features because the JS community will already have an implementation More JS has to be included in the page (yes, less than a polyfill, but a nonzero amount nonetheless) Instead of being processed by compiled and (hopefully) well-tested code, CSS will have to rely on JS &amp;ndash; let that sink in.</description>
+    </item>
+    
+    <item>
+      <title>Inaugural Entry</title>
+      <link>http://tylermumford.com/post/inaugural-entry/</link>
+      <pubDate>Thu, 13 Jun 2013 17:00:00 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/post/inaugural-entry/</guid>
+      <description>Three days ago, Apple gave its 2013 WWDC keynote presentation. They announced OS X Mavericks, the new Mac Pro, and a new design for iOS 7. I&amp;rsquo;m taking the opportunity to move my own development efforts forward, by creating Mindful Code. Under this name, I intend to create apps for iOS and Mac that truly understand how people think of and interact with their systems.
+The definition of &amp;ldquo;mindful&amp;rdquo; has nothing to do with beauty, versatility, or even ease of use.</description>
+    </item>
+    
+  </channel>
+</rss>

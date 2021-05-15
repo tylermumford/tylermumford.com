@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on Tyler Mumford</title>
+    <link>http://tylermumford.com/page/</link>
+    <description>Recent content in Pages on Tyler Mumford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Jan 2017 15:56:10 -0700</lastBuildDate><atom:link href="http://tylermumford.com/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sitemap</title>
+      <link>http://tylermumford.com/page/sitemap/</link>
+      <pubDate>Mon, 02 Jan 2017 15:56:10 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/page/sitemap/</guid>
+      <description> Blog Posts Projects Single Pages Tags  </description>
+    </item>
+    
+    <item>
+      <title>Contacting Me</title>
+      <link>http://tylermumford.com/page/contact/</link>
+      <pubDate>Mon, 02 Jan 2017 15:44:42 -0700</pubDate>
+      
+      <guid>http://tylermumford.com/page/contact/</guid>
+      <description>mail@tylermumford.com GitHub LinkedIn  For more information (or a resume), email me! If you want me to work on a project, it might have to wait until I graduate in a few months, but shoot me an email and let&amp;rsquo;s see what happens.</description>
+    </item>
+    
+  </channel>
+</rss>
