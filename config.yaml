@@ -1,0 +1,27 @@
+baseURL: http://tylermumford.com/
+disablePathToLower: true
+languageCode: en-us
+title: Tyler Mumford
+theme: hyde
+description: Web Developer
+publishDir: ../tylerwayne.github.io
+
+taxonomies:
+    tag: "tags"
+
+params:
+    description: Web Developer
+    layoutReverse: true
+    themeColor: theme-base-0b
+
+menu:
+    main:
+        - Name: Projects
+          URL: /project/
+          Weight: 2
+        - Name: Contact
+          URL: /page/contact/
+          Weight: 3
+        - Name: Sitemap
+          URL: /page/sitemap/
+          Weight: 4
