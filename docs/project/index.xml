@@ -6,7 +6,38 @@
     <description>Recent content in Projects on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Dec 2016 12:27:47 -0700</lastBuildDate><atom:link href="https://tylermumford.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tylermumford.com/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Potterscore</title>
+      <link>https://tylermumford.com/project/potterscore/</link>
+      <pubDate>Fri, 07 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tylermumford.com/project/potterscore/</guid>
+      <description>Potterscore is a simple front-end score keeper. It is designed to be used at an in-person Harry Potter-themed party, with House Points nicely displayed on a large screen.
+It&amp;rsquo;s still a work in progress.</description>
+    </item>
+    
+    <item>
+      <title>Multi-Minesweeper</title>
+      <link>https://tylermumford.com/project/multi-minesweeper/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tylermumford.com/project/multi-minesweeper/</guid>
+      <description>I enjoyed the Stock Market Game so much that I wanted to create another pandemic-friendly game people could play together over a voice/video call. On a whim, I decided to create a multiplayer version of minesweeper.
+Of course, other people had done this before, but everything I found online involved players working together on the same area of mines. I wanted my version to feel more original, so I decided that players would work on different minefields, but their fields would be linked.</description>
+    </item>
+    
+    <item>
+      <title>Stock Market Game</title>
+      <link>https://tylermumford.com/project/stock-market-game/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tylermumford.com/project/stock-market-game/</guid>
+      <description>I learned about the stock market game from my brother-in-law during the pandemic. We originally played it with the help of a spreadsheet, and it was a lot of fun. I decided to make a dedicated web app for playing the game.
+(It&amp;rsquo;s not really about the stock market, but &amp;ldquo;stock market game&amp;rdquo; is what we&amp;rsquo;ve always called it.)
+It&amp;rsquo;s a single page app with no backend, so it&amp;rsquo;s just about tracking game state in memory.</description>
+    </item>
+    
     <item>
       <title>This Website!</title>
       <link>https://tylermumford.com/project/this-site/</link>

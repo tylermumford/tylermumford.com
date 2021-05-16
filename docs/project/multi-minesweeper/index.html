@@ -8,8 +8,8 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>JuxtaPros &middot; Tyler Mumford</title>
-  <meta name="description" content="Web app for lists of pros and cons" />
+  <title>Multi-Minesweeper &middot; Tyler Mumford</title>
+  <meta name="description" content="" />
 
   
   <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/print.css" media="print">
@@ -92,14 +92,29 @@
 
     <main class="content container">
     <div class="post">
-    <h1>JuxtaPros</h1>
-    <time datetime=2014-11-22T00:00:00Z class="post-date">Sat, Nov 22, 2014</time>
+    <h1>Multi-Minesweeper</h1>
+    <time datetime=2021-02-27T00:00:00Z class="post-date">Sat, Feb 27, 2021</time>
+    <p><a href="https://minesweeper.tylermumford.com">https://minesweeper.tylermumford.com</a></p>
     
-    <p><a href="https://github.com/3Pros/juxtapros">https://github.com/3Pros/juxtapros</a></p>
-    <p>Built during Southern Utah Code Camp 2014, JuxtaPros is a web app for quickly making lists of pros and cons. <a href="http://jacobcward.com/">Jacob Ward</a> and I came up with the idea, and we actually tried to build it for Code Camp two years in a row. The first year, we built the front end but ran out of time before we could build the back end (it didn&rsquo;t help that neither of us had built a back end before).</p>
-<p>The second year, we decided to start with the back end. Unfortunately, we also decided to try learning Node and React for the first time&hellip; We didn&rsquo;t finish much that year, haha. But for only having worked on it for 48 hours, I&rsquo;m proud that we&rsquo;ve got a working front end.</p>
+    <p>I enjoyed the Stock Market Game so much that I wanted to create another pandemic-friendly
+game people could play together over a voice/video call. On a whim, I decided to create
+a multiplayer version of minesweeper.</p>
+<p>Of course, other people had done this before, but everything I found online involved players
+working together on the same area of mines. I wanted my version to feel more original, so
+I decided that players would work on different minefields, but their fields would be linked.</p>
 <hr>
-<p>If I were to try again without time constraints, I think this would be a good project on which to learn Angular. But if I wanted to actually finish it using tech I know, I&rsquo;d use jQuery on the front and Go in the back.</p>
+<p>Players can click to open a square, but they can&rsquo;t see the number below unless <strong>everyone else</strong>
+has <strong>also</strong> tried to open that square.</p>
+<hr>
+<p>I&rsquo;ve playtested the game a few times now, but it&rsquo;s always only mildly enjoyable. I think I need
+to rethink some of the mechanics to make it more fun. Players seem to end up just solving their
+board at their own pace, without much verbal interaction or difficulty.</p>
+<p>Still, I&rsquo;ve had a lot of fun making it. I&rsquo;ve used <a href="//turbo.hotwire.dev">Turbo</a>, which has been
+really interesting and fun. (Needs better documentation, though.) This is also my most server-side
+side project to date—most of the things I build are front-end only.</p>
+<hr>
+<p>At first, I made a version with Node, Mithril, and websockets. It was fine, but I got tired of
+it and decided to rewrite it with Go and Turbo.</p>
 
 </div>
 
