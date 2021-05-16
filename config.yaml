@@ -22,6 +22,3 @@ menu:
         - Name: Contact
           URL: /page/contact/
           Weight: 3
-        - Name: Sitemap
-          URL: /page/sitemap/
-          Weight: 4
