@@ -10,9 +10,9 @@ draft = true
 When writing a project with unit tests, I find it helpful to write a few tests that are
 more about what the code *expresses*, rather than what it *does*.
 
-I started using the concept when writing code for a chess game. I wanted to write some
-unit tests that got me started with some class names, method names, and high-level
-concepts in the code.
+I thought of the concept and the name when writing code for a chess game (side project,
+private repo). I wanted to write some unit tests that got me started with some class
+names, method names, and high-level concepts in the code.
 
 For example:
 
