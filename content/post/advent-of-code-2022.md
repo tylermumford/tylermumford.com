@@ -101,9 +101,20 @@ features and projects."
 
 #### Python
 
-Fun again
+Python is fun! I've used it for small projects here and there over the years, but it's
+never been one of my main languages. I'm glad I chose to try it again for AoC. I've done
+puzzles for days 8, 9, 11, and 25 so far.
 
-Dependency management
+I feel like the list comprehension syntax was always so hard for me to remember before.
+Now that I'm more experienced (and probably paying more attention), it makes perfect
+sense. I enjoy writing list comprehensions to express a concept in a single line.
+
+The dependency management story is... something I still don't love about Python. `venv`
+might be simple for simple projects, but it seems like there's a big missing set of
+solutions between `venv` and Docker. And... am I missing something, or could this be super
+simple? "Make the Python interpreter automatically look for a virtual env, and use it if
+it's there, whenever running a Python file." Is it more complicated than that? Why do I
+have to "activate" environments? THe npm CLI doesn't make me do that.
 
 I miss how you can split files up in Go
 
