@@ -78,11 +78,26 @@ problem with my day 7 solution.)
 Because C# is my primary language at work, I didn't reach for it until day 10. Day 10 is
 still the only puzzle I've solved with C#.
 
-I used a mix of Visual Studio for Mac and VS Code.
+I used a mix of Visual Studio for Mac and VS Code. I feel like VS for Mac is a good
+product, and it works well, but I simply tend to prefer editors to IDEs. VS Code is a good
+option for macOS C# development.
 
-Battery life
+With both VS and VS Code, however, I noticed that my laptop's battery was running out
+*much* more quickly than when I was working with Go or Lua. But take this with a grain of
+salt, because this is totally subjective, and I don't have any numbers to back it up.
 
-Unit testing
+One of my biggest pet peeves with C#, compared to Go, is the unit testing story. (This is
+from the perspective of text editors and the command line, not as much with IDEs like VS.)
+When I want to create unit tests with XUnit, I need to `dotnet new` a whole new project,
+either in a sub-directory or a sibling directory of the main code under test. If it's a
+sub-directory, I need to manually make sure all its files are ignored from the "real"
+project's compilation. If it's in a sibling directory, I usually end up needing to shuffle
+files around and add project references and a solution and... it's just so much paperwork.
+
+With Go, I just create a `_test.go` file in the same package, same directory, as my code
+under test. It's so much simpler. I suspect this stems from my mental model of "files and
+commands" and how that clashes with the more-common-in-C#-land mental model of "IDE
+features and projects."
 
 #### Python
 
