@@ -14,9 +14,9 @@
       
       <guid>https://tylermumford.com/post/on-css-polyfills/</guid>
       <description>I want to respond to &amp;ldquo;The Dark Side of Polyfilling CSS&amp;rdquo; by Philip Walton. At the end of the article is this hashtag:
- #makecssfatigueathing
- I disagree completely. Putting aside the fact that the word &amp;ldquo;fatigue&amp;rdquo; has only negative connotations, CSS is already different enough between browsers. If a CSS snippet&amp;rsquo;s meaning can be changed at will by JavaScript, then:
- There will be more code in the rendering pipeline, and therefore more bugs Scripts can change the meaning of valid CSS, interfering with the CSS author&amp;rsquo;s expectations and intentions Browser vendors can justify ignoring niche new features because the JS community will already have an implementation More JS has to be included in the page (yes, less than a polyfill, but a nonzero amount nonetheless) Instead of being processed by compiled and (hopefully) well-tested code, CSS will have to rely on JS &amp;ndash; let that sink in.</description>
+#makecssfatigueathing
+I disagree completely. Putting aside the fact that the word &amp;ldquo;fatigue&amp;rdquo; has only negative connotations, CSS is already different enough between browsers. If a CSS snippet&amp;rsquo;s meaning can be changed at will by JavaScript, then:
+There will be more code in the rendering pipeline, and therefore more bugs Scripts can change the meaning of valid CSS, interfering with the CSS author&amp;rsquo;s expectations and intentions Browser vendors can justify ignoring niche new features because the JS community will already have an implementation More JS has to be included in the page (yes, less than a polyfill, but a nonzero amount nonetheless) Instead of being processed by compiled and (hopefully) well-tested code, CSS will have to rely on JS &amp;ndash; let that sink in.</description>
     </item>
     
   </channel>
