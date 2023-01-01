@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Tyler Mumford</title>
+    <link>https://tylermumford.com/tags/Programming/</link>
+    <description>Recent content in Programming on Tyler Mumford</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Dec 2022 13:32:00 -0700</lastBuildDate><atom:link href="https://tylermumford.com/tags/Programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advent of Code 2022</title>
+      <link>https://tylermumford.com/post/advent-of-code-2022/</link>
+      <pubDate>Sat, 31 Dec 2022 13:32:00 -0700</pubDate>
+      
+      <guid>https://tylermumford.com/post/advent-of-code-2022/</guid>
+      <description>This year, I discovered Advent of Code, and it&amp;rsquo;s been a ton of fun! I want to write about my experience with the puzzles. While this has the potential to mostly be me rambling on, I&amp;rsquo;ll try to make it interesting.
+I&amp;rsquo;m not trying to speed through these puzzles or even solve them the night they come out. I work on most of them days after they&amp;rsquo;re released.
+So far, I&amp;rsquo;ve used Go, Lua, C#, and Python.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tylermumford.com/post/advent-of-code-2022/</loc>
+    <lastmod>2022-12-31T13:32:00-07:00</lastmod>
+  </url><url>
     <loc>https://tylermumford.com/post/</loc>
-    <lastmod>2021-05-16T10:52:44-06:00</lastmod>
+    <lastmod>2022-12-31T13:32:00-07:00</lastmod>
+  </url><url>
+    <loc>https://tylermumford.com/tags/Programming/</loc>
+    <lastmod>2022-12-31T13:32:00-07:00</lastmod>
   </url><url>
     <loc>https://tylermumford.com/tags/</loc>
-    <lastmod>2021-05-16T10:52:44-06:00</lastmod>
-  </url><url>
-    <loc>https://tylermumford.com/post/touching-up-the-site/</loc>
-    <lastmod>2021-05-16T10:52:44-06:00</lastmod>
+    <lastmod>2022-12-31T13:32:00-07:00</lastmod>
   </url><url>
     <loc>https://tylermumford.com/</loc>
+    <lastmod>2022-12-31T13:32:00-07:00</lastmod>
+  </url><url>
+    <loc>https://tylermumford.com/post/touching-up-the-site/</loc>
     <lastmod>2021-05-16T10:52:44-06:00</lastmod>
   </url><url>
     <loc>https://tylermumford.com/tags/Writing/</loc>
