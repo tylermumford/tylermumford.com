@@ -3,7 +3,6 @@ title = "Advent of Code 2022"
 date = 2022-12-31T13:32:00-07:00
 Description = ""
 Tags = ["Programming"]
-draft = true
 +++
 
 This year, I discovered Advent of Code, and it's been a ton of fun! I want to write about
@@ -13,7 +12,7 @@ I'll try to make it interesting.
 I'm not trying to speed through these puzzles or even solve them the night they come out.
 I work on most of them days after they're released.
 
-So far, I'ved used Go, Lua, C#, and Python. I've written about each one below.
+So far, I've used Go, Lua, C#, and Python. I've written about each one below.
 
 ### How did I learn about Advent of Code?
 
@@ -28,7 +27,7 @@ each problem more interesting and more fun. (I have three small kids; I see more
 illogical nonsense in a day than all of AoC's stories put together.)
 
 For me, the puzzles definitely started easy and got harder. I solved the first few days'
-puzzles pretty easily, but after about day 5 or 6, it started taking me several hours to
+puzzles pretty easily, but since day 5 or 6, puzzles are taking me several hours to
 solve each puzzle. This seems to match with what the creator of AoC intended.
 
 I haven't done many other programming puzzles/competions. Just a handful, including one in
@@ -84,7 +83,10 @@ option for macOS C# development.
 
 With both VS and VS Code, however, I noticed that my laptop's battery was running out
 *much* more quickly than when I was working with Go or Lua. But take this with a grain of
-salt, because this is totally subjective, and I don't have any numbers to back it up.
+salt, because this is totally subjective, and I don't have any numbers to back it up. It
+was clear enough to me, though. I switched to using other languages and Neovim to save
+battery power, and I've noticed that my laptop lasts longer. (2015 MacBook Pro--kind of
+old these days.)
 
 One of my biggest pet peeves with C#, compared to Go, is the unit testing story. (This is
 from the perspective of text editors and the command line, not as much with IDEs like VS.)
@@ -114,7 +116,21 @@ might be simple for simple projects, but it seems like there's a big missing set
 solutions between `venv` and Docker. And... am I missing something, or could this be super
 simple? "Make the Python interpreter automatically look for a virtual env, and use it if
 it's there, whenever running a Python file." Is it more complicated than that? Why do I
-have to "activate" environments? THe npm CLI doesn't make me do that.
+have to "activate" environments? Node and Go don't make me do that.
 
-I miss how you can split files up in Go
+Also, when using Python, I have to add an import statement at the top of each file when I
+want to use something defined in a sibling file. I find this kind of annoying, coming from
+Go. Am I missing something? It is very explicit and clear, which matches what I've seen in
+other choices Python makes.
+
+### Conclusion
+
+Advent of Code 2022 has been a lot of fun for me. I only have about 21 stars so far, but I
+plan to get a few more here and there. Oh, and the subreddit has been fun, too.
+
+I've enjoyed using the puzzles as practice for learning Lua. I might also try some other
+languages, like Haskell or Ruby or Clojure. I'd also like to try doing some
+visualizations, though that's an area where I have very little experience.
+
+Happy coding, and Happy New Year! ⭐️
 
