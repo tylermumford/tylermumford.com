@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Tyler Mumford</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2022 13:32:00 -0700</lastBuildDate><atom:link href="https://tylermumford.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jan 2023 20:48:00 -0700</lastBuildDate><atom:link href="https://tylermumford.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Expressiveness Tests</title>
+      <link>https://tylermumford.com/post/expressiveness-tests/</link>
+      <pubDate>Wed, 11 Jan 2023 20:48:00 -0700</pubDate>
+      
+      <guid>https://tylermumford.com/post/expressiveness-tests/</guid>
+      <description>When writing a project with unit tests, I find it helpful to write a few tests that are more about what the code expresses, rather than what it does.
+I thought of the concept and the name when writing code for a chess game (side project, private repo). I wanted to write some unit tests that got me started with some class names, method names, and high-level concepts in the code.</description>
+    </item>
+    
     <item>
       <title>Advent of Code 2022</title>
       <link>https://tylermumford.com/post/advent-of-code-2022/</link>

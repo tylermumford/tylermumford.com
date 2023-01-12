@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.109.0">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Code Expressiveness Tests &middot; Tyler Mumford</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/hyde.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <style>
+     
+
+    body {
+        background-color: #222;
+        color: #ddd;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #ddd;
+    }
+
+    code {
+         
+        color: #90a599;
+        background-color: #444;
+    }
+
+    strong {
+        color: inherit;
+    }
+
+    .sidebar {
+        color: #3336;
+    }
+
+    .sidebar a {
+        color: #383838;
+    }
+
+    @media (min-width: 14em) {
+        .sidebar {
+            width: 20rem;
+        }
+    }
+
+    .sidebar-about h1 {
+        color: #383838;
+        font-family: Merriweather, serif;
+    }
+</style>
+
+</head>
+
+  <body class="theme-base-0b layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://tylermumford.com/"><h1>Tyler Mumford</h1></a>
+      <p class="lead">
+       Web Developer 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://tylermumford.com/">Home</a> </li>
+        <li><a href="/project/"> Projects </a></li><li><a href="/page/contact/"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2023. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Code Expressiveness Tests</h1>
+  <time datetime=2023-01-11T20:48:00-0700 class="post-date">Wed, Jan 11, 2023</time>
+  <!-- raw HTML omitted -->
+<p>When writing a project with unit tests, I find it helpful to write a few tests that are
+more about what the code <em>expresses</em>, rather than what it <em>does</em>.</p>
+<p>I thought of the concept and the name when writing code for a chess game (side project,
+private repo). I wanted to write some unit tests that got me started with some class
+names, method names, and high-level concepts in the code.</p>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#a6e22e">[Fact]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> CanExpressPositionsAsStrings()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> a1 = <span style="color:#66d9ef">new</span> Position(<span style="color:#e6db74">&#34;a1&#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> e4 = (Position)<span style="color:#e6db74">&#34;e4&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>There are no assertions in this test, and that&rsquo;s intentional. This is all about
+the two ways to create a <code>Position</code> object from a string. Do they compile? Do they &ldquo;read&rdquo;
+well?</p>
+<p>I want this code to be in a test, because it&rsquo;s fundamental to many other parts of the
+code. But for this case, I don&rsquo;t care about the <code>Position</code> objects themselves at all.
+The behavior can and will be covered in later tests.</p>
+<p>These &ldquo;code expressiveness tests,&rdquo; as I like to call them, have several advantages:</p>
+<ul>
+<li>They are some of the easiest tests to write</li>
+<li>They can be written at any point in the project&rsquo;s lifecycle</li>
+<li>They provide a helpful overview of how to use the classes and methods under test</li>
+</ul>
+<p>Here are some more examples I like.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#a6e22e">[Fact]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> CanEnumerateAllPositions()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">foreach</span> (<span style="color:#66d9ef">var</span> position <span style="color:#66d9ef">in</span> Position.All)
+</span></span><span style="display:flex;"><span>    {
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// Hello, there.</span>
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-csharp" data-lang="csharp"><span style="display:flex;"><span><span style="color:#a6e22e">[Fact]</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> GameCanExpressMoveLegality()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> b = <span style="color:#66d9ef">new</span> Board();
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">var</span> move = b.GetMove(fromPosition: <span style="color:#e6db74">&#34;a2&#34;</span>, toPosition: <span style="color:#e6db74">&#34;a4&#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">bool</span> _ = move.IsLegal();
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I&rsquo;ve searched for this concept to see if it&rsquo;s been written about before. I&rsquo;ve tried
+&ldquo;code expressiveness tests,&rdquo; &ldquo;non-assertion tests,&rdquo; and &ldquo;first unit tests.&rdquo; Nothing
+I&rsquo;ve found quite captures this idea. If you know of it already, please send me a link,
+perhaps on Mastodon.</p>
+<p>One relevant page I do want to point out is <a href="">Unit Testing Without Assertions</a>. The
+consensus there seems to be that tests should always assert something&ndash;but if they don&rsquo;t,
+they should document the reason. I believe that organizing these code expressiveness tests
+together and naming them as such sufficiently documents the intent. Demonstrating syntax
+and usage is reason enough for these tests. Adding assertions to these tests would make
+them more complex and more cluttered.</p>
+
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
