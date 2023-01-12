@@ -1,11 +1,10 @@
 +++
 title = "Code Expressiveness Tests"
-date = 2022-12-30T23:56:38-07:00
+date = 2023-01-11T20:48:00-07:00
 Description = ""
-draft = true
 +++
 
-<!-- When I'm editing this file, :set colorcolumn=90 -->
+<!-- When I'm editing this file, :set textwidth=90 -->
 
 When writing a project with unit tests, I find it helpful to write a few tests that are
 more about what the code *expresses*, rather than what it *does*.
@@ -26,16 +25,17 @@ public void CanExpressPositionsAsStrings()
 ```
 
 There are no assertions in this test, and that's intentional. This is all about
-capturing the two ways to create a `Position` object from a string.
+the two ways to create a `Position` object from a string. Do they compile? Do they "read"
+well?
 
 I want this code to be in a test, because it's fundamental to many other parts of the
 code. But for this case, I don't care about the `Position` objects themselves at all.
-That can and will be covered in later tests.
+The behavior can and will be covered in later tests.
 
-These "code expressiveness tests," as I like to call them, are useful in several ways:
+These "code expressiveness tests," as I like to call them, have several advantages:
 
 * They are some of the easiest tests to write
-* They can be written very eary on in the TDD cycle
+* They can be written at any point in the project's lifecycle
 * They provide a helpful overview of how to use the classes and methods under test
 
 Here are some more examples I like.
@@ -62,8 +62,17 @@ public void GameCanExpressMoveLegality()
 }
 ```
 
-> I've searched for this concept to see if it's been written about before. I've tried
+I've searched for this concept to see if it's been written about before. I've tried
 "code expressiveness tests," "non-assertion tests," and "first unit tests." Nothing
 I've found quite captures this idea. If you know of it already, please send me a link,
 perhaps on Mastodon.
+
+One relevant page I do want to point out is [Unit Testing Without Assertions](). The
+consensus there seems to be that tests should always assert something--but if they don't,
+they should document the reason. I believe that organizing these code expressiveness tests
+together and naming them as such sufficiently documents the intent. Demonstrating syntax
+and usage is reason enough for these tests. Adding assertions to these tests would make
+them more complex and more cluttered.
+
+[Unit Testing Without Assertions]: https://stackoverflow.com/questions/137399/unit-testing-without-assertions
 
