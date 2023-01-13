@@ -6,7 +6,7 @@ Description = "Find me online"
 +++
 
 1. [GitHub](https://github.com/tylermumford)
-1. [Mastodon](https://mas.to/@tylermumford)
+1. <a rel="me" href="https://mas.to/@tylermumford">Mastodon</a>
 1. [LinkedIn](https://www.linkedin.com/in/tymumford)
 
 If you're here, hello. I just hope you have a great day, and I hope you find something useful
