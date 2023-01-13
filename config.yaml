@@ -6,6 +6,14 @@ theme: hyde
 description: Web Developer
 publishDir: docs
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      # This is about allowing raw html in .md files.
+      # Since they're all hand-written, I believe
+      # this is safe to do.
+
 taxonomies:
     tag: "tags"
 
