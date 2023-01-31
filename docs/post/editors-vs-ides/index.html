@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.110.0">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Wrong Way to Avoid XML &middot; Tyler Mumford</title>
+  <meta name="description" content="Instead of using GUIs to edit XML, use JSON instead" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://tylermumford.com/css/hyde.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <style>
+     
+
+    body {
+        background-color: #222;
+        color: #ddd;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #ddd;
+    }
+
+    code {
+         
+        color: #90a599;
+        background-color: #444;
+    }
+
+    strong {
+        color: inherit;
+    }
+
+    .sidebar {
+        color: #3336;
+    }
+
+    .sidebar a {
+        color: #383838;
+    }
+
+    @media (min-width: 14em) {
+        .sidebar {
+            width: 20rem;
+        }
+    }
+
+    .sidebar-about h1 {
+        color: #383838;
+        font-family: Merriweather, serif;
+    }
+</style>
+
+</head>
+
+  <body class="theme-base-0b layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://tylermumford.com/"><h1>Tyler Mumford</h1></a>
+      <p class="lead">
+       Web Developer 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://tylermumford.com/">Home</a> </li>
+        <li><a href="/project/"> Projects </a></li><li><a href="/page/contact/"> Contact </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2023. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>The Wrong Way to Avoid XML</h1>
+  <time datetime=2023-01-31T01:46:00-0700 class="post-date">Tue, Jan 31, 2023</time>
+  <p>I&rsquo;m a newcomer to Visual Studio, and at work, I use it to develop projects
+written in both .NET Framework and newer .NET versions. Occasionally, when I
+want to edit or view a <code>.csproj</code> file, Visual Studio will open a GUI instead.</p>
+<p>This is absolutely <em>maddening</em> for me.</p>
+<p>For a while, this had me thinking that Visual Studio was foolishly designed
+around its own features instead of being focused on my files. I believed that
+this was the opposite of what a text editor should be about. (I still believe
+that.) I wrote <a href="https://www.reddit.com/r/csharp/comments/yxq6tt/comment/iwqx5b6/?utm_source=share&amp;utm_medium=web2x&amp;context=3">this comment on Reddit</a> about it, which sparked my
+motivation to write this blog post. The original title was &ldquo;Editors vs IDEs.&rdquo;</p>
+<p>Now, I&rsquo;m starting to see that it&rsquo;s not Visual Studio per se, it&rsquo;s Microsoft and
+the age of XML.</p>
+<h2 id="the-original-approach">The original approach</h2>
+<p>For many years, XML was widely used for configuration, serialization, and
+content markup. It&rsquo;s a versatile format, but it&rsquo;s overly verbose. Developers in
+general hate working with XML; they want to avoid it.</p>
+<p>Disclaimer: I&rsquo;m pretty young. I wasn&rsquo;t a professional developer
+during XML&rsquo;s heyday, and I might not have this context right. This is based on
+my impressions from reading a <em>lot</em> of Internet content and programming blogs.</p>
+<p><strong>It seems to me that Microsoft&rsquo;s approach to managing the flood of XML was to
+abstract it away with GUI tools.</strong> IIS Manager and Visual Studio developed lots
+of wizards and features to let developers configure things without touching the
+XML by hand.</p>
+<p>So you have XML files for server configuration, app configuration, project
+configuration, and probably others that I&rsquo;m forgetting, but you&rsquo;re not supposed
+to actually touch them. You&rsquo;re supposed to let the GUI do the work.</p>
+<h2 id="bzzt-problems">Bzzt, problems</h2>
+<p>There are two problems with this approach. The first problem is that it didn&rsquo;t
+match the approach of the open source ecosystem. The web developed languages
+like JSON and YAML and TOML, which are all designed to be <em>both</em> human-friendly
+and machine-friendly (except YAML).</p>
+<p>Instead of hiding XML, programmers abandoned it. By force.</p>
+<p>The second problem is that when you put everything in GUIs and wizards, you lose
+the most powerful advantage of software: after-the-fact automation. Gluing
+separate components together through interoperability. Tinkering.</p>
+<h2 id="microsofts-turnaround">Microsoft&rsquo;s turnaround</h2>
+<p>Microsoft realized this and developed .NET Core and Visual Studio Code. They
+steered their entire ecosystem towards the same goals of other open source
+ecosystems: embracing the advantages of the command line and using
+human-friendly configuration files.</p>
+<p>Visual Studio still provides excellent productivity benefits when working with
+C# projects (especially large ones). The IDE is still valuable. But it&rsquo;s no
+longer the only way to work. You can use a text editor and <code>dotnet</code> if you want,
+and Microsoft provides well-written documentation to support that.</p>
+<p>I&rsquo;m really glad for this turnaround, because my mental model of sofware
+development is one of files and commands. If I were trying to use a GUI, but I
+couldn&rsquo;t get a basic idea of the shell commands and file operations it were
+performing under the hood, it would be frustrating for me.</p>
+<p>And now if you use Visual Studio in this new .NET world, it lets you edit the
+freaking project files.</p>
+
+</div>
+
+
+    </main>
+
+    
+      
+    
+  </body>
+</html>
