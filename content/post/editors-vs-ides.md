@@ -1,55 +1,75 @@
 +++
-title = "Editors vs IDEs"
-date = 2022-12-31T16:38:19-07:00
-Description = ""
-draft = true
+title = "The Wrong Way to Avoid XML"
+date = 2023-01-31T01:46:00-07:00
+Description = "Instead of using GUIs to edit XML, use JSON instead"
 +++
 
-This post is about a [conversation I had on
-Reddit](https://www.reddit.com/r/csharp/comments/yxq6tt/comment/iwqx5b6/?utm_source=share&utm_medium=web2x&context=3).
-The full context is difficult to convey, but I want to elaborate on the differences I see
-between full-blown IDEs like Visual Studio and text editors like VS Code and Neovim.
+I'm a newcomer to Visual Studio, and at work, I use it to develop projects
+written in both .NET Framework and newer .NET versions. Occasionally, when I
+want to edit or view a `.csproj` file, Visual Studio will open a GUI instead.
 
-This is all based on my own opinion as a professional software developer. I use these
-tools a lot, but I'm not an expert in anyone's opinion but my own.
+This is absolutely *maddening* for me.
 
-For context, right now I use Neovim as my general purpose text editor, and I use
-Visual Studio for working on the big C# projects at my company.
+For a while, this had me thinking that Visual Studio was foolishly designed
+around its own features instead of being focused on my files. I believed that
+this was the opposite of what a text editor should be about. (I still believe
+that.) I wrote [this comment on Reddit][comment] about it, which sparked my
+motivation to write this blog post. The original title was "Editors vs IDEs."
 
-### Files vs Features
+[comment]: https://www.reddit.com/r/csharp/comments/yxq6tt/comment/iwqx5b6/?utm_source=share&utm_medium=web2x&context=3
 
-The central point I made in that Reddit comment, and the newest insight for me, is that
-IDEs like Visual Studio are about their features, not about your files.
+Now, I'm starting to see that it's not Visual Studio per se, it's Microsoft and
+the age of XML.
 
-VS, by default, doesn't show you a file explorer. It shows you a Solution Explorer. Files
-are a big part of that, but they're abstracted away behind Projects and Solutions. These
-are IDE features that get in the way of editing your code.
+## The original approach
 
-VS, by default, tries to prevent you from editing your project files by hand. There are
-Microsoft docs that show you how to edit these files, so they're clearly meant to be
-human-editable and not just machine-generated. But VS gets in your way and tries to always
-open its GUI editor by default.
+For many years, XML was widely used for configuration, serialization, and
+content markup. It's a versatile format, but it's overly verbose. Developers in
+general hate working with XML; they want to avoid it.
 
-VS has over 40 panes/windows for its features, and over 20 toolbars. It has GUI designers,
-code-behind files, hundreds of Add -> New Item templates, and...
+Disclaimer: I'm pretty young. I wasn't a professional developer
+during XML's heyday, and I might not have this context right. This is based on
+my impressions from reading a *lot* of Internet content and programming blogs.
 
-Wait. This isn't a problem with Visual Studio. This was a problem with Microsoft's software
-development philosophy prior to .NET 5.
+**It seems to me that Microsoft's approach to managing the flood of XML was to
+abstract it away with GUI tools.** IIS Manager and Visual Studio developed lots
+of wizards and features to let developers configure things without touching the
+XML by hand.
 
-### Reputation
+So you have XML files for server configuration, app configuration, project
+configuration, and probably others that I'm forgetting, but you're not supposed
+to actually touch them. You're supposed to let the GUI do the work.
 
-Before I started using it professionally, my impression of Visual Studio was that it was a
-high-end, high-powered, luxury tool. Too advanced, too expensive for "beginners like me."
+## Bzzt, problems
 
-(To be fair, my impression of Vim was also that it was intimidating, but in a different direction. Vim
-struck me as an arcane, almost mystical tool. Learnable only by those who had grown up on
-the command line. Now, I use and enjoy it.)
+There are two problems with this approach. The first problem is that it didn't
+match the approach of the open source ecosystem. The web developed languages
+like JSON and YAML and TOML, which are all designed to be *both* human-friendly
+and machine-friendly (except YAML).
 
-But text editors like Sublime Text and VS Code are far more welcoming. They're "just text
-editors," and anyone can edit text. I think this makes them more approachable for beginners.
+Instead of hiding XML, programmers abandoned it. By force.
 
-When you open Visual Studio, you see a project template picker and dozens of toolbar
-buttons. When you open a good text editor, you see a text area for code. What do tutorials
-show? Code.
+The second problem is that when you put everything in GUIs and wizards, you lose
+the most powerful advantage of software: after-the-fact automation. Gluing
+separate components together through interoperability. Tinkering.
 
+## Microsoft's turnaround
+
+Microsoft realized this and developed .NET Core and Visual Studio Code. They
+steered their entire ecosystem towards the same goals of other open source
+ecosystems: embracing the advantages of the command line and using
+human-friendly configuration files.
+
+Visual Studio still provides excellent productivity benefits when working with
+C# projects (especially large ones). The IDE is still valuable. But it's no
+longer the only way to work. You can use a text editor and `dotnet` if you want,
+and Microsoft provides well-written documentation to support that.
+
+I'm really glad for this turnaround, because my mental model of sofware
+development is one of files and commands. If I were trying to use a GUI, but I
+couldn't get a basic idea of the shell commands and file operations it were
+performing under the hood, it would be frustrating for me.
+
+And now if you use Visual Studio in this new .NET world, it lets you edit the
+freaking project files.
 
