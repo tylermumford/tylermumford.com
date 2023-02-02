@@ -31,5 +31,4 @@ side project to date—most of the things I build are front-end only.
 
 -----
 
-At first, I made a version with Node, Mithril, and websockets. It was fine, but I got tired of
-it and decided to rewrite it with Go and Turbo.
+At first, I made a version with Node, Mithril, and websockets. It was fine, but I decided to rewrite it with Go and Turbo.
