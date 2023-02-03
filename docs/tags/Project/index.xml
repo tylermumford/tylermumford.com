@@ -79,13 +79,13 @@ The site had two parts: the majority of it was built using CodeIgniter, an older
     </item>
     
     <item>
-      <title>Goodness</title>
+      <title>Goodness (Discontinued)</title>
       <link>https://tylermumford.com/project/goodness/</link>
       <pubDate>Sat, 13 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://tylermumford.com/project/goodness/</guid>
-      <description>For a long time, Goodness was my most successful project: a Chrome extension designed to help people overcome pornography addictions. I sold it in 2013 with about 11,000 users, and has since grown (unmodified, as best I can tell; you can still see my name in the screenshot) to many more than that.
-Goodness on the Chrome Web Store Source code on GitHub </description>
+      <description>(February 2023 update: I realized a few years ago that the person who bought Goodness just wanted to display ads to its users. It became advertising junk, and it is no longer on the Chrome Web Store.)
+For a long time, Goodness was my most successful project: a Chrome extension designed to block a few sites for people struggling with pornography addiction. I sold it in 2013 with about 11,000 users, and has since grown to many more than that.</description>
     </item>
     
   </channel>
