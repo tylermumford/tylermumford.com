@@ -1,5 +1,7 @@
 VERSION 0.6
 FROM klakegg/hugo:0.107.0-busybox
+# To check for newer versions of Hugo,
+# use https://hub.docker.com/r/klakegg/hugo/tags?page=1&name=busybox
 
 clean:
 	LOCALLY
