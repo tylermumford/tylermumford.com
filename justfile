@@ -23,3 +23,6 @@ push:
 	git commit -m Build
 	git push
 
+# Create a new post
+post slug:
+    hugo new content/post/{{slug}}.md
