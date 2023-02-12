@@ -1,6 +1,8 @@
 # Serve the site, including drafts
-run:
+serve:
 	hugo server --buildDrafts
+
+alias server := serve
 
 # Build the site to check for errors
 check:
