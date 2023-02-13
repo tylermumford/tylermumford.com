@@ -3,7 +3,7 @@ disablePathToLower: true
 languageCode: en-us
 title: Tyler Mumford
 theme: hyde
-description: Web Developer
+description: Software Developer
 publishDir: docs
 
 markup:
@@ -18,7 +18,7 @@ taxonomies:
     tag: "tags"
 
 params:
-    description: Web Developer
+    description: Software Developer
     layoutReverse: true
     themeColor: theme-base-0b
 
