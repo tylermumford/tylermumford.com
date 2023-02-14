@@ -18,6 +18,10 @@ clean:
 	rm -r docs
 	git restore docs
 
+# Build (to preview files with analytics)
+build:
+	hugo
+
 # Build, commit, and push
 push:
 	hugo --cleanDestinationDir
