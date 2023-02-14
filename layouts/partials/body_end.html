@@ -1,15 +1,11 @@
-{{/* This partial should only be rendered if not in "hugo serve" mode. */}}
+{{/*
 
-{{ printf "<!-- Default Statcounter code for tylermumford.com -->" | safeHTML }}
-<script type="text/javascript">
-var sc_project=10234585; 
-var sc_invisible=1; 
-var sc_security="d4672ddf"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
+This partial should only be rendered if not in "hugo serve" mode.
 
-{{ printf "<!-- I've taken out the noscript image beacon. If you have JS off, you won't be seen by StatCounter. -->" | safeHTML }}
+Right now, there's nothing here. I don't want to use any analytics that Safari or Firefox would mark as a tracker by default, and they do that with StatCounter.
 
-{{ printf "<!-- End of Statcounter Code -->" | safeHTML }}
+If my own browser would block a tracker, I don't want to use it to track my visitors.
+
+*/}}
+
+{{ printf "<!-- No analytics in place right now. -->" | safeHTML }}
