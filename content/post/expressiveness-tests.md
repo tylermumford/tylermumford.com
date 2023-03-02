@@ -67,7 +67,7 @@ I've searched for this concept to see if it's been written about before. I've tr
 I've found quite captures this idea. If you know of it already, please send me a link,
 perhaps on Mastodon.
 
-One relevant page I do want to point out is [Unit Testing Without Assertions](). The
+One relevant page I do want to point out is [Unit Testing Without Assertions][]. The
 consensus there seems to be that tests should always assert something--but if they don't,
 they should document the reason. I believe that organizing these code expressiveness tests
 together and naming them as such sufficiently documents the intent. Demonstrating syntax

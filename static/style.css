@@ -1,0 +1,19 @@
+@layer base {}
+
+@layer components {
+    .sunset {
+        /* sizing */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        /* styling */
+        background: linear-gradient(#111 10%, #404 85%, #813);
+    }
+
+}
+
+@layer overrides {}
