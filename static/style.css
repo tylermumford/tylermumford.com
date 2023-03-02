@@ -1,4 +1,12 @@
-@layer base {}
+@layer base {
+    body {
+        color: white;
+    }
+
+    faint-text {
+        color: #fff5;
+    }
+}
 
 @layer components {
     .sunset {
@@ -14,6 +22,22 @@
         background: linear-gradient(#111 10%, #404 85%, #813);
     }
 
+    .title-footer {
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 1.5rem;
+
+        font-family: Monaco, monospace;
+        font-size: x-large;
+        text-transform: lowercase;
+    }
 }
 
-@layer overrides {}
+@layer overrides {
+    .no-wrap {
+        white-space: nowrap;
+    }
+}
