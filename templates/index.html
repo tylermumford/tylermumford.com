@@ -5,7 +5,13 @@
 <body>
 {% include "body-first-children.html" %}
 
-<main><p>Get ready</p></main>
+<main>
+  <p>Most recent post</p>
+  {%- set posts = get_section(path="content/post/_index.md") -%}
+  {{ posts[0].title }}
+
+
+</main>
 
 {% include "body-last-children.html" %}
 </body>

@@ -15,7 +15,7 @@ names, method names, and high-level concepts in the code.
 
 For example:
 
-```csharp
+```cs
 [Fact]
 public void CanExpressPositionsAsStrings()
 {
@@ -40,7 +40,7 @@ These "code expressiveness tests," as I like to call them, have several advantag
 
 Here are some more examples I like.
 
-```csharp
+```cs
 [Fact]
 public void CanEnumerateAllPositions()
 {
@@ -51,7 +51,7 @@ public void CanEnumerateAllPositions()
 }
 ```
 
-```csharp
+```cs
 [Fact]
 public void GameCanExpressMoveLegality()
 {
