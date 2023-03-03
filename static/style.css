@@ -12,6 +12,11 @@
         margin: 2rem;
     }
 
+    a, a:visited {
+        /* Color based on the top of the mountain image, but brighter */
+        color: #EC7570;
+    }
+
     @media (min-width: 720px) {
         body {
             /* This is to center the <main> element horizontally */
