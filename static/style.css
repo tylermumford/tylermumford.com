@@ -1,3 +1,14 @@
+/*
+
+The CSS is organized into layers, but not in a super-methodical
+way yet. Keeping it simple for now; easy to expand later.
+
+I need to write lots of comments in here, because sometimes
+I go for months or even years in between touching this
+part of the site.
+
+*/
+
 @layer base {
     body {
         color: #eee;
