@@ -33,6 +33,13 @@ part of the site.
         color: #EC7570;
     }
 
+    hr {
+        border-style: none;
+        border-width: 3px;
+        border-top-style: solid;
+        border-color: #7774;
+    }
+
     @media (min-width: 720px) {
         body {
             /* This is to center the <main> element horizontally */
