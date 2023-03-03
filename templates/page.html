@@ -4,7 +4,9 @@
 <body>
 {% include "body-first-children.html" %}
 
+<main>
 {{ page.content | safe }}
+</main>
 
 {% include "body-last-children.html" %}
 </body>
