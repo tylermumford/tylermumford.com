@@ -28,6 +28,34 @@ part of the site.
         margin-bottom: 240px;
     }
 
+    h3 {
+        position: relative;
+    }
+
+    h3::before {
+        /* Show a little "h3" to the left */
+        content: "h3 ";
+        position: absolute;
+        left: -2.5ch;
+        bottom: 0;
+        font-size: small;
+        color: #eee5;
+    }
+
+    h4 {
+        position: relative;
+    }
+
+    h4::before {
+        /* Show a little "h3" to the left */
+        content: "h4 ";
+        position: absolute;
+        left: -2.5ch;
+        bottom: 0;
+        font-size: small;
+        color: #eee5;
+    }
+
     a, a:visited {
         /* Color based on the top of the mountain image, but brighter */
         color: #EC7570;
