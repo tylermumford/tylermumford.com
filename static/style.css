@@ -10,6 +10,11 @@
 
     main {
         margin: 2rem;
+
+        /* Let the content scroll past the mountains:
+        without this, the mountains can obscure the bottom
+        of large posts. */
+        margin-bottom: 240px;
     }
 
     a, a:visited {
