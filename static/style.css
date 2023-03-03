@@ -22,6 +22,24 @@
         background: linear-gradient(#111 10%, #404 85%, #813);
     }
 
+    .mountains {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+
+        /* These keep the mountains roughly the same height
+        no matter what the screen width is. */
+        width: 240vw;
+        max-width: 880px;
+    }
+
+    @media (min-width: 880px) {
+        .mountains {
+            width: 100%;
+            max-width: unset;
+        }
+    }
+
     .title-footer {
         position: fixed;
         text-align: center;

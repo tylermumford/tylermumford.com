@@ -1,3 +1,10 @@
 # This lock file doesn't need to be committed
 # https://discourse.gohugo.io/t/what-is-the-hugo-build-lock-file/35417
 .hugo_build.lock
+
+# macOS thumbnail files
+.DS_Store
+
+# Zola's output dir
+# (might track someday, but not now)
+/public
