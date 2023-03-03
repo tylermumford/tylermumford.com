@@ -1,0 +1,11 @@
+<html>
+{% include "head-element.html" %}
+
+<body>
+{% include "body-first-children.html" %}
+
+{{ page.content | safe }}
+
+{% include "body-last-children.html" %}
+</body>
+</html>
