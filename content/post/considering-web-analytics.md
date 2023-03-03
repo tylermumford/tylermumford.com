@@ -8,7 +8,7 @@ I have a bit of a dilemma. On one hand, I dislike detailed tracking on the web; 
 
 But I also really like external validation, so I want to have some way of knowing when people check out my websites. So I'm trying to find a way to balance these two things.
 
-<!--more-->
+<!-- more -->
 
 Google Analytics is off the table for reasons which are probably obvious to people reading my blog.
 

@@ -7,8 +7,10 @@
 
 <main>
   <p>Most recent post</p>
-  {%- set posts = get_section(path="content/post/_index.md") -%}
-  {{ posts[0].title }}
+  {%- set posts = get_section(path="post/_index.md") -%}
+  {%- set recent = posts.pages[0] -%}
+  <a href={{recent.permalink}}>{{ recent.title }}</a>
+  <p>Summary: {{recent.summary | safe}}</p>
 
 
 </main>
