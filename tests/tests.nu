@@ -7,7 +7,7 @@
 # I intend for this to be a set of parameter-driven tests to make sure URLs still
 # function properly.
 
-let prefix = "http://localhost:1313/"
+let prefix = "http://localhost:1111/"
 let paths = [
     "",
     "index.xml",
