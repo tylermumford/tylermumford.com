@@ -9,6 +9,8 @@
   {%- set post_section = get_section(path="post/_index.md") -%}
   {%- set recent = post_section.pages[0] -%}
 
+  {%- set project_section = get_section(path="project/_index.md") -%}
+
   <p>
     <b>Most recent post:</b> <a href={{recent.permalink}}>{{ recent.title }}</a>
   </p>
@@ -17,12 +19,25 @@
 
   <blockquote>{{recent.summary | safe}}</blockquote>
 
-  <p>All posts</p>
-  <ul>
-  {% for post in post_section.pages %}
-    <li><a href={{post.permalink}}>{{post.title}}</a></li>
-  {% endfor %}
-  </ul>
+  <side-by-side>
+    <section>
+      <h3>All posts</h3>
+      <ul>
+      {% for post in post_section.pages %}
+        <li><a href={{post.permalink}}>{{post.title}}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+
+    <section>
+      <h3>Projects</h3>
+      <ul>
+      {% for project in project_section.pages %}
+        <li><a href={{project.permalink}}>{{project.title}}</a></li>
+      {% endfor %}
+      </ul>
+    </section>
+  </side-by-side>
 
 </main>
 

@@ -1,4 +1,4 @@
 +++
-title = "Posts"
+title = "Projects"
 sort_by = "date"
 +++

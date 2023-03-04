@@ -98,6 +98,11 @@ part of the site.
         main {
             max-width: 60ch;
         }
+
+        side-by-side {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
 
