@@ -7,7 +7,13 @@
   <!-- Color taken from the top of the sunset gradient -->
   <meta name="theme-color" content="#111">
 
-  <title>page title</title>
+  {% if page.title %}
+  <title>{{page.title}} • {{config.title}}</title>
+  {% elif section.title %}
+  <title>{{section.title}} • {{config.title}}</title>
+  {% elif current_path == "/" %}
+  <title>{{config.title}}</title>
+  {% endif %}
   <!-- TODO: Show description, if available -->
   <!-- <meta name="description" content="" /> -->
 
