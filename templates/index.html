@@ -6,11 +6,16 @@
 {% include "body-first-children.html" %}
 
 <main>
-  <p>Most recent post</p>
   {%- set post_section = get_section(path="post/_index.md") -%}
   {%- set recent = post_section.pages[0] -%}
-  <a href={{recent.permalink}}>{{ recent.title }}</a>
-  <p>Summary: {{recent.summary | safe}}</p>
+
+  <p>
+    <b>Most recent post:</b> <a href={{recent.permalink}}>{{ recent.title }}</a>
+  </p>
+
+  <h3 class="visually-hidden">Summary:</h3>
+
+  <blockquote>{{recent.summary | safe}}</blockquote>
 
   <p>All posts</p>
   <ul>

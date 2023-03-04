@@ -27,6 +27,25 @@ part of the site.
         margin-bottom: 240px;
     }
 
+    blockquote {
+        position: relative;
+    }
+
+    blockquote > *::before {
+        content: "“";
+        position: absolute;
+        left: -1.4ch;
+        font-weight: bold;
+        color: #eee5;
+    }
+
+    blockquote > :last-child::after {
+        content: "”";
+        margin-left: 0.4ch;
+        color: #eee5;
+        font-weight: bold;
+    }
+
     h3 {
         position: relative;
     }
@@ -150,5 +169,19 @@ part of the site.
 @layer overrides {
     .no-wrap {
         white-space: nowrap;
+    }
+
+    .visually-hidden:not(:focus):not(:active) {
+        /* https://benmyers.dev/blog/native-visually-hidden/ */
+        border: 0;
+        clip: rect(0 0 0 0); 
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap; 
+        width: 1px;
     }
 }
