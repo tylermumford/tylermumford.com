@@ -118,6 +118,7 @@ part of the site.
     from https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/ */
     p {
         margin: 0 auto var(--typo-unit);
+        letter-spacing: 0.1px;
     }
 }
 
