@@ -12,6 +12,10 @@ part of the site.
 @layer base {
     body {
         color: #eee;
+
+        /* Mostly hidden, but helps with browsers that
+        do funny things. */
+        background-color: black;
     }
 
     faint-text {
