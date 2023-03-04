@@ -26,7 +26,7 @@ This site doesn't need JavaScript yet. I have a grand total of **twelve posts** 
 
 I decided to migrate the website to **Hugo** for better cross-platform testing support. Hugo was easy to get running, but the customization system took a couple hours to fully understand.
 
-The theme was a slightly modified version of [Hyde](http://themes.gohugo.io/hyde/) using the Merriweather font for the title. The Markdown parser automatically uses typographically correct quotes, and Hugo shortcodes help create a consistent visual appearance.
+The theme was a slightly modified version of Hyde using the Merriweather font for the title. The Markdown parser automatically uses typographically correct quotes, and Hugo shortcodes help create a consistent visual appearance.
 
 (But Hugo is _complicated_. Eventually, I got tired of using someone else's theme and the feeling that I couldn't modify _all_ of the site's HTML and CSS.)
 
