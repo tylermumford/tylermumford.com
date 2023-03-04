@@ -84,6 +84,7 @@ part of the site.
         border-width: 3px;
         border-top-style: solid;
         border-color: #7774;
+        margin: var(--typo-unit) auto;
     }
 
     @media (min-width: 720px) {
