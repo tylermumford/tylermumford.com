@@ -34,4 +34,6 @@ The theme was a slightly modified version of Hyde using the Merriweather font fo
 
 Originally built with **Jekyll** and a fully custom theme. This was back in... wow, 2013 ([first post, cringe][first]). I guess I've had a website for ten years now.
 
+Apparently, I originally called the site "Mindful Code." I thought I needed a "company name" or something. Seems silly, in retrospect, but I guess I was a silly teenager.
+
 [first]: @/post/inaugural-entry.md
