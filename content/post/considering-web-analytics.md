@@ -4,6 +4,8 @@ date  = 2023-02-12T22:19:20-07:00
 Description = "Thinking out loud about StatCounter and web analytics."
 +++
 
+_Update: I have added GoatCounter analytics to the site. See the "fine print" section on the homepage._
+
 I have a bit of a dilemma. On one hand, I dislike detailed tracking on the web; I think it's intrusive and dumb. And I don't need it for my sites, anyway. I'm not growing businesses.
 
 But I also really like external validation, so I want to have some way of knowing when people check out my websites. So I'm trying to find a way to balance these two things.
