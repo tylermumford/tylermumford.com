@@ -1,8 +1,10 @@
 +++
-title = "The Wrong Way to Avoid XML"
+title = "Microsoft's XML Misstep"
 date = 2023-01-31T01:46:00-07:00
 Description = "Instead of using GUIs to edit XML, use JSON instead"
 +++
+
+(This post was originally titled "The Wrong Way to Avoid XML.")
 
 I'm a newcomer to Visual Studio, and at work, I use it to develop projects
 written in both .NET Framework and newer .NET versions. Occasionally, when I
