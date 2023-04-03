@@ -1,10 +1,6 @@
 title = "Tyler Mumford"
 
-# This will be the base_url when finished.
-#base_url = "https://tylermumford.com"
-
-# This is the base_url during the rewrite.
-base_url = "https://zola-preview.pages.dev"
+base_url = "https://tylermumford.com"
 
 # Yes, RSS is fantastic.
 generate_feed = true
