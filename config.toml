@@ -5,3 +5,6 @@ title = "Tyler Mumford"
 
 # This is the base_url during the rewrite.
 base_url = "https://zola-preview.pages.dev"
+
+# Yes, RSS is fantastic.
+generate_feed = true
