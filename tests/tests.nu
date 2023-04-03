@@ -10,7 +10,7 @@
 let prefix = "http://localhost:1111/"
 let paths = [
     "",
-    "index.xml",
+    "index.xml", # <- the rss feed
     "project",
     "page/contact",
     "project/multi-minesweeper",
