@@ -4,3 +4,8 @@ base_url = "https://tylermumford.com"
 
 # Yes, RSS is fantastic.
 generate_feed = true
+
+[extra]
+
+# Only have analytics record data for the public hostname
+public_hostname = "tylermumford.com"

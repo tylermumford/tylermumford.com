@@ -3,3 +3,12 @@
 <div class="title-footer">
   <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
 </div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== '{{ config.extra.public_hostname }}')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
