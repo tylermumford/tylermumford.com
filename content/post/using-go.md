@@ -22,4 +22,4 @@ Even though I don't have a lot of experience with Go, I feel confident in my abi
 - Work on a large Go codebase  
     Go is so easy to read and work with. I'm looking forward to the day when I can really use this language in a big project.
 - Port Space Trader to Go  
-    Back in the day, I used to absolutely love playing the game [Space Trader](http://www.spronck.net/spacetrader/STFrames.html) on my Palm Pilot. I want to bring it back with modern ports for some combination of desktop, web, and mobile, and I think I want to do it in Go.
+    Back in the day, I used to absolutely love playing the game [Space Trader](https://www.spronck.net/spacetrader/STNoFrames.html) on my Palm Pilot. I want to bring it back with modern ports for some combination of desktop, web, and mobile, and I think I want to do it in Go.
