@@ -1,12 +1,13 @@
 # Serve the site, including drafts
 serve:
-    hugo server --buildDrafts
+    zola serve --drafts
 
 alias server := serve
 
 # Build the site to check for errors
 check:
-    hugo
+    zola build
+    zola check
     just clean
 
 # Test common URLs for good response (must run server in another shell)
@@ -14,21 +15,23 @@ test:
     pip3 install --quiet --requirement ./tests/requirements.txt
     ./tests/tests.py
 
-# Restore the built site to last committed
+# Erase all built files in public/
 clean:
-    rm -r docs
-    git restore docs
+    rm -r public/*
 
 # Build (to preview files with analytics)
 build:
-    hugo
+    zola build
 
 # Build, commit, and push
-push:
-    hugo --cleanDestinationDir
-    git add docs
-    git commit -m Build
+push: clean build
+    #!/usr/bin/env nu
+    if (git status --short | lines | length) > 0 {
+        print "There are unstaged changes" --stderr
+        exit 1
+    }
     git push
+    # Netlify will update the site automatically
 
 # Create a new post
 post slug:
