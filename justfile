@@ -17,7 +17,7 @@ test:
 
 # Erase all built files in public/
 clean:
-    rm -r public/*
+    rm -rf public/*
 
 # Build (to preview files with analytics)
 build:
