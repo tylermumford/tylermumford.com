@@ -118,14 +118,13 @@ part of the site.
 @layer typography {
     :root {
         --line-height: 1.4;
-        --font-size: 19px;
-        --typo-unit: calc(var(--line-height) * var(--font-size));
-        line-height: var(--typo-unit);
+        --base-font-size: 19px;
+        --typo-unit: calc(var(--line-height) * var(--base-font-size));
     }
 
     body {
         font-family: system-ui, Helvetica, sans-serif;
-        font-size: var(--font-size);
+        font-size: var(--base-font-size);
     }
 
     /* Following some typography recommendations
@@ -133,6 +132,10 @@ part of the site.
     p {
         margin: 0 auto var(--typo-unit);
         letter-spacing: 0.1px;
+    }
+
+    p, li {
+        line-height: var(--typo-unit);
     }
 }
 
