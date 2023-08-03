@@ -10,11 +10,16 @@ check:
     zola check
     just clean
 
-# Test common URLs for good response (must run server in another shell)
+# Test common URLs for good responses
 test:
+    #!/usr/bin/env zsh
     pip3 install --quiet --requirement ./tests/requirements.txt
+    zola serve > /dev/null &
+    sleep 1
     ./tests/tests.py
-
+    kill %1
+    sleep 1 # Not sure why, but kill totally fails unless this sleep is here.
+    
 # Erase all built files in public/
 clean:
     rm -rf public/*
