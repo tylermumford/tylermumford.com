@@ -1,3 +1,5 @@
+# Note: Some of these commands require the Nu shell.
+
 # Serve the site, including drafts
 serve:
     zola serve --drafts
@@ -40,4 +42,14 @@ push: clean build
 
 # Create a new post
 post slug:
-    hugo new content/post/{{slug}}.md
+    #!/usr/bin/env nu
+    cd content/post
+    cp .new.md '{{slug}}.md'
+    let newTitle = '{{slug}}' | str title-case
+    let newDate = date now | date format '%+'
+    (
+        open {{slug}}.md |
+        str replace DATE $newDate |
+        str replace TITLE $newTitle |
+        save -f {{slug}}.md
+    )
