@@ -91,6 +91,11 @@ part of the site.
         margin: var(--typo-unit) auto;
     }
 
+    main p > img {
+        max-width: 100%;
+        border: dotted 1px white;
+    }
+
     @media (min-width: 720px) {
         body {
             /* This is to center the <main> element horizontally */
