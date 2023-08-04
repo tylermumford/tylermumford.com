@@ -15,9 +15,11 @@
     <b>Most recent post:</b> <a href={{recent.permalink}}>{{ recent.title }}</a>
   </p>
 
+  {% if recent.summary %}
   <h3 class="visually-hidden">Summary:</h3>
 
   <blockquote>{{recent.summary | safe}}</blockquote>
+  {% endif %}
 
   <side-by-side>
     <section>
