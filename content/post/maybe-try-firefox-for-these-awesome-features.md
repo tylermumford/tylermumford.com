@@ -1,7 +1,7 @@
 +++
 title = "Maybe Try Firefox For These Awesome Features"
 date = 2023-08-03T01:21:22.505059-06:00
-Description = "Firefox has some amazing features that Chrome does not. Try it?"
+summary = "Firefox has some amazing features that Chrome does not. Try it?"
 +++
 
 I use Firefox as my main browser,
