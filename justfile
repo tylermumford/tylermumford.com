@@ -36,7 +36,7 @@ deploy:
         print "There are unstaged changes" --stderr
         exit 1
     }
-    git switch --create deploy
+    git switch deploy
     git reset --hard main
     just build
     git add --force public
