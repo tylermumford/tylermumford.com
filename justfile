@@ -6,11 +6,10 @@ serve:
 
 alias server := serve
 
-# Build the site to check for errors
+# Build the site and check for errors
 check:
-    zola build
+    just build
     zola check
-    just clean
 
 # Test common URLs for good responses
 test:
@@ -26,12 +25,12 @@ test:
 clean:
     rm -rf public/*
 
-# Build (to preview files with analytics)
-build:
+# Build
+build: clean
     zola build
 
-# 
-push:
+# Build the site and push it via the deploy branch
+deploy:
     #!/usr/bin/env nu
     if (git status --short | lines | length) > 0 {
         print "There are unstaged changes" --stderr
