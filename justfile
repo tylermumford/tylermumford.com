@@ -41,7 +41,7 @@ deploy:
     just build
     git add --force public
     git commit --message "Build for deployment"
-    git push
+    git push --force
     git switch main
 
 # Create a new post
