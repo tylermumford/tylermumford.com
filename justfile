@@ -30,15 +30,20 @@ clean:
 build:
     zola build
 
-# Build, commit, and push
-push: clean build
+# 
+push:
     #!/usr/bin/env nu
     if (git status --short | lines | length) > 0 {
         print "There are unstaged changes" --stderr
         exit 1
     }
+    git switch --create deploy
+    git reset --hard main
+    just build
+    git add --force public
+    git commit --message "Build for deployment"
     git push
-    # Netlify will update the site automatically
+    git switch main
 
 # Create a new post
 post slug:
