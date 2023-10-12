@@ -4,6 +4,9 @@ title = "SAVvie"
 SourceCodeURL = "https://github.com/cc-sav/product"
 Tags = ["Project", "Go", "C sharp", "Web"]
 Description = "Web app for making formal decisions"
+
+[extra]
+project_status = "gone"
 +++
 
 Prounounced like "savvy," the name SAVvie comes from our initial prototype name, "Social Argument Voting," and the verb "vie," which means to compete. We imagined it to be an online implementation of Robert's Rules of Order --- a place suitable for online debate and **group decision-making**.

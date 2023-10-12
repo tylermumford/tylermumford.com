@@ -3,6 +3,9 @@ Tags = ["Project", "iOS", "Game"]
 date = "2016-04-28"
 title = "Falling Spikes"
 Description = "Simple iPhone game"
+
+[extra]
+project_status = "inactive"
 +++
 
 January 2016 -- July 2016

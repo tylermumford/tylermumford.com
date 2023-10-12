@@ -1,8 +1,11 @@
 +++
 Description = "Basic web browsing filter for Chrome"
 date = "2013-04-13"
-title = "Goodness (Discontinued)"
+title = "Goodness"
 Tags = ["Project", "Chrome"]
+
+[extra]
+project_status = "inactive"
 +++
 
 (February 2023 update: I realized a few years ago that the person who bought Goodness just wanted to display ads to its users. It became advertising junk, and it is no longer on the Chrome Web Store.)
