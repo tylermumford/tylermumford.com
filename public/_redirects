@@ -1,0 +1,4 @@
+# Hugo would build the RSS feed at index.xml,
+# But Zola puts it at atom.xml.
+# Using a 302 until I can verify that this works.
+/index.xml /atom.xml 302

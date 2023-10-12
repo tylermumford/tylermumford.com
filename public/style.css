@@ -1,0 +1,210 @@
+/*
+
+The CSS is organized into layers, but not in a super-methodical
+way yet. Keeping it simple for now; easy to expand later.
+
+I need to write lots of comments in here, because sometimes
+I go for months or even years in between touching this
+part of the site.
+
+*/
+
+@layer base {
+    body {
+        color: #eee;
+
+        /* Mostly hidden, but helps with browsers that
+        do funny things. */
+        background-color: black;
+    }
+
+    faint-text {
+        color: #fff5;
+    }
+
+    main {
+        margin: 2rem;
+
+        /* Let the content scroll past the mountains:
+        without this, the mountains can obscure the bottom
+        of large posts. */
+        margin-bottom: 240px;
+    }
+
+    blockquote {
+        position: relative;
+    }
+
+    blockquote > *::before {
+        content: "“";
+        position: absolute;
+        left: -1.4ch;
+        font-weight: bold;
+        color: #eee5;
+    }
+
+    blockquote > :last-child::after {
+        content: "”";
+        margin-left: 0.4ch;
+        color: #eee5;
+        font-weight: bold;
+    }
+
+    h3 {
+        position: relative;
+    }
+
+    h3::before {
+        /* Show a little "h3" to the left */
+        content: "h3 ";
+        position: absolute;
+        left: -2.5ch;
+        bottom: 0;
+        font-size: small;
+        color: #eee5;
+    }
+
+    h4 {
+        position: relative;
+    }
+
+    h4::before {
+        /* Show a little "h3" to the left */
+        content: "h4 ";
+        position: absolute;
+        left: -2.5ch;
+        bottom: 0;
+        font-size: small;
+        color: #eee5;
+    }
+
+    a, a:visited {
+        /* Color based on the top of the mountain image, but brighter */
+        color: #EC7570;
+    }
+
+    hr {
+        border-style: none;
+        border-width: 3px;
+        border-top-style: solid;
+        border-color: #7774;
+        margin: var(--typo-unit) auto;
+    }
+
+    main p > img {
+        max-width: 100%;
+        border: dotted 1px white;
+    }
+
+    @media (min-width: 720px) {
+        body {
+            /* This is to center the <main> element horizontally */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        main {
+            max-width: 60ch;
+        }
+
+        side-by-side {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@layer typography {
+    :root {
+        --line-height: 1.4;
+        --base-font-size: 19px;
+        --typo-unit: calc(var(--line-height) * var(--base-font-size));
+    }
+
+    body {
+        font-family: system-ui, Helvetica, sans-serif;
+        font-size: var(--base-font-size);
+    }
+
+    /* Following some typography recommendations
+    from https://betterwebtype.com/articles/2018/10/15/rhythm-in-web-typography/ */
+    p {
+        margin: 0 auto var(--typo-unit);
+        letter-spacing: 0.1px;
+    }
+
+    p, li {
+        line-height: var(--typo-unit);
+    }
+}
+
+@layer components {
+    .sunset {
+        /* sizing */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+
+        /* styling */
+        background: linear-gradient(#111 10%, #404 85%, #813);
+    }
+
+    .mountains {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+
+        /* These keep the mountains roughly the same height
+        no matter what the screen width is. */
+        width: 240vw;
+        max-width: 880px;
+    }
+
+    @media (min-width: 880px) {
+        .mountains {
+            width: 100%;
+            max-width: unset;
+        }
+    }
+
+    .title-footer {
+        position: fixed;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 1.5rem;
+
+        font-family: Monaco, monospace;
+        font-size: x-large;
+        text-transform: lowercase;
+    }
+
+    .spacer-2 {
+        min-height: calc(2 * var(--typo-unit));
+    }
+}
+
+@layer overrides {
+    .no-wrap {
+        white-space: nowrap;
+    }
+
+    .visually-hidden:not(:focus):not(:active) {
+        /* https://benmyers.dev/blog/native-visually-hidden/ */
+        border: 0;
+        clip: rect(0 0 0 0); 
+        clip-path: inset(50%);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        white-space: nowrap; 
+        width: 1px;
+    }
+}
