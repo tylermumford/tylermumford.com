@@ -1,7 +1,6 @@
 +++
 title = "Slow Animations"
 date = "2023-10-11"
-draft = true
 +++
 
 ## Slow Animations for Focusing

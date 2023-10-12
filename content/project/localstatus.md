@@ -1,7 +1,6 @@
 +++
 title = "LocalStatus"
 date = "2023-08-02"
-draft = true
 +++
 
 ## LocalStatus: monitor your local dev environment
