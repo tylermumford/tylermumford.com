@@ -11,3 +11,4 @@ It's built with Zola.
 - Some posts are tagged, but I have stopped caring about tags.
 - I think of project pages as simply evergreen pages, dated
 with the project's approximate creation date.
+- Set a project's `extra.project_status` to "unliested" to hide it from lists.

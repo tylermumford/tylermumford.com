@@ -35,7 +35,14 @@
       <h3>Projects</h3>
       <ul>
       {% for project in project_section.pages %}
-        <li><a href={{project.permalink}}>{{project.title}}</a></li>
+      {% if project.extra.project_status is not defined or project.extra.project_status != "unlisted" %}
+        <li><a href={{project.permalink}}>
+          {{project.title}}
+          {% if project.extra.project_status is defined %}
+            ({{project.extra.project_status}})
+          {% endif %}
+        </a></li>
+      {% endif %}
       {% endfor %}
       </ul>
     </section>
