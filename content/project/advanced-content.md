@@ -4,6 +4,9 @@ Description = "Ongoing work to improve university website architecture"
 SourceCodeURL = ""
 Tags = ["Project", "SUU", "CMS"]
 date = "2016-07-15"
+
+[extra]
+project_status = "unlisted"
 +++
 
 ## Summary

@@ -5,6 +5,9 @@ date = "2016-05-01"
 title = "SUU to Everywhere"
 #SourceCodeURL = ""
 # Source code is private
+
+[extra]
+project_status = "unlisted"
 +++
 
 When the marketing department asked us to build a site for their newest campaign, "[SUU to Everywhere](https://www.suu.edu/everywhere/)," I implemented the CMS page types and the CSS for the site's design.

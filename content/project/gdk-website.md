@@ -4,6 +4,9 @@ title = "Casino Game Maker GDK"
 SourceCodeURL = "https://gitlab.com/cgm/gdk-website"
 Tags = ["Project", "PHP", "Web", "CodeIgniter"]
 Description = "Admin interface and file distribution platform"
+
+[extra]
+project_status = "unlisted"
 +++
 
 [Casino Game Maker](http://www.casinogamemaker.com/), a local startup, approached me to create a new website. The company had me develop the site online, so I believe it's public knowledge, but they never marketed the site and it is currently down. It involved large file distribution, multi-level managed user accounts, and online payments.

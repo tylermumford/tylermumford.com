@@ -4,6 +4,9 @@ date = "2014-11-22"
 title = "JuxtaPros"
 SourceCodeURL = "https://github.com/3Pros/juxtapros"
 Tags = ["Project", "Web"]
+
+[extra]
+project_status = "unlisted"
 +++
 
 Built during Southern Utah Code Camp 2014, JuxtaPros is a web app for quickly making lists of pros and cons. [Jacob Ward](http://jacobcward.com/) and I came up with the idea, and we actually tried to build it for Code Camp two years in a row. The first year, we built the front end but ran out of time before we could build the back end (it didn't help that neither of us had built a back end before).
