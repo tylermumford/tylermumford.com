@@ -11,7 +11,7 @@ check:
     just build
     zola check
 
-# Test common URLs for good responses
+# Test supported URLs for good responses
 test:
     #!/usr/bin/env zsh
     pip3 install --quiet --requirement ./tests/requirements.txt

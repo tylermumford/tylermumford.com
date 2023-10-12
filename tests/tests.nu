@@ -7,6 +7,9 @@
 # I intend for this to be a set of parameter-driven tests to make sure URLs still
 # function properly.
 
+# Note that for now, the Python test file
+# is the official source of truth, not this file.
+
 let prefix = "http://localhost:1111/"
 let paths = [
     "",
@@ -19,6 +22,7 @@ let paths = [
     "post/the-wrong-way-to-avoid-xml/",
     "project/potterscore/",
     "project/potterscore/index.html",
+    "project/localstatus/index.html",
     "post/space-trader-journal-2/",
     "images/savvie-1.png",
 ]
