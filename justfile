@@ -14,12 +14,15 @@ check:
 # Test supported URLs for good responses
 test:
     #!/usr/bin/env zsh
-    pip3 install --quiet --requirement ./tests/requirements.txt
+    set -euo pipefail
+    echo Setting up...
+    go build -o /dev/null tests/check_key_urls.go
     zola serve > /dev/null &
-    sleep 1
-    ./tests/tests.py
+    sleep 0.2s
+    echo Running tests...
+    go run tests/check_key_urls.go
     kill %1
-    sleep 1 # Not sure why, but kill totally fails unless this sleep is here.
+    sleep 0.2s # Not sure why, but kill totally fails unless this sleep is here.
     
 # Erase all built files in public/
 clean:
