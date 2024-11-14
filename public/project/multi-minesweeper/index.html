@@ -1,0 +1,71 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>Multi-Minesweeper • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>Multi-Minesweeper</h1>
+    <hr/>
+
+    <p>I enjoyed the Stock Market Game so much that I wanted to create another pandemic-friendly game people could play together over a voice/video call. On a whim, I decided to create a <a href="https://minesweeper.tylermumford.com">multiplayer version of minesweeper</a>.</p>
+<p>Of course, other people had done this before, but everything I found online involved players working together on the same area of mines. I wanted my version to feel more original, so I decided that players would work on different minefields, but their fields would be linked.</p>
+<hr />
+<p>Players can click to open a square, but they can't see the number below unless <strong>everyone else</strong>
+has <strong>also</strong> tried to open that square.</p>
+<hr />
+<p>I've playtested the game at least ten times, but it's only mildly enjoyable. Not as fun as regular minesweeper. Players seem to end up just solving their board at their own pace, without the need for much coordination. I think I need to rethink the core mechanics; the ideas need to evolve.</p>
+<p>Still, I've had a lot of fun making it. I've used <a href="//turbo.hotwire.dev">Turbo</a>, which has been really interesting and fun. (Needs better documentation, though.) This is also my most server-side side project to date—most of the things I build are front-end only.</p>
+<div class="spacer-2"></div>
+<p>At first, I made a version with Node, Mithril, and websockets. It was fine, but I decided to rewrite it with Go and Turbo. 🤷‍♂️ What can I say? I like trying cool tech on side projects.</p>
+<p>I also <em>might</em> come back to this project someday and rewrite it again. Clearly, I am insane. If I were to do it now, I'd reach for <a href="https://alpinejs.dev">Alpine.js</a>. Probably still Go on the backend, but maybe Deno.</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

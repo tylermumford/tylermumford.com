@@ -1,0 +1,74 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>On CSS Polyfills • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>On CSS Polyfills</h1>
+    <hr/>
+
+    <p>I want to respond to "<a href="https://philipwalton.com/articles/the-dark-side-of-polyfilling-css/">The Dark Side of Polyfilling CSS</a>" by Philip Walton. At the end of the article is this hashtag:</p>
+<blockquote>
+<p>#makecssfatigueathing</p>
+</blockquote>
+<p>I disagree completely. Putting aside the fact that the word "fatigue" has only negative connotations, CSS is already different enough between browsers. If a CSS snippet's meaning can be changed at will by JavaScript, then:</p>
+<ul>
+<li>There will be more code in the rendering pipeline, and therefore more bugs</li>
+<li>Scripts can change the meaning of <em>valid</em> CSS, interfering with the CSS author's expectations and intentions</li>
+<li>Browser vendors can justify ignoring niche new features because the JS community will already have an implementation</li>
+<li>More JS has to be included in the page (yes, less than a polyfill, but a nonzero amount nonetheless)</li>
+<li>Instead of being processed by compiled and (hopefully) well-tested code, CSS will have to rely on JS -- let that sink in.</li>
+</ul>
+<p>Where does it end?? I strongly believe in the separation of concerns, and in using the right tool for the job. At what point does an application just ignore HTML/CSS and run entirely in JavaScript? (Yes, I'm sure it's already being done.) You might as well ship a desktop app if you're just using the browser as an execution environment.</p>
+<p>The difficulty of polyfilling CSS should convince developers to write simple, backwards-compatible, and extensible CSS; not to make it more complicated.</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

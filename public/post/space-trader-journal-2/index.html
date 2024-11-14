@@ -1,0 +1,69 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>Space Trader Journal 2 • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>Space Trader Journal 2</h1>
+    <hr/>
+
+    <p>Here’s my current plan for the code of Space Trader Returns.
+Space Trader is written in C, and I want to rewrite it in Go. These two languages have fairly similar syntax, and I think Go can express all the same concepts as C (and then some). So I’m converting the source files, mostly by hand.</p>
+<p>I’d love to design the perfect architecture for this before writing a single line of code, and I’d love to rewrite everything from scratch rather than tweaking C source code. But that would be the wrong approach, I think.</p>
+<p>Everything I’ve learned about software development tells me that initial designs are always, to some degree, eventually, wrong. Always. The only way to have the right code is to iterate and refactor it along the way. It’s like moulding clay—you start with a rough shape and gradually refine it until you get it right.</p>
+<p>I’ve already started converting a few of the original source files, and it’s not too difficult. Sublime Text’s multiple cursors and macros save me from most of the tedium. The trickiest thing so far is that the original code used function-like macros, which don’t specify data types, but Go requires specified types, and it doesn’t support generics. Feel free to mock Go for its most widely criticized shortcoming if you wish. I’m not concerned about this being a problem.</p>
+<p>I’m currently handling these function-like macros by just using a specific type, like <code>int</code>, in a normal Go function. If I run into cases where I need a more generic approach, I can add new versions of the functions or do some type switching acrobatics. It might not be pretty, but it’ll be isolated to just a few parts of the codebase.</p>
+<p>Non-function <code>#define</code> statements are easy to convert, because Go constants don’t require specified types. Structs are also pretty straightforward. Type aliases have allowed me to quickly define convenient shortcuts from C-named types like <code>long</code> and <code>Boolean</code>.</p>
+<p>Anyway, for the moment, I’m just focusing on syntax correctness. Along the way, I’m watching the attempted build output and making sure things don’t get too out of hand. There are some undefined external functions that I’ll have to handle at some point, but I’ll worry about that once I have syntactically correct Go files.</p>
+<p>Aside: gofmt really ought to handle braces being anywhere instead of throwing an error. It’s silly that I have to format a file correctly before the formatting tool will finish the job.</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>Advanced Content Management • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>Advanced Content Management</h1>
+    <hr/>
+
+    <h2 id="summary">Summary</h2>
+<p>To simplify the creation of complicated page layouts, I developed a new "Advanced Page" content type in our CMS. Advanced pages have automatic support for custom row-and-column layouts and pluggable, reusable, structured component blocks.</p>
+<p>{{&lt; figure src="/images/advanced-3.png" link="/images/advanced-3.png" caption="Advanced page multi-column demo screenshot" &gt;}}</p>
+<h2 id="background">Background</h2>
+<p>I work in the wonderful Web Services department of my university. I love my job, but our entire department has fewer than five employees supporting the entire university website: almost <strong>3,000</strong> pages and hundreds of faculty and staff. Most of them contact us with updates, and a few make their own changes in the CMS.</p>
+<p>Our site uses Bootstrap's grid system, and many of our pages require custom multi-column layouts. Unfortunately, our CMS's WYSIWYG editor doesn't support multi-column layouts except via hand-coded HTML. This meant that Web Services had to be involved whenever someone needed a change to these pages, and we had to be careful not to <strong>break the layout</strong> when adding or removing columns.</p>
+<h2 id="solution">Solution</h2>
+<p>When summer started, I spent a few weeks learning how our CMS could be customized. I developed a <strong>new page rendering system</strong> (using Apache Velocity, if you're curious) that had built-in support for multi-row and multi-column layouts. At the same time, I added support for <strong>reusable</strong> blocks of WYSIWYG content. These blocks are structured and their WYSYWIG interface can be customized.</p>
+<p>{{&lt; figure src="/images/advanced-1.png" caption="Advanced page editing interface" link="/images/advanced-1.png" &gt;}}
+{{&lt; figure src="/images/advanced-2.png" caption="Reusable accordion component's editing interface" link="/images/advanced-2.png" &gt;}}</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

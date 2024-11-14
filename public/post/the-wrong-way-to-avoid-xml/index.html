@@ -1,0 +1,110 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>Microsoft&#x27;s XML Misstep • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>Microsoft&#x27;s XML Misstep</h1>
+    <hr/>
+
+    <p>(This post was originally titled "The Wrong Way to Avoid XML.")</p>
+<p>I'm a newcomer to Visual Studio, and at work, I use it to develop projects
+written in both .NET Framework and newer .NET versions. Occasionally, when I
+want to edit or view a <code>.csproj</code> file, Visual Studio will open a GUI instead.</p>
+<p>This is absolutely <em>maddening</em> for me.</p>
+<p>For a while, this had me thinking that Visual Studio was foolishly designed
+around its own features instead of being focused on my files. I believed that
+this was the opposite of what a text editor should be about. (I still believe
+that.) I wrote <a href="https://www.reddit.com/r/csharp/comments/yxq6tt/comment/iwqx5b6/?utm_source=share&amp;utm_medium=web2x&amp;context=3">this comment on Reddit</a> about it, which sparked my
+motivation to write this blog post. The original title was "Editors vs IDEs."</p>
+<p>Now, I'm starting to see that it's not Visual Studio per se, it's Microsoft and
+the age of XML.</p>
+<h2 id="the-original-approach">The original approach</h2>
+<p>For many years, XML was widely used for configuration, serialization, and
+content markup. It's a versatile format, but it's overly verbose. Developers in
+general hate working with XML; they want to avoid it.</p>
+<p>Disclaimer: I'm pretty young. I wasn't a professional developer
+during XML's heyday, and I might not have this context right. This is based on
+my impressions from reading a <em>lot</em> of Internet content and programming blogs.</p>
+<p><strong>It seems to me that Microsoft's approach to managing the flood of XML was to
+abstract it away with GUI tools.</strong> IIS Manager and Visual Studio developed lots
+of wizards and features to let developers configure things without touching the
+XML by hand.</p>
+<p>So you have XML files for server configuration, app configuration, project
+configuration, and probably others that I'm forgetting, but you're not supposed
+to actually touch them. You're supposed to let the GUI do the work.</p>
+<h2 id="bzzt-problems">Bzzt, problems</h2>
+<p>There are two problems with this approach. The first problem is that it didn't
+match the approach of the open source ecosystem. The web developed languages
+like JSON and YAML and TOML, which are all designed to be <em>both</em> human-friendly
+and machine-friendly (except YAML).</p>
+<p>Instead of hiding XML, programmers abandoned it. By force.</p>
+<p>The second problem is that when you put everything in GUIs and wizards, you lose
+the most powerful advantage of software: after-the-fact automation. Gluing
+separate components together through interoperability. Tinkering.</p>
+<h2 id="microsoft-s-turnaround">Microsoft's turnaround</h2>
+<p>Microsoft realized this and developed .NET Core and Visual Studio Code. They
+steered their entire ecosystem towards the same goals of other open source
+ecosystems: embracing the advantages of the command line and using
+human-friendly configuration files.</p>
+<p>Visual Studio still provides excellent productivity benefits when working with
+C# projects (especially large ones). The IDE is still valuable. But it's no
+longer the only way to work. You can use a text editor and <code>dotnet</code> if you want,
+and Microsoft provides well-written documentation to support that.</p>
+<p>I'm really glad for this turnaround, because my mental model of sofware
+development is one of files and commands. If I were trying to use a GUI, but I
+couldn't get a basic idea of the shell commands and file operations it were
+performing under the hood, it would be frustrating for me.</p>
+<p>And now if you use Visual Studio in this new .NET world, it lets you edit the
+freaking project files.</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

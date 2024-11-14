@@ -1,0 +1,115 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>Code Expressiveness Tests • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>Code Expressiveness Tests</h1>
+    <hr/>
+
+    <!-- When I'm editing this file, :set textwidth=90 -->
+<p>When writing a project with unit tests, I find it helpful to write a few tests that are
+more about what the code <em>expresses</em>, rather than what it <em>does</em>.</p>
+<p>I thought of the concept and the name when writing code for a chess game (side project,
+private repo). I wanted to write some unit tests that got me started with some class
+names, method names, and high-level concepts in the code.</p>
+<p>For example:</p>
+<pre data-lang="cs" class="language-cs "><code class="language-cs" data-lang="cs">[Fact]
+public void CanExpressPositionsAsStrings()
+{
+    var a1 = new Position(&quot;a1&quot;);
+    var e4 = (Position)&quot;e4&quot;;
+}
+</code></pre>
+<p>There are no assertions in this test, and that's intentional. This is all about
+the two ways to create a <code>Position</code> object from a string. Do they compile? Do they "read"
+well?</p>
+<p>I want this code to be in a test, because it's fundamental to many other parts of the
+code. But for this case, I don't care about the <code>Position</code> objects themselves at all.
+The behavior can and will be covered in later tests.</p>
+<p>These "code expressiveness tests," as I like to call them, have several advantages:</p>
+<ul>
+<li>They are some of the easiest tests to write</li>
+<li>They can be written at any point in the project's lifecycle</li>
+<li>They provide a helpful overview of how to use the classes and methods under test</li>
+</ul>
+<p>Here are some more examples I like.</p>
+<pre data-lang="cs" class="language-cs "><code class="language-cs" data-lang="cs">[Fact]
+public void CanEnumerateAllPositions()
+{
+    foreach (var position in Position.All)
+    {
+        &#x2F;&#x2F; Hello, there.
+    }
+}
+</code></pre>
+<pre data-lang="cs" class="language-cs "><code class="language-cs" data-lang="cs">[Fact]
+public void GameCanExpressMoveLegality()
+{
+    var b = new Board();
+    var move = b.GetMove(fromPosition: &quot;a2&quot;, toPosition: &quot;a4&quot;);
+
+    bool _ = move.IsLegal();
+}
+</code></pre>
+<p>I've searched for this concept to see if it's been written about before. I've tried
+"code expressiveness tests," "non-assertion tests," and "first unit tests." Nothing
+I've found quite captures this idea. If you know of it already, please send me a link,
+perhaps on Mastodon.</p>
+<p>One relevant page I do want to point out is <a href="https://stackoverflow.com/questions/137399/unit-testing-without-assertions">Unit Testing Without Assertions</a>. The
+consensus there seems to be that tests should always assert something--but if they don't,
+they should document the reason. I believe that organizing these code expressiveness tests
+together and naming them as such sufficiently documents the intent. Demonstrating syntax
+and usage is reason enough for these tests. Adding assertions to these tests would make
+them more complex and more cluttered.</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

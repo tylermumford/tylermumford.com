@@ -1,0 +1,104 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>Static Site Hosting, Briefly • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>Static Site Hosting, Briefly</h1>
+    <hr/>
+
+    <p>Lately, I've been launching more and more static sites.
+At first, I thought that I would always be happy using GitHub Pages,
+but it turns out, I was not.</p>
+<p>So I've been exploring other static website hosting providers.
+Allow me to share my first impressions with each of them.</p>
+<p>This will be brief, and in no particular order.</p>
+<h2 id="github-pages">GitHub Pages</h2>
+<ul>
+<li>Easy to start with.</li>
+<li>No redirects.
+Very limited flexibility, unless you use GitHub Actions.</li>
+</ul>
+<h2 id="netlify">Netlify</h2>
+<ul>
+<li>Very flexible. Good CLI.</li>
+<li>I had weird issues with CDN caching or something.</li>
+</ul>
+<h2 id="render">Render</h2>
+<ul>
+<li>Seems good so far.</li>
+<li>I've only been using it for a day.</li>
+</ul>
+<h2 id="cloudflare-pages">Cloudflare Pages</h2>
+<ul>
+<li>Pretty dang nice. Maybe I should use it more?</li>
+<li>A lot of people seem to hate Cloudflare?</li>
+</ul>
+<h2 id="neocities">Neocities</h2>
+<ul>
+<li>Nice and simple. Good mission, good cause.</li>
+<li>With no Git integration and a slow CLI I had to <code>sudo</code> install,
+it's not very automation-friendly.</li>
+</ul>
+<h2 id="digitalocean">DigitalOcean</h2>
+<ul>
+<li>Full-featured cloud platform, but static sites are still pretty easy.</li>
+<li>Three static sites for free,
+then a per-site monthly charge for any more.</li>
+</ul>
+<h2 id="surge-sh">Surge.sh</h2>
+<ul>
+<li>Used to be great, and it's still online,
+but it seems like its been unmaintained for years.</li>
+</ul>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

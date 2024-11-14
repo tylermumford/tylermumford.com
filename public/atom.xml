@@ -1,0 +1,1128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Tyler Mumford</title>
+    <link rel="self" type="application/atom+xml" href="https://tylermumford.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://tylermumford.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-10-11T00:00:00+00:00</updated>
+    <id>https://tylermumford.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Slow Animations</title>
+        <published>2023-10-11T00:00:00+00:00</published>
+        <updated>2023-10-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/slow-animations/"/>
+        <id>https://tylermumford.com/project/slow-animations/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/slow-animations/">&lt;h2 id=&quot;slow-animations-for-focusing&quot;&gt;Slow Animations for Focusing&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;slowanimations.com&quot;&gt;https:&#x2F;&#x2F;slowanimations.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A collection of slow, undistracting animations
+that you can use for focusing or other -ings.&lt;&#x2F;p&gt;
+&lt;p&gt;When I created this project, I had two main purposes:
+to make money (eventually),
+and to learn how to create animations.&lt;&#x2F;p&gt;
+&lt;p&gt;So far, I&#x27;m accomplishing the second purpose.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Static Site Hosting, Briefly</title>
+        <published>2023-08-05T14:14:09.976859-06:00</published>
+        <updated>2023-08-05T14:14:09.976859-06:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/static-site-hosting-briefly/"/>
+        <id>https://tylermumford.com/post/static-site-hosting-briefly/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/static-site-hosting-briefly/">&lt;p&gt;Lately, I&#x27;ve been launching more and more static sites.
+At first, I thought that I would always be happy using GitHub Pages,
+but it turns out, I was not.&lt;&#x2F;p&gt;
+&lt;p&gt;So I&#x27;ve been exploring other static website hosting providers.
+Allow me to share my first impressions with each of them.&lt;&#x2F;p&gt;
+&lt;p&gt;This will be brief, and in no particular order.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;github-pages&quot;&gt;GitHub Pages&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Easy to start with.&lt;&#x2F;li&gt;
+&lt;li&gt;No redirects.
+Very limited flexibility, unless you use GitHub Actions.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;netlify&quot;&gt;Netlify&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Very flexible. Good CLI.&lt;&#x2F;li&gt;
+&lt;li&gt;I had weird issues with CDN caching or something.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;render&quot;&gt;Render&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Seems good so far.&lt;&#x2F;li&gt;
+&lt;li&gt;I&#x27;ve only been using it for a day.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;cloudflare-pages&quot;&gt;Cloudflare Pages&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Pretty dang nice. Maybe I should use it more?&lt;&#x2F;li&gt;
+&lt;li&gt;A lot of people seem to hate Cloudflare?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;neocities&quot;&gt;Neocities&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Nice and simple. Good mission, good cause.&lt;&#x2F;li&gt;
+&lt;li&gt;With no Git integration and a slow CLI I had to &lt;code&gt;sudo&lt;&#x2F;code&gt; install,
+it&#x27;s not very automation-friendly.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;digitalocean&quot;&gt;DigitalOcean&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Full-featured cloud platform, but static sites are still pretty easy.&lt;&#x2F;li&gt;
+&lt;li&gt;Three static sites for free,
+then a per-site monthly charge for any more.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;surge-sh&quot;&gt;Surge.sh&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Used to be great, and it&#x27;s still online,
+but it seems like its been unmaintained for years.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Maybe Try Firefox For These Awesome Features</title>
+        <published>2023-08-03T01:21:22.505059-06:00</published>
+        <updated>2023-08-03T01:21:22.505059-06:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/maybe-try-firefox-for-these-awesome-features/"/>
+        <id>https://tylermumford.com/post/maybe-try-firefox-for-these-awesome-features/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/maybe-try-firefox-for-these-awesome-features/">&lt;p&gt;I use Firefox as my main browser,
+especially on desktops.
+I rely on many of its features,
+and I also really don&#x27;t want to use Chrome
+or a Chromium-based browser.&lt;&#x2F;p&gt;
+&lt;p&gt;Google has been marketing Chrome for years and years,
+and it&#x27;s becoming a problem.
+The web is supposed to be an open platform,
+&lt;strong&gt;not controlled by any one company or government.&lt;&#x2F;strong&gt;
+But because the majority of people use Chrome,
+Google has a &lt;a href=&quot;https:&#x2F;&#x2F;gs.statcounter.com&#x2F;&quot;&gt;huge amount of power over the web&lt;&#x2F;a&gt;.
+They use that power to
+try to thwart ad blocking and
+track people&#x27;s online activity.&lt;&#x2F;p&gt;
+&lt;p&gt;But there are some great features in Firefox
+that I want more people to know about.
+Maybe these will convince you to leave Chrome,
+at least for a day or two?&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jump to links on the page&lt;&#x2F;li&gt;
+&lt;li&gt;Container tabs&lt;&#x2F;li&gt;
+&lt;li&gt;Reader view&lt;&#x2F;li&gt;
+&lt;li&gt;Creating browser themes&lt;&#x2F;li&gt;
+&lt;li&gt;Tab dropdown menu&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;jump-to-links-on-the-page&quot;&gt;Jump to links on the page&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;m going to start right away with my favorite feature.
+Hit the &lt;code&gt;&#x27;&lt;&#x2F;code&gt; (apostrophe) key on any webpage
+to open up a search box at the bottom of Firefox.&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;firefox-link-search.png&quot; alt=&quot;Screenshot of the link search feature in action. The search text is &amp;quot;stock&amp;quot;, and it found a link to a &amp;quot;stock market game.&amp;quot;&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s a search box for links on the current page.
+Type part of the text of a link,
+and it&#x27;ll be highlighted instantly.
+Press enter to follow the link!
+Press Cmd+G and Cmd+Shift+G to select the next or previous matching link.&lt;&#x2F;p&gt;
+&lt;p&gt;This is a dream come true for people who enjoy using the keyboard.
+Instead of trying to hunt for
+a tiny About link in the footer or a hidden Pricing link,
+you can quickly find them with this search feature.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;container-tabs&quot;&gt;Container tabs&lt;&#x2F;h2&gt;
+&lt;p&gt;When I asked people on the Fediverse what their favorite Firefox features were,
+several of them responded with the &lt;a href=&quot;https:&#x2F;&#x2F;addons.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;addon&#x2F;multi-account-containers&#x2F;&quot;&gt;container tabs feature&lt;&#x2F;a&gt;. (An extension.)&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;firefox-containers.png&quot; alt=&quot;Screenshot of two browser tabs, each marked with a different color because they are running in different containers. Also, a menu is open to choose a container for a new tab. The containers are named Personal, Work, Banking, and Shopping.&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;Have you ever wanted to be logged into the same website
+with two different accounts at the same time?
+Container tabs let you do this and more.
+For example, you could log into Discord
+with two different accounts in two different tabs.
+Unlike with private browsing mode, they&#x27;ll both stay logged in.&lt;&#x2F;p&gt;
+&lt;p&gt;The container tabs feature also lets you isolate websites
+like Facebook, or Amazon, or Google into their own containers automatically,
+so your logged-in sessions on those websites
+can&#x27;t track what you do on other sites.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Under the hood, it separates website storage into tab-specific Containers.
+Cookies downloaded by one Container are not available to other Containers.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;You can define your own containers and get really fancy with it,
+or just use a Work container to stay signed in to your work accounts.
+It&#x27;s a really powerful system.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;reader-view&quot;&gt;Reader view&lt;&#x2F;h2&gt;
+&lt;p&gt;The next big feature Firefox has is reader view.
+This is designed to work on webpages that look like articles.
+When you activate reader view, Firefox finds just the title and text of the article you&#x27;re trying to read
+and displays it to you without any clutter, advertisements, or pop-ups.&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;firefox-reader-view.png&quot; alt=&quot;Screenshot of Firefox&amp;#x27;s reader view displaying this very article!&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;In reader view, you can read as you please.
+Change the font size, change the line spacing, switch to dark mode,
+or even have a computer voice read the article to you.&lt;&#x2F;p&gt;
+&lt;p&gt;Chrome used to have this feature — but, of course, since Google makes money from ads,
+Google &lt;a href=&quot;https:&#x2F;&#x2F;www.howtogeek.com&#x2F;895596&#x2F;google-chromes-reader-mode-has-been-quietly-removed&#x2F;&quot;&gt;did not let it last for long&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;creating-browser-themes&quot;&gt;Creating browser themes&lt;&#x2F;h2&gt;
+&lt;p&gt;The next one is simple yet fantastic. Have you heard of &lt;a href=&quot;https:&#x2F;&#x2F;color.firefox.com&#x2F;&quot;&gt;Firefox Color&lt;&#x2F;a&gt;?&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;firefox-color.png&quot; alt=&quot;Screenshot of the Firefox Color website, which shows many preset color themes.&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s a website and browser extension that let you create your own Firefox color theme.
+Choose a preset, or choose some colors and patterns, and bam,
+it&#x27;s applied instantly.&lt;&#x2F;p&gt;
+&lt;p&gt;The process is so quick, you could change your colors daily if you wanted.
+Sometimes I pick seasonal colors. Right now, I&#x27;m rocking a light pink. It&#x27;s fun!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;tab-dropdown-menu&quot;&gt;Tab dropdown menu&lt;&#x2F;h2&gt;
+&lt;p&gt;The last feature is the humble tab dropdown.&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;firefox-tab-dropdown.png&quot; alt=&quot;Screenshot of six browser tabs. The tab bar is full, but the tab dropdown shows the full titles of each tab clearly.&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;p&gt;I know lots of power users like to have a vertical list of tabs,
+and this isn&#x27;t that. But... it&#x27;s close.
+It&#x27;s a vertical list inside a menu,
+and you can see more of the tab titles
+and their close buttons.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s simple, and I don&#x27;t use it every day, but when I do, I&#x27;m always happy to have it.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;it-s-really-quite-nice&quot;&gt;It&#x27;s really quite nice&lt;&#x2F;h2&gt;
+&lt;p&gt;Firefox has all the key features that I expect from a web browser:
+syncing bookmarks and tabs, privacy controls, and good extensions.
+And it&#x27;s fast, reliable, and free.&lt;&#x2F;p&gt;
+&lt;p&gt;These features I&#x27;ve highlighted are really nice, too.
+If you&#x27;re still using Chrome, why?
+(That&#x27;s a rhetorical prompt for you to search your feelings, not to actually @ me.)&lt;&#x2F;p&gt;
+&lt;p&gt;I remember when Chrome was released.
+My computer was running Windows XP,
+and I eagerly downloaded Chrome to try it out while it was still in beta.
+It was super fast, it had a fresh new look, and it just worked way better than
+Internet Explorer, Firefox, and Safari.
+I started using it and telling everybody about it.&lt;&#x2F;p&gt;
+&lt;p&gt;But that was over a decade ago.
+Internet Explorer is gone, Firefox is fantastic, and Safari is smooth.
+Every browser is fast now.
+Chrome&#x27;s advantage has evaporated.&lt;&#x2F;p&gt;
+&lt;p&gt;Switch to &lt;a href=&quot;https:&#x2F;&#x2F;www.mozilla.org&#x2F;en-US&#x2F;firefox&#x2F;&quot;&gt;Firefox&lt;&#x2F;a&gt;. Don&#x27;t let the web turn into a monopoly.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LocalStatus</title>
+        <published>2023-08-02T00:00:00+00:00</published>
+        <updated>2023-08-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/localstatus/"/>
+        <id>https://tylermumford.com/project/localstatus/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/localstatus/">&lt;h2 id=&quot;localstatus-monitor-your-local-dev-environment&quot;&gt;LocalStatus: monitor your local dev environment&lt;&#x2F;h2&gt;
+&lt;p&gt;This might sound familiar:
+you&#x27;re coding, tweaking, and developing your application, when suddenly, some part of it stops working.
+You undo some changes, check Git, and restart the service, but it&#x27;s still broken.
+After hours of trying to find the problem, you realize that
+you forgot to run the latest migrations on your local database, so it was missing a new table.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tylermumford&#x2F;localstatus&quot;&gt;LocalStatus&lt;&#x2F;a&gt; helps prevent delays like this.
+It&#x27;s like an automated checklist for your local dev environment.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;dev-environments-are-finicky-these-days&quot;&gt;Dev environments are finicky these days&lt;&#x2F;h2&gt;
+&lt;p&gt;I&#x27;ve worked on projects where you have to create two or three
+little files in the repository that &lt;em&gt;shouldn&#x27;t&lt;&#x2F;em&gt; be checked in,
+so it was up to devs to maintain their own copies.
+It&#x27;s easy to forget them if they get deleted or if the repo gets re-cloned.&lt;&#x2F;p&gt;
+&lt;p&gt;Other projects require VPN connections, remote databases, or other services to be running.
+It&#x27;s easy to forget to start all of those things when your computer reboots.
+(And the IT department&#x27;s software makes my computer reboot &lt;em&gt;a lot&lt;&#x2F;em&gt;.)&lt;&#x2F;p&gt;
+&lt;p&gt;And then there&#x27;s the ultimate example of statefulness: the database.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does it have the latest migrations applied?&lt;&#x2F;li&gt;
+&lt;li&gt;Does it have starter data like the admin user or the feature flags?&lt;&#x2F;li&gt;
+&lt;li&gt;Is it running?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;LocalStatus can check all of these things for you
+and give you a bird&#x27;s-eye-view.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;i-believe-in-working-offline&quot;&gt;I believe in working offline&lt;&#x2F;h2&gt;
+&lt;p&gt;The Internet is a mixed bag. It&#x27;s great, but also terrible.
+Without docs and web searches and StackOverflow, I&#x27;d be a whole lot less effective.
+But without YouTube and Mastodon, I&#x27;d be a whole lot &lt;em&gt;more&lt;&#x2F;em&gt; effective.
+Sometimes, the best way to focus is to disconnect.&lt;&#x2F;p&gt;
+&lt;p&gt;I believe that being able to work offline is important.
+For starters, we &lt;em&gt;have to be offline&lt;&#x2F;em&gt; sometimes.
+No Internet connection is 100% reliable.
+But also, being able to work offline is supremely empowering.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;(I have a silly little dream of writing code in cool locations.
+On mountaintops, on beaches, under the stars, on a boat.
+It&#x27;s trivial, but I think it&#x27;d be cool to have a code comment say something like,
+&quot;this feature was developed on Pike&#x27;s Peak.&quot;)&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;When you can work offline, you can work anywhere.
+You can choose to go beyond Wi-Fi and beyond cell reception.
+You can work in places that are inspiring, useful, or just a change of pace,
+without worrying about their Wi-Fi speed or your mobile data usage.&lt;&#x2F;p&gt;
+&lt;p&gt;And you can turn off distractions. All of them.
+If you&#x27;re on a team, you can set your chat status to &quot;working offline for a few hours&quot; and turn off the Wi-Fi.
+Turning off notifications can prevent interruptions,
+but turning off Wi-Fi can prevent self-inflicted web distractions.
+When you get bored, do you have a habit of hitting Cmd-T and typing &quot;you&quot; into the address bar and hitting Enter?
+I know I do.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;works-online-too&quot;&gt;Works online, too&lt;&#x2F;h2&gt;
+&lt;p&gt;Opinions aside, LocalStatus helps when you&#x27;re online, too.
+One of my favorite features is how it monitors the &lt;code&gt;main&lt;&#x2F;code&gt; branch
+while I&#x27;m working on a feature branch,
+and it lets me know if there are new commits to merge&#x2F;rebase into my feature branch.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tylermumford&#x2F;localstatus&quot;&gt;LocalStatus&lt;&#x2F;a&gt; is in the early stages, but it&#x27;s got some good features. I use it constantly.
+If you&#x27;re feeling adventurous, give it a try.
+And if you&#x27;re just interested to see where the project goes,
+star or watch the repository. I&#x27;m excited to keep working on it.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Buckle Your RSS Seatbelts</title>
+        <published>2023-04-01T20:03:00-06:00</published>
+        <updated>2023-04-01T20:03:00-06:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/buckle-your-rss-seatbelts/"/>
+        <id>https://tylermumford.com/post/buckle-your-rss-seatbelts/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/buckle-your-rss-seatbelts/">&lt;p&gt;Hey, the site is now generated with &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt; instead of Hugo. I&#x27;ve done some tests,
+and I don&#x27;t think the RSS feed will get messed up, but if it does, please bear with me. 🙏&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Considering Web Analytics</title>
+        <published>2023-02-12T22:19:20-07:00</published>
+        <updated>2023-02-12T22:19:20-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/considering-web-analytics/"/>
+        <id>https://tylermumford.com/post/considering-web-analytics/</id>
+        
+        <summary type="html">&lt;p&gt;&lt;em&gt;Update: I have added GoatCounter analytics to the site. See the &quot;fine print&quot; section on the homepage.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I have a bit of a dilemma. On one hand, I dislike detailed tracking on the web; I think it&#x27;s intrusive and dumb. And I don&#x27;t need it for my sites, anyway. I&#x27;m not growing businesses.&lt;&#x2F;p&gt;
+&lt;p&gt;But I also really like external validation, so I want to have some way of knowing when people check out my websites. So I&#x27;m trying to find a way to balance these two things.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Microsoft&#x27;s XML Misstep</title>
+        <published>2023-01-31T01:46:00-07:00</published>
+        <updated>2023-01-31T01:46:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/the-wrong-way-to-avoid-xml/"/>
+        <id>https://tylermumford.com/post/the-wrong-way-to-avoid-xml/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/the-wrong-way-to-avoid-xml/">&lt;p&gt;(This post was originally titled &quot;The Wrong Way to Avoid XML.&quot;)&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m a newcomer to Visual Studio, and at work, I use it to develop projects
+written in both .NET Framework and newer .NET versions. Occasionally, when I
+want to edit or view a &lt;code&gt;.csproj&lt;&#x2F;code&gt; file, Visual Studio will open a GUI instead.&lt;&#x2F;p&gt;
+&lt;p&gt;This is absolutely &lt;em&gt;maddening&lt;&#x2F;em&gt; for me.&lt;&#x2F;p&gt;
+&lt;p&gt;For a while, this had me thinking that Visual Studio was foolishly designed
+around its own features instead of being focused on my files. I believed that
+this was the opposite of what a text editor should be about. (I still believe
+that.) I wrote &lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;csharp&#x2F;comments&#x2F;yxq6tt&#x2F;comment&#x2F;iwqx5b6&#x2F;?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;this comment on Reddit&lt;&#x2F;a&gt; about it, which sparked my
+motivation to write this blog post. The original title was &quot;Editors vs IDEs.&quot;&lt;&#x2F;p&gt;
+&lt;p&gt;Now, I&#x27;m starting to see that it&#x27;s not Visual Studio per se, it&#x27;s Microsoft and
+the age of XML.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-original-approach&quot;&gt;The original approach&lt;&#x2F;h2&gt;
+&lt;p&gt;For many years, XML was widely used for configuration, serialization, and
+content markup. It&#x27;s a versatile format, but it&#x27;s overly verbose. Developers in
+general hate working with XML; they want to avoid it.&lt;&#x2F;p&gt;
+&lt;p&gt;Disclaimer: I&#x27;m pretty young. I wasn&#x27;t a professional developer
+during XML&#x27;s heyday, and I might not have this context right. This is based on
+my impressions from reading a &lt;em&gt;lot&lt;&#x2F;em&gt; of Internet content and programming blogs.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;It seems to me that Microsoft&#x27;s approach to managing the flood of XML was to
+abstract it away with GUI tools.&lt;&#x2F;strong&gt; IIS Manager and Visual Studio developed lots
+of wizards and features to let developers configure things without touching the
+XML by hand.&lt;&#x2F;p&gt;
+&lt;p&gt;So you have XML files for server configuration, app configuration, project
+configuration, and probably others that I&#x27;m forgetting, but you&#x27;re not supposed
+to actually touch them. You&#x27;re supposed to let the GUI do the work.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;bzzt-problems&quot;&gt;Bzzt, problems&lt;&#x2F;h2&gt;
+&lt;p&gt;There are two problems with this approach. The first problem is that it didn&#x27;t
+match the approach of the open source ecosystem. The web developed languages
+like JSON and YAML and TOML, which are all designed to be &lt;em&gt;both&lt;&#x2F;em&gt; human-friendly
+and machine-friendly (except YAML).&lt;&#x2F;p&gt;
+&lt;p&gt;Instead of hiding XML, programmers abandoned it. By force.&lt;&#x2F;p&gt;
+&lt;p&gt;The second problem is that when you put everything in GUIs and wizards, you lose
+the most powerful advantage of software: after-the-fact automation. Gluing
+separate components together through interoperability. Tinkering.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;microsoft-s-turnaround&quot;&gt;Microsoft&#x27;s turnaround&lt;&#x2F;h2&gt;
+&lt;p&gt;Microsoft realized this and developed .NET Core and Visual Studio Code. They
+steered their entire ecosystem towards the same goals of other open source
+ecosystems: embracing the advantages of the command line and using
+human-friendly configuration files.&lt;&#x2F;p&gt;
+&lt;p&gt;Visual Studio still provides excellent productivity benefits when working with
+C# projects (especially large ones). The IDE is still valuable. But it&#x27;s no
+longer the only way to work. You can use a text editor and &lt;code&gt;dotnet&lt;&#x2F;code&gt; if you want,
+and Microsoft provides well-written documentation to support that.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m really glad for this turnaround, because my mental model of sofware
+development is one of files and commands. If I were trying to use a GUI, but I
+couldn&#x27;t get a basic idea of the shell commands and file operations it were
+performing under the hood, it would be frustrating for me.&lt;&#x2F;p&gt;
+&lt;p&gt;And now if you use Visual Studio in this new .NET world, it lets you edit the
+freaking project files.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Code Expressiveness Tests</title>
+        <published>2023-01-11T20:48:00-07:00</published>
+        <updated>2023-01-11T20:48:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/expressiveness-tests/"/>
+        <id>https://tylermumford.com/post/expressiveness-tests/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/expressiveness-tests/">&lt;!-- When I&#x27;m editing this file, :set textwidth=90 --&gt;
+&lt;p&gt;When writing a project with unit tests, I find it helpful to write a few tests that are
+more about what the code &lt;em&gt;expresses&lt;&#x2F;em&gt;, rather than what it &lt;em&gt;does&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;I thought of the concept and the name when writing code for a chess game (side project,
+private repo). I wanted to write some unit tests that got me started with some class
+names, method names, and high-level concepts in the code.&lt;&#x2F;p&gt;
+&lt;p&gt;For example:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;cs&quot; class=&quot;language-cs &quot;&gt;&lt;code class=&quot;language-cs&quot; data-lang=&quot;cs&quot;&gt;[Fact]
+public void CanExpressPositionsAsStrings()
+{
+    var a1 = new Position(&amp;quot;a1&amp;quot;);
+    var e4 = (Position)&amp;quot;e4&amp;quot;;
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;There are no assertions in this test, and that&#x27;s intentional. This is all about
+the two ways to create a &lt;code&gt;Position&lt;&#x2F;code&gt; object from a string. Do they compile? Do they &quot;read&quot;
+well?&lt;&#x2F;p&gt;
+&lt;p&gt;I want this code to be in a test, because it&#x27;s fundamental to many other parts of the
+code. But for this case, I don&#x27;t care about the &lt;code&gt;Position&lt;&#x2F;code&gt; objects themselves at all.
+The behavior can and will be covered in later tests.&lt;&#x2F;p&gt;
+&lt;p&gt;These &quot;code expressiveness tests,&quot; as I like to call them, have several advantages:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;They are some of the easiest tests to write&lt;&#x2F;li&gt;
+&lt;li&gt;They can be written at any point in the project&#x27;s lifecycle&lt;&#x2F;li&gt;
+&lt;li&gt;They provide a helpful overview of how to use the classes and methods under test&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Here are some more examples I like.&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;cs&quot; class=&quot;language-cs &quot;&gt;&lt;code class=&quot;language-cs&quot; data-lang=&quot;cs&quot;&gt;[Fact]
+public void CanEnumerateAllPositions()
+{
+    foreach (var position in Position.All)
+    {
+        &amp;#x2F;&amp;#x2F; Hello, there.
+    }
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;pre data-lang=&quot;cs&quot; class=&quot;language-cs &quot;&gt;&lt;code class=&quot;language-cs&quot; data-lang=&quot;cs&quot;&gt;[Fact]
+public void GameCanExpressMoveLegality()
+{
+    var b = new Board();
+    var move = b.GetMove(fromPosition: &amp;quot;a2&amp;quot;, toPosition: &amp;quot;a4&amp;quot;);
+
+    bool _ = move.IsLegal();
+}
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;I&#x27;ve searched for this concept to see if it&#x27;s been written about before. I&#x27;ve tried
+&quot;code expressiveness tests,&quot; &quot;non-assertion tests,&quot; and &quot;first unit tests.&quot; Nothing
+I&#x27;ve found quite captures this idea. If you know of it already, please send me a link,
+perhaps on Mastodon.&lt;&#x2F;p&gt;
+&lt;p&gt;One relevant page I do want to point out is &lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;137399&#x2F;unit-testing-without-assertions&quot;&gt;Unit Testing Without Assertions&lt;&#x2F;a&gt;. The
+consensus there seems to be that tests should always assert something--but if they don&#x27;t,
+they should document the reason. I believe that organizing these code expressiveness tests
+together and naming them as such sufficiently documents the intent. Demonstrating syntax
+and usage is reason enough for these tests. Adding assertions to these tests would make
+them more complex and more cluttered.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Advent of Code 2022</title>
+        <published>2022-12-31T13:32:00-07:00</published>
+        <updated>2022-12-31T13:32:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/advent-of-code-2022/"/>
+        <id>https://tylermumford.com/post/advent-of-code-2022/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/advent-of-code-2022/">&lt;p&gt;This year, I discovered Advent of Code, and it&#x27;s been a ton of fun! I want to write about
+my experience with the puzzles. While this has the potential to mostly be me rambling on,
+I&#x27;ll try to make it interesting.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m not trying to speed through these puzzles or even solve them the night they come out.
+I work on most of them days after they&#x27;re released.&lt;&#x2F;p&gt;
+&lt;p&gt;So far, I&#x27;ve used Go, Lua, C#, and Python. I&#x27;ve written about each one below.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-did-i-learn-about-advent-of-code&quot;&gt;How did I learn about Advent of Code?&lt;&#x2F;h3&gt;
+&lt;p&gt;I was browsing the old posts of tonsky.me, and I read this article: &lt;a href=&quot;https:&#x2F;&#x2F;tonsky.me&#x2F;blog&#x2F;slow-wrong&#x2F;&quot;&gt;It is fast or it is
+wrong&lt;&#x2F;a&gt;. Bam, right at the top, Advent of Code (AoC). I
+decided to check it out.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;general-impressions-of-aoc&quot;&gt;General impressions of AoC&lt;&#x2F;h3&gt;
+&lt;p&gt;I really enjoy the playful stories. They may seem silly to others, but I think they make
+each problem more interesting and more fun. (I have three small kids; I see more silly,
+illogical nonsense in a day than all of AoC&#x27;s stories put together.)&lt;&#x2F;p&gt;
+&lt;p&gt;For me, the puzzles definitely started easy and got harder. I solved the first few days&#x27;
+puzzles pretty easily, but since day 5 or 6, puzzles are taking me several hours to
+solve each puzzle. This seems to match with what the creator of AoC intended.&lt;&#x2F;p&gt;
+&lt;p&gt;I haven&#x27;t done many other programming puzzles&#x2F;competions. Just a handful, including one in
+person. AoC seems more focused on providing puzzles that are interesting on their own,
+rather than puzzles that are merely interesting because they are difficult. I really
+appreciate this.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;multiple-languages&quot;&gt;Multiple languages&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;go&quot;&gt;Go&lt;&#x2F;h4&gt;
+&lt;p&gt;I solved the first five puzzles in Go, which is generally my favorite language. Go is
+pretty well suited to those puzzles, in my opinion. I took advantage of easy unit testing,
+the built-in JSON library, and the ability to easily split up code into multiple files
+without complicated importing rules.&lt;&#x2F;p&gt;
+&lt;p&gt;(This deserves another blog post, but I find that Go isn&#x27;t very well suited to creating
+&quot;small abstractions.&quot; In C#, I would just write a class to encapsulate some concepts. In
+Go, I feel like I have to write a whole package to get that same enforced encapsulation.)&lt;&#x2F;p&gt;
+&lt;p&gt;(I thought I would like the type aliasing feature as a way to avoid Primitive Obsession.
+For example, writing &lt;code&gt;type move string&lt;&#x2F;code&gt; to keep track of which &lt;code&gt;string&lt;&#x2F;code&gt; values were
+actually rock-paper-scissors &lt;code&gt;move&lt;&#x2F;code&gt; values. But it turns out the compiler can only infer
+so many &quot;levels&quot; of this indirection, so suddenly I encountered problems such as being
+unable to pass a &lt;code&gt;[][]move&lt;&#x2F;code&gt; where a &lt;code&gt;[][]string&lt;&#x2F;code&gt; was expected. So in practice, this feature
+was more annoying than helpful.)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;lua&quot;&gt;Lua&lt;&#x2F;h4&gt;
+&lt;p&gt;Then I decided to learn Lua for the first time, so I solved days six and seven in Lua.&lt;&#x2F;p&gt;
+&lt;p&gt;Lua is interesting. It&#x27;s fast, and the language itself is simple. Huh, I guess it&#x27;s quite
+similar to Go in that respect. The one-based tables and functions threw me off sometimes,
+but they are actually a perfect fit for some AoC problems!&lt;&#x2F;p&gt;
+&lt;p&gt;Looking back and reading these programs now, they&#x27;re still pretty easy to understand.
+There isn&#x27;t much code. The language is flexible and expressive enough to write concise,
+readable code. I could definitely improve my code, though, by getting a better
+understanding of unit testing, tables, and splitting Lua code into multiple files. Still,
+it was fun for AoC, and I&#x27;m very happy to have it in my toolbelt now.&lt;&#x2F;p&gt;
+&lt;p&gt;(LuaRocks was also super easy to use. I downloaded a profiler tool and used it to find a
+problem with my day 7 solution.)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;c&quot;&gt;C#&lt;&#x2F;h4&gt;
+&lt;p&gt;Because C# is my primary language at work, I didn&#x27;t reach for it until day 10. Day 10 is
+still the only puzzle I&#x27;ve solved with C#.&lt;&#x2F;p&gt;
+&lt;p&gt;I used a mix of Visual Studio for Mac and VS Code. I feel like VS for Mac is a good
+product, and it works well, but I simply tend to prefer editors to IDEs. VS Code is a good
+option for macOS C# development.&lt;&#x2F;p&gt;
+&lt;p&gt;With both VS and VS Code, however, I noticed that my laptop&#x27;s battery was running out
+&lt;em&gt;much&lt;&#x2F;em&gt; more quickly than when I was working with Go or Lua. But take this with a grain of
+salt, because this is totally subjective, and I don&#x27;t have any numbers to back it up. It
+was clear enough to me, though. I switched to using other languages and Neovim to save
+battery power, and I&#x27;ve noticed that my laptop lasts longer. (2015 MacBook Pro--kind of
+old these days.)&lt;&#x2F;p&gt;
+&lt;p&gt;One of my biggest pet peeves with C#, compared to Go, is the unit testing story. (This is
+from the perspective of text editors and the command line, not as much with IDEs like VS.)
+When I want to create unit tests with XUnit, I need to &lt;code&gt;dotnet new&lt;&#x2F;code&gt; a whole new project,
+either in a sub-directory or a sibling directory of the main code under test. If it&#x27;s a
+sub-directory, I need to manually make sure all its files are ignored from the &quot;real&quot;
+project&#x27;s compilation. If it&#x27;s in a sibling directory, I usually end up needing to shuffle
+files around and add project references and a solution and... it&#x27;s just so much paperwork.&lt;&#x2F;p&gt;
+&lt;p&gt;With Go, I just create a &lt;code&gt;_test.go&lt;&#x2F;code&gt; file in the same package, same directory, as my code
+under test. It&#x27;s so much simpler. I suspect this stems from my mental model of &quot;files and
+commands&quot; and how that clashes with the more-common-in-C#-land mental model of &quot;IDE
+features and projects.&quot;&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;python&quot;&gt;Python&lt;&#x2F;h4&gt;
+&lt;p&gt;Python is fun! I&#x27;ve used it for small projects here and there over the years, but it&#x27;s
+never been one of my main languages. I&#x27;m glad I chose to try it again for AoC. I&#x27;ve done
+puzzles for days 8, 9, 11, and 25 so far.&lt;&#x2F;p&gt;
+&lt;p&gt;I feel like the list comprehension syntax was always so hard for me to remember before.
+Now that I&#x27;m more experienced (and probably paying more attention), it makes perfect
+sense. I enjoy writing list comprehensions to express a concept in a single line.&lt;&#x2F;p&gt;
+&lt;p&gt;The dependency management story is... something I still don&#x27;t love about Python. &lt;code&gt;venv&lt;&#x2F;code&gt;
+might be simple for simple projects, but it seems like there&#x27;s a big missing set of
+solutions between &lt;code&gt;venv&lt;&#x2F;code&gt; and Docker. And... am I missing something, or could this be super
+simple? &quot;Make the Python interpreter automatically look for a virtual env, and use it if
+it&#x27;s there, whenever running a Python file.&quot; Is it more complicated than that? Why do I
+have to &quot;activate&quot; environments? Node and Go don&#x27;t make me do that.&lt;&#x2F;p&gt;
+&lt;p&gt;Also, when using Python, I have to add an import statement at the top of each file when I
+want to use something defined in a sibling file. I find this kind of annoying, coming from
+Go. Am I missing something? It is very explicit and clear, which matches what I&#x27;ve seen in
+other choices Python makes.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;&#x2F;h3&gt;
+&lt;p&gt;Advent of Code 2022 has been a lot of fun for me. I only have about 21 stars so far, but I
+plan to get a few more here and there. Oh, and the subreddit has been fun, too.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;ve enjoyed using the puzzles as practice for learning Lua. I might also try some other
+languages, like Haskell or Ruby or Clojure. I&#x27;d also like to try doing some
+visualizations, though that&#x27;s an area where I have very little experience.&lt;&#x2F;p&gt;
+&lt;p&gt;Happy coding, and Happy New Year! ⭐️&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Touching Up the Site</title>
+        <published>2021-05-16T10:52:44-06:00</published>
+        <updated>2021-05-16T10:52:44-06:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/touching-up-the-site/"/>
+        <id>https://tylermumford.com/post/touching-up-the-site/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/touching-up-the-site/">&lt;p&gt;It&#x27;s been a few years since I updated this site, and now I want to update it again.
+I&#x27;ve tweaked the theme to be primarily dark, I&#x27;ll add some links to recent projects,
+and I&#x27;ll backdate some new posts to kind of make this a &quot;journal&quot; of my experience
+with software development.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Contacting Me</title>
+        <published>2021-05-14T02:31:00-07:00</published>
+        <updated>2021-05-14T02:31:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/page/contact/"/>
+        <id>https://tylermumford.com/page/contact/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/page/contact/">&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tylermumford&quot;&gt;GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;me&quot; href=&quot;https:&#x2F;&#x2F;mas.to&#x2F;@tylermumford&quot;&gt;Mastodon&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;If you&#x27;re here, hello. I just hope you have a great day, and I hope you find something useful
+or amusing on my site.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Potterscore</title>
+        <published>2021-05-07T00:00:00+00:00</published>
+        <updated>2021-05-07T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/potterscore/"/>
+        <id>https://tylermumford.com/project/potterscore/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/potterscore/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;potterscore.tylermumford.com&quot;&gt;Potterscore&lt;&#x2F;a&gt; is a simple but &lt;strong&gt;pretty&lt;&#x2F;strong&gt; score-keeping tool. It is designed to be used at an in-person Harry Potter-themed party, with House Points nicely displayed on a large screen.&lt;&#x2F;p&gt;
+&lt;p&gt;I didn&#x27;t create the graphics; my sister did. She&#x27;s great!&lt;&#x2F;p&gt;
+&lt;p&gt;As long as it&#x27;s free for me to host (and it is, because it&#x27;s a static site), you can see it and use it as much as you like.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;potterscore.tylermumford.com&quot;&gt;potterscore.tylermumford.com&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tylermumford&#x2F;potterscore&quot;&gt;source code&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Multi-Minesweeper</title>
+        <published>2021-02-27T00:00:00+00:00</published>
+        <updated>2021-02-27T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/multi-minesweeper/"/>
+        <id>https://tylermumford.com/project/multi-minesweeper/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/multi-minesweeper/">&lt;p&gt;I enjoyed the Stock Market Game so much that I wanted to create another pandemic-friendly game people could play together over a voice&#x2F;video call. On a whim, I decided to create a &lt;a href=&quot;https:&#x2F;&#x2F;minesweeper.tylermumford.com&quot;&gt;multiplayer version of minesweeper&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Of course, other people had done this before, but everything I found online involved players working together on the same area of mines. I wanted my version to feel more original, so I decided that players would work on different minefields, but their fields would be linked.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;Players can click to open a square, but they can&#x27;t see the number below unless &lt;strong&gt;everyone else&lt;&#x2F;strong&gt;
+has &lt;strong&gt;also&lt;&#x2F;strong&gt; tried to open that square.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;I&#x27;ve playtested the game at least ten times, but it&#x27;s only mildly enjoyable. Not as fun as regular minesweeper. Players seem to end up just solving their board at their own pace, without the need for much coordination. I think I need to rethink the core mechanics; the ideas need to evolve.&lt;&#x2F;p&gt;
+&lt;p&gt;Still, I&#x27;ve had a lot of fun making it. I&#x27;ve used &lt;a href=&quot;&#x2F;&#x2F;turbo.hotwire.dev&quot;&gt;Turbo&lt;&#x2F;a&gt;, which has been really interesting and fun. (Needs better documentation, though.) This is also my most server-side side project to date—most of the things I build are front-end only.&lt;&#x2F;p&gt;
+&lt;div class=&quot;spacer-2&quot;&gt;&lt;&#x2F;div&gt;
+&lt;p&gt;At first, I made a version with Node, Mithril, and websockets. It was fine, but I decided to rewrite it with Go and Turbo. 🤷‍♂️ What can I say? I like trying cool tech on side projects.&lt;&#x2F;p&gt;
+&lt;p&gt;I also &lt;em&gt;might&lt;&#x2F;em&gt; come back to this project someday and rewrite it again. Clearly, I am insane. If I were to do it now, I&#x27;d reach for &lt;a href=&quot;https:&#x2F;&#x2F;alpinejs.dev&quot;&gt;Alpine.js&lt;&#x2F;a&gt;. Probably still Go on the backend, but maybe Deno.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Stock Market Game</title>
+        <published>2020-10-01T00:00:00+00:00</published>
+        <updated>2020-10-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/stock-market-game/"/>
+        <id>https://tylermumford.com/project/stock-market-game/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/stock-market-game/">&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;stocks.tylermumford.com&quot;&gt;https:&#x2F;&#x2F;stocks.tylermumford.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I learned about the &quot;stock market game&quot; from my brother-in-law during the pandemic. We originally
+played it with the help of a spreadsheet, and it was a lot of fun. I decided to make a dedicated
+web app for playing the game.&lt;&#x2F;p&gt;
+&lt;p&gt;(It&#x27;s not really about the stock market, but &quot;stock market game&quot; is what we&#x27;ve always called it.)&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s a single page app with no backend, so it&#x27;s just about tracking game state in memory. It&#x27;s
+intended to be played either in person, or over something like Zoom—one player can share their
+screen so everyone can see the game and the scores.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s proven itself to be fun, and I&#x27;ve shared it with other family members.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Space Trader Journal 2</title>
+        <published>2017-10-31T15:35:00-07:00</published>
+        <updated>2017-10-31T15:35:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/space-trader-journal-2/"/>
+        <id>https://tylermumford.com/post/space-trader-journal-2/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/space-trader-journal-2/">&lt;p&gt;Here’s my current plan for the code of Space Trader Returns.
+Space Trader is written in C, and I want to rewrite it in Go. These two languages have fairly similar syntax, and I think Go can express all the same concepts as C (and then some). So I’m converting the source files, mostly by hand.&lt;&#x2F;p&gt;
+&lt;p&gt;I’d love to design the perfect architecture for this before writing a single line of code, and I’d love to rewrite everything from scratch rather than tweaking C source code. But that would be the wrong approach, I think.&lt;&#x2F;p&gt;
+&lt;p&gt;Everything I’ve learned about software development tells me that initial designs are always, to some degree, eventually, wrong. Always. The only way to have the right code is to iterate and refactor it along the way. It’s like moulding clay—you start with a rough shape and gradually refine it until you get it right.&lt;&#x2F;p&gt;
+&lt;p&gt;I’ve already started converting a few of the original source files, and it’s not too difficult. Sublime Text’s multiple cursors and macros save me from most of the tedium. The trickiest thing so far is that the original code used function-like macros, which don’t specify data types, but Go requires specified types, and it doesn’t support generics. Feel free to mock Go for its most widely criticized shortcoming if you wish. I’m not concerned about this being a problem.&lt;&#x2F;p&gt;
+&lt;p&gt;I’m currently handling these function-like macros by just using a specific type, like &lt;code&gt;int&lt;&#x2F;code&gt;, in a normal Go function. If I run into cases where I need a more generic approach, I can add new versions of the functions or do some type switching acrobatics. It might not be pretty, but it’ll be isolated to just a few parts of the codebase.&lt;&#x2F;p&gt;
+&lt;p&gt;Non-function &lt;code&gt;#define&lt;&#x2F;code&gt; statements are easy to convert, because Go constants don’t require specified types. Structs are also pretty straightforward. Type aliases have allowed me to quickly define convenient shortcuts from C-named types like &lt;code&gt;long&lt;&#x2F;code&gt; and &lt;code&gt;Boolean&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, for the moment, I’m just focusing on syntax correctness. Along the way, I’m watching the attempted build output and making sure things don’t get too out of hand. There are some undefined external functions that I’ll have to handle at some point, but I’ll worry about that once I have syntactically correct Go files.&lt;&#x2F;p&gt;
+&lt;p&gt;Aside: gofmt really ought to handle braces being anywhere instead of throwing an error. It’s silly that I have to format a file correctly before the formatting tool will finish the job.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Space Trader Journal 1</title>
+        <published>2017-10-30T16:16:00-07:00</published>
+        <updated>2017-10-30T16:16:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/space-trader-journal-1/"/>
+        <id>https://tylermumford.com/post/space-trader-journal-1/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/space-trader-journal-1/">&lt;p&gt;A long time ago, in a galaxy far, far away, there was a game called &lt;a href=&quot;http:&#x2F;&#x2F;spronck.net&#x2F;spacetrader&#x2F;STFrames.html&quot;&gt;Space Trader&lt;&#x2F;a&gt;. Since smartphones hadn’t been invented yet, it ran on Palm devices. I was perhaps twelve years old at the time, and I loved to play this game. I spent weeks trading goods, fleeing from pirates and police, and trying to earn enough money to retire to my own moon.&lt;&#x2F;p&gt;
+&lt;p&gt;Like most software of days past, Space Trader has been all but forgotten. Palm OS is history, so the original code can&#x27;t run on modern devices. Luckily, Pieter Spronck, the game’s creator, released it as open source software. There is hope for this game to return.&lt;&#x2F;p&gt;
+&lt;p&gt;To some degree, it has returned. Space Trader has already been ported or remade for Windows, Android, and even iOS. Unfortunately, all of the iOS ports appear to have been removed from the US App Store, and that&#x27;s the platform on which I want to play Space Trader.&lt;&#x2F;p&gt;
+&lt;p&gt;Plus, most of the ports I&#x27;ve seen are using the same UI and graphics as the original game. While I respect the desire for nostalgia, the great job Pieter Spronck did, and the simplicity of a direct port, I think we can do better. I think the UI can be improved.&lt;&#x2F;p&gt;
+&lt;p&gt;My goals are straightforward:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make the best version of Space Trader for iOS. This means using UIKit* or another native framework.&lt;&#x2F;li&gt;
+&lt;li&gt;Use Go. I really like language, and I think it provides a good way to write fast code that can be used on multiple platforms.&lt;&#x2F;li&gt;
+&lt;li&gt;Have fun. This is a personal project, so I’m going to do it my way.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Inspired by Brent Simmons, I’ll be writing about the process periodically. While the code is open source, I’m only looking for feedback right now—not pull requests.&lt;&#x2F;p&gt;
+&lt;p&gt;I don’t even know if anyone wants to play Space Trader these days, but I know I want to remake it.&lt;&#x2F;p&gt;
+&lt;p&gt;* It may sound crazy to make a game in UIKit, but Space Trader was a game of menus and dialogs, not scenes and controls.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Using Go</title>
+        <published>2017-08-01T23:58:00-07:00</published>
+        <updated>2017-08-01T23:58:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/using-go/"/>
+        <id>https://tylermumford.com/post/using-go/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/using-go/">&lt;p&gt;I chose to learn Go during my Programming Languages course in college, when we were told to find a new language to learn. I was tired of the chaos of JavaScript and PHP, and I was drawn to the idea of non-OO, statically typed code without manual memory management. While I haven&#x27;t built anything professional-grade with Go yet, I have used it to begin building two sites (one of which works! ;), and I love it.&lt;&#x2F;p&gt;
+&lt;p&gt;Even though I don&#x27;t have a lot of experience with Go, I feel confident in my ability to use the language well. And even though I haven&#x27;t finished these side projects, I do finish the work I get paid for.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;what-i-ve-done&quot;&gt;What I&#x27;ve Done&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Meal Picker (not working)&lt;br &#x2F;&gt;
+This is a tiny project I started to help my wife and I choose what to eat. It was some of the first Go code I wrote, and I tried to do it without depending on a database, so it stores data in CSV files. When I pick it up again, I think I want to use &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;boltdb&#x2F;bolt&quot;&gt;Bolt&lt;&#x2F;a&gt; instead.&lt;&#x2F;li&gt;
+&lt;li&gt;SAVvie (working, but not finished)&lt;br &#x2F;&gt;
+This was a group project that I made with fellow students. We each wanted to use a different language, so it&#x27;s not an example of how I&#x27;d structure a production service! But I did do a (to my mind) substantial amount of work in Go, and the site&#x27;s basic functionality is usable.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;what-i-still-want-to-do&quot;&gt;What I Still Want to Do&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Work on a large Go codebase&lt;br &#x2F;&gt;
+Go is so easy to read and work with. I&#x27;m looking forward to the day when I can really use this language in a big project.&lt;&#x2F;li&gt;
+&lt;li&gt;Port Space Trader to Go&lt;br &#x2F;&gt;
+Back in the day, I used to absolutely love playing the game &lt;a href=&quot;https:&#x2F;&#x2F;www.spronck.net&#x2F;spacetrader&#x2F;STNoFrames.html&quot;&gt;Space Trader&lt;&#x2F;a&gt; on my Palm Pilot. I want to bring it back with modern ports for some combination of desktop, web, and mobile, and I think I want to do it in Go.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>On CSS Polyfills</title>
+        <published>2016-12-23T15:41:54-07:00</published>
+        <updated>2016-12-23T15:41:54-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/on-css-polyfills/"/>
+        <id>https://tylermumford.com/post/on-css-polyfills/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/on-css-polyfills/">&lt;p&gt;I want to respond to &quot;&lt;a href=&quot;https:&#x2F;&#x2F;philipwalton.com&#x2F;articles&#x2F;the-dark-side-of-polyfilling-css&#x2F;&quot;&gt;The Dark Side of Polyfilling CSS&lt;&#x2F;a&gt;&quot; by Philip Walton. At the end of the article is this hashtag:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;#makecssfatigueathing&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;I disagree completely. Putting aside the fact that the word &quot;fatigue&quot; has only negative connotations, CSS is already different enough between browsers. If a CSS snippet&#x27;s meaning can be changed at will by JavaScript, then:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;There will be more code in the rendering pipeline, and therefore more bugs&lt;&#x2F;li&gt;
+&lt;li&gt;Scripts can change the meaning of &lt;em&gt;valid&lt;&#x2F;em&gt; CSS, interfering with the CSS author&#x27;s expectations and intentions&lt;&#x2F;li&gt;
+&lt;li&gt;Browser vendors can justify ignoring niche new features because the JS community will already have an implementation&lt;&#x2F;li&gt;
+&lt;li&gt;More JS has to be included in the page (yes, less than a polyfill, but a nonzero amount nonetheless)&lt;&#x2F;li&gt;
+&lt;li&gt;Instead of being processed by compiled and (hopefully) well-tested code, CSS will have to rely on JS -- let that sink in.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Where does it end?? I strongly believe in the separation of concerns, and in using the right tool for the job. At what point does an application just ignore HTML&#x2F;CSS and run entirely in JavaScript? (Yes, I&#x27;m sure it&#x27;s already being done.) You might as well ship a desktop app if you&#x27;re just using the browser as an execution environment.&lt;&#x2F;p&gt;
+&lt;p&gt;The difficulty of polyfilling CSS should convince developers to write simple, backwards-compatible, and extensible CSS; not to make it more complicated.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>This Website!</title>
+        <published>2016-12-22T12:27:47-07:00</published>
+        <updated>2016-12-22T12:27:47-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/this-site/"/>
+        <id>https://tylermumford.com/project/this-site/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/this-site/">&lt;p&gt;This is a simple website. It&#x27;s all about Markdown and HTML.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gen-3-mountain-snow&quot;&gt;Gen 3 🏔️&lt;&#x2F;h2&gt;
+&lt;p&gt;The site is currently using the &lt;strong&gt;Zola&lt;&#x2F;strong&gt; static site generator to put everything together. The HTML and CSS are written by me. I&#x27;m really pleased with the look and feel. I&#x27;ve learned a lot about web development in the last five years.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not using a web font anymore&lt;&#x2F;li&gt;
+&lt;li&gt;Not using JavaScript (yet)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The web font I was using before was nice, but eventually I realized that I was letting Google &quot;see&quot; every page load on my site. I hope it&#x27;s not doing as much tracking as Google Analytics, but I still don&#x27;t want it anywhere near my digital life right now.&lt;&#x2F;p&gt;
+&lt;p&gt;This site doesn&#x27;t need JavaScript yet. I have a grand total of &lt;strong&gt;twelve posts&lt;&#x2F;strong&gt; right now. If I ever decide to add comments, search, or analytics, then there will be a bit of JS.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;&#x2F;&#x2F; TODO: Write a blog post about the new design &amp;amp; implementation&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gen-2&quot;&gt;Gen 2 ❇️&lt;&#x2F;h2&gt;
+&lt;p&gt;I decided to migrate the website to &lt;strong&gt;Hugo&lt;&#x2F;strong&gt; for better cross-platform testing support. Hugo was easy to get running, but the customization system took a couple hours to fully understand.&lt;&#x2F;p&gt;
+&lt;p&gt;The theme was a slightly modified version of Hyde using the Merriweather font for the title. The Markdown parser automatically uses typographically correct quotes, and Hugo shortcodes help create a consistent visual appearance.&lt;&#x2F;p&gt;
+&lt;p&gt;(But Hugo is &lt;em&gt;complicated&lt;&#x2F;em&gt;. Eventually, I got tired of using someone else&#x27;s theme and the feeling that I couldn&#x27;t modify &lt;em&gt;all&lt;&#x2F;em&gt; of the site&#x27;s HTML and CSS.)&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;gen-1-golf&quot;&gt;Gen 1 ⛳️&lt;&#x2F;h2&gt;
+&lt;p&gt;Originally built with &lt;strong&gt;Jekyll&lt;&#x2F;strong&gt; and a fully custom theme. This was back in... wow, 2013 (&lt;a href=&quot;https:&#x2F;&#x2F;tylermumford.com&#x2F;post&#x2F;inaugural-entry&#x2F;&quot;&gt;first post, cringe&lt;&#x2F;a&gt;). I guess I&#x27;ve had a website for ten years now.&lt;&#x2F;p&gt;
+&lt;p&gt;Apparently, I originally called the site &quot;Mindful Code.&quot; I thought I needed a &quot;company name&quot; or something. Seems silly, in retrospect, but I guess I was a silly teenager.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SAVvie</title>
+        <published>2016-11-11T00:00:00+00:00</published>
+        <updated>2016-11-11T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/savvie/"/>
+        <id>https://tylermumford.com/project/savvie/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/savvie/">&lt;p&gt;Prounounced like &quot;savvy,&quot; the name SAVvie comes from our initial prototype name, &quot;Social Argument Voting,&quot; and the verb &quot;vie,&quot; which means to compete. We imagined it to be an online implementation of Robert&#x27;s Rules of Order --- a place suitable for online debate and &lt;strong&gt;group decision-making&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a &lt;strong&gt;team leader&lt;&#x2F;strong&gt; for the four student developers who created the app: &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;ktrinanm&quot;&gt;Katrina Mehring&lt;&#x2F;a&gt;, Nick Rossi, &lt;a href=&quot;http:&#x2F;&#x2F;jacobcward.com&#x2F;&quot;&gt;Jacob Ward&lt;&#x2F;a&gt;, and myself. After the hackathon, I continued to work on SAVvie with Katrina.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;screenshots&quot;&gt;Screenshots:&lt;&#x2F;h2&gt;
+&lt;p&gt;{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;savvie-1.png&quot; alt=&quot;List of all arguments on the site including their voting scores&quot; link=&quot;&#x2F;images&#x2F;savvie-1.png&quot; &amp;gt;}}&lt;&#x2F;p&gt;
+&lt;p&gt;{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;savvie-2.png&quot; alt=&quot;Detail page for a single argument, including voting buttons and comments&quot; link=&quot;&#x2F;images&#x2F;savvie-2.png&quot; &amp;gt;}}&lt;&#x2F;p&gt;
+&lt;p&gt;{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;savvie-3.png&quot; alt=&quot;Login page with an error message&quot; link=&quot;&#x2F;images&#x2F;savvie-3.png&quot; &amp;gt;}}&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;architecture-and-stack&quot;&gt;Architecture and stack:&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;MVC pattern&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Vagrant&lt;&#x2F;strong&gt; dev environments&lt;&#x2F;li&gt;
+&lt;li&gt;Controller: Go&#x27;s standard &lt;strong&gt;net&#x2F;http&lt;&#x2F;strong&gt; package&lt;&#x2F;li&gt;
+&lt;li&gt;Views: Go&#x27;s standard html&#x2F;template package&lt;&#x2F;li&gt;
+&lt;li&gt;Models:
+&lt;ul&gt;
+&lt;li&gt;C# CLI for persisting arguments and votes to filesystem&lt;&#x2F;li&gt;
+&lt;li&gt;Go packages for persisting users and comments to filesystem&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;No browser JavaScript yet&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Advanced Content Management</title>
+        <published>2016-07-15T00:00:00+00:00</published>
+        <updated>2016-07-15T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/advanced-content/"/>
+        <id>https://tylermumford.com/project/advanced-content/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/advanced-content/">&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h2&gt;
+&lt;p&gt;To simplify the creation of complicated page layouts, I developed a new &quot;Advanced Page&quot; content type in our CMS. Advanced pages have automatic support for custom row-and-column layouts and pluggable, reusable, structured component blocks.&lt;&#x2F;p&gt;
+&lt;p&gt;{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;advanced-3.png&quot; link=&quot;&#x2F;images&#x2F;advanced-3.png&quot; caption=&quot;Advanced page multi-column demo screenshot&quot; &amp;gt;}}&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;&#x2F;h2&gt;
+&lt;p&gt;I work in the wonderful Web Services department of my university. I love my job, but our entire department has fewer than five employees supporting the entire university website: almost &lt;strong&gt;3,000&lt;&#x2F;strong&gt; pages and hundreds of faculty and staff. Most of them contact us with updates, and a few make their own changes in the CMS.&lt;&#x2F;p&gt;
+&lt;p&gt;Our site uses Bootstrap&#x27;s grid system, and many of our pages require custom multi-column layouts. Unfortunately, our CMS&#x27;s WYSIWYG editor doesn&#x27;t support multi-column layouts except via hand-coded HTML. This meant that Web Services had to be involved whenever someone needed a change to these pages, and we had to be careful not to &lt;strong&gt;break the layout&lt;&#x2F;strong&gt; when adding or removing columns.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;solution&quot;&gt;Solution&lt;&#x2F;h2&gt;
+&lt;p&gt;When summer started, I spent a few weeks learning how our CMS could be customized. I developed a &lt;strong&gt;new page rendering system&lt;&#x2F;strong&gt; (using Apache Velocity, if you&#x27;re curious) that had built-in support for multi-row and multi-column layouts. At the same time, I added support for &lt;strong&gt;reusable&lt;&#x2F;strong&gt; blocks of WYSIWYG content. These blocks are structured and their WYSYWIG interface can be customized.&lt;&#x2F;p&gt;
+&lt;p&gt;{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;advanced-1.png&quot; caption=&quot;Advanced page editing interface&quot; link=&quot;&#x2F;images&#x2F;advanced-1.png&quot; &amp;gt;}}
+{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;advanced-2.png&quot; caption=&quot;Reusable accordion component&#x27;s editing interface&quot; link=&quot;&#x2F;images&#x2F;advanced-2.png&quot; &amp;gt;}}&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SUU to Everywhere</title>
+        <published>2016-05-01T00:00:00+00:00</published>
+        <updated>2016-05-01T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/suu-to-everywhere/"/>
+        <id>https://tylermumford.com/project/suu-to-everywhere/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/suu-to-everywhere/">&lt;p&gt;When the marketing department asked us to build a site for their newest campaign, &quot;&lt;a href=&quot;https:&#x2F;&#x2F;www.suu.edu&#x2F;everywhere&#x2F;&quot;&gt;SUU to Everywhere&lt;&#x2F;a&gt;,&quot; I implemented the CMS page types and the CSS for the site&#x27;s design.&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;everywhere-thumb.png&quot; alt=&quot;SUU to Everywhere front page&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;At the time, our site didn&#x27;t really have anything like this. A coworker and I planned a way for the new code to be &lt;strong&gt;reusable&lt;&#x2F;strong&gt; in other areas (specifically the university news). We made structured page types for the stories so Marketing could easily create and edit the stories. We used &lt;a href=&quot;http:&#x2F;&#x2F;masonry.desandro.com&#x2F;&quot;&gt;Masonry&lt;&#x2F;a&gt; to keep the lower section of images flexible and visually interesting, and I used &lt;strong&gt;flexbox&lt;&#x2F;strong&gt; to ensure the top three images would be responsive regardless of aspect ratios.&lt;&#x2F;p&gt;
+&lt;p&gt;
+    &lt;img src=&quot;&amp;#x2F;images&amp;#x2F;everywhere-editing.png&quot; alt=&quot;WYSIWYG interface for editing a story in the CMS&quot; loading=&quot;lazy&quot;&gt;
+&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Falling Spikes</title>
+        <published>2016-04-28T00:00:00+00:00</published>
+        <updated>2016-04-28T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/falling-spikes/"/>
+        <id>https://tylermumford.com/project/falling-spikes/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/falling-spikes/">&lt;p&gt;January 2016 -- July 2016&lt;&#x2F;p&gt;
+&lt;p&gt;Falling Spikes is an iPhone game based on an idea by Scott Chapman. The player controls a bouncing ball by moving it left and right to avoid randomly falling spikes. Scott and I wanted to develop and publish this game for iOS devices with the hopes of making semi-passive income. His field is business, and mine is programming. The game took about 90 hours to create.&lt;&#x2F;p&gt;
+&lt;p&gt;The game is currently in the process of being submitted to the App Store.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Screenshot: {{&amp;lt; figure src=&quot;&#x2F;images&#x2F;falling-spikes-gameplay.png&quot; alt=&quot;Gameplay screenshot&quot; &amp;gt;}}&lt;&#x2F;li&gt;
+&lt;li&gt;Short demo video: {{&amp;lt; youtube HyvMz-MD4wA &amp;gt;}}&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tylermumford&#x2F;falling-spikes&quot;&gt;Source code on GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Casino Game Maker GDK</title>
+        <published>2015-08-20T00:00:00+00:00</published>
+        <updated>2015-08-20T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/gdk-website/"/>
+        <id>https://tylermumford.com/project/gdk-website/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/gdk-website/">&lt;p&gt;&lt;a href=&quot;http:&#x2F;&#x2F;www.casinogamemaker.com&#x2F;&quot;&gt;Casino Game Maker&lt;&#x2F;a&gt;, a local startup, approached me to create a new website. The company had me develop the site online, so I believe it&#x27;s public knowledge, but they never marketed the site and it is currently down. It involved large file distribution, multi-level managed user accounts, and online payments.&lt;&#x2F;p&gt;
+&lt;p&gt;The site had two parts: the majority of it was built using CodeIgniter, an older PHP framework that was easy to use and nice to work with. I built several public-facing pages as well as an admin area by hand. The second part of the site was running on DokuWiki, which I customized to integrate with the user authentication system of the main site.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;I&#x27;ll dig up the source code and get some screenshots sometime, especially if there is a request for more information.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;It&#x27;s been quite a while since I made this website. If I were to do it again, with what I know now, I&#x27;d probably use CodeIgniter again. However, I think Django would be a more appropriate choice. I&#x27;d be much easier to build the admin area, and Django is better suited for code reuse than CodeIgniter. I just don&#x27;t have any real experience with Django yet.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>JuxtaPros</title>
+        <published>2014-11-22T00:00:00+00:00</published>
+        <updated>2014-11-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/juxtapros/"/>
+        <id>https://tylermumford.com/project/juxtapros/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/juxtapros/">&lt;p&gt;Built during Southern Utah Code Camp 2014, JuxtaPros is a web app for quickly making lists of pros and cons. &lt;a href=&quot;http:&#x2F;&#x2F;jacobcward.com&#x2F;&quot;&gt;Jacob Ward&lt;&#x2F;a&gt; and I came up with the idea, and we actually tried to build it for Code Camp two years in a row. The first year, we built the front end but ran out of time before we could build the back end (it didn&#x27;t help that neither of us had built a back end before).&lt;&#x2F;p&gt;
+&lt;p&gt;The second year, we decided to start with the back end. Unfortunately, we also decided to try learning Node and React for the first time... We didn&#x27;t finish much that year, haha. But for only having worked on it for 48 hours, I&#x27;m proud that we&#x27;ve got a working front end.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;If I were to try again without time constraints, I think this would be a good project on which to learn Angular. But if I wanted to actually finish it using tech I know, I&#x27;d use jQuery on the front and Go in the back.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Inaugural Entry</title>
+        <published>2013-06-13T17:00:00-07:00</published>
+        <updated>2013-06-13T17:00:00-07:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/post/inaugural-entry/"/>
+        <id>https://tylermumford.com/post/inaugural-entry/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/post/inaugural-entry/">&lt;p&gt;Three days ago, Apple gave its 2013 WWDC keynote presentation. They announced OS X Mavericks, the new Mac Pro, and a new design for iOS 7. I&#x27;m taking the opportunity to move my own development efforts forward, by creating Mindful Code. Under this name, I intend to create apps for iOS and Mac that truly understand how people think of and interact with their systems.&lt;&#x2F;p&gt;
+&lt;p&gt;The definition of &quot;mindful&quot; has nothing to do with beauty, versatility, or even ease of use. To be mindful is to be aware of truth, and to respect it. Only when software is mindful of its users can it become an extension of their thinking. And then? &lt;em&gt;Then&lt;&#x2F;em&gt; it becomes beautiful.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Goodness</title>
+        <published>2013-04-13T00:00:00+00:00</published>
+        <updated>2013-04-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://tylermumford.com/project/goodness/"/>
+        <id>https://tylermumford.com/project/goodness/</id>
+        
+        <content type="html" xml:base="https://tylermumford.com/project/goodness/">&lt;p&gt;(February 2023 update: I realized a few years ago that the person who bought Goodness just wanted to display ads to its users. It became advertising junk, and it is no longer on the Chrome Web Store.)&lt;&#x2F;p&gt;
+&lt;p&gt;For a long time, Goodness was my most successful project: a Chrome extension designed to block a few sites for people struggling with pornography addiction. I sold it in 2013 with about 11,000 users, and has since grown to many more than that.&lt;&#x2F;p&gt;
+&lt;p&gt;{{&amp;lt; figure src=&quot;&#x2F;images&#x2F;goodness.png&quot; alt=&quot;Screenshot of Goodness&#x27;s options page&quot; &amp;gt;}}&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;tylermumford&#x2F;Goodness&quot;&gt;Source code on GitHub&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;(I&#x27;m not sure if I still have a license to do anything with that source code. I&#x27;ll have to check my email history someday, but I don&#x27;t think it matters.)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>

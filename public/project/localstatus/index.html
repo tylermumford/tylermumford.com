@@ -1,0 +1,116 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>LocalStatus • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>LocalStatus</h1>
+    <hr/>
+
+    <h2 id="localstatus-monitor-your-local-dev-environment">LocalStatus: monitor your local dev environment</h2>
+<p>This might sound familiar:
+you're coding, tweaking, and developing your application, when suddenly, some part of it stops working.
+You undo some changes, check Git, and restart the service, but it's still broken.
+After hours of trying to find the problem, you realize that
+you forgot to run the latest migrations on your local database, so it was missing a new table.</p>
+<p><a href="https://github.com/tylermumford/localstatus">LocalStatus</a> helps prevent delays like this.
+It's like an automated checklist for your local dev environment.</p>
+<h2 id="dev-environments-are-finicky-these-days">Dev environments are finicky these days</h2>
+<p>I've worked on projects where you have to create two or three
+little files in the repository that <em>shouldn't</em> be checked in,
+so it was up to devs to maintain their own copies.
+It's easy to forget them if they get deleted or if the repo gets re-cloned.</p>
+<p>Other projects require VPN connections, remote databases, or other services to be running.
+It's easy to forget to start all of those things when your computer reboots.
+(And the IT department's software makes my computer reboot <em>a lot</em>.)</p>
+<p>And then there's the ultimate example of statefulness: the database.</p>
+<ul>
+<li>Does it have the latest migrations applied?</li>
+<li>Does it have starter data like the admin user or the feature flags?</li>
+<li>Is it running?</li>
+</ul>
+<p>LocalStatus can check all of these things for you
+and give you a bird's-eye-view.</p>
+<h2 id="i-believe-in-working-offline">I believe in working offline</h2>
+<p>The Internet is a mixed bag. It's great, but also terrible.
+Without docs and web searches and StackOverflow, I'd be a whole lot less effective.
+But without YouTube and Mastodon, I'd be a whole lot <em>more</em> effective.
+Sometimes, the best way to focus is to disconnect.</p>
+<p>I believe that being able to work offline is important.
+For starters, we <em>have to be offline</em> sometimes.
+No Internet connection is 100% reliable.
+But also, being able to work offline is supremely empowering.</p>
+<p><em>(I have a silly little dream of writing code in cool locations.
+On mountaintops, on beaches, under the stars, on a boat.
+It's trivial, but I think it'd be cool to have a code comment say something like,
+"this feature was developed on Pike's Peak.")</em></p>
+<p>When you can work offline, you can work anywhere.
+You can choose to go beyond Wi-Fi and beyond cell reception.
+You can work in places that are inspiring, useful, or just a change of pace,
+without worrying about their Wi-Fi speed or your mobile data usage.</p>
+<p>And you can turn off distractions. All of them.
+If you're on a team, you can set your chat status to "working offline for a few hours" and turn off the Wi-Fi.
+Turning off notifications can prevent interruptions,
+but turning off Wi-Fi can prevent self-inflicted web distractions.
+When you get bored, do you have a habit of hitting Cmd-T and typing "you" into the address bar and hitting Enter?
+I know I do.</p>
+<h2 id="works-online-too">Works online, too</h2>
+<p>Opinions aside, LocalStatus helps when you're online, too.
+One of my favorite features is how it monitors the <code>main</code> branch
+while I'm working on a feature branch,
+and it lets me know if there are new commits to merge/rebase into my feature branch.</p>
+<p><a href="https://github.com/tylermumford/localstatus">LocalStatus</a> is in the early stages, but it's got some good features. I use it constantly.
+If you're feeling adventurous, give it a try.
+And if you're just interested to see where the project goes,
+star or watch the repository. I'm excited to keep working on it.</p>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Color taken from the top of the sunset gradient -->
+  <meta name="theme-color" content="#111">
+
+  
+  <title>SAVvie • Tyler Mumford</title>
+  
+  <!-- TODO: Show description, if available -->
+  <!-- <meta name="description" content="" /> -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://tylermumford.com/style.css">
+
+  <!-- Icons -->
+  <!-- TODO: make a new one -->
+  <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png"> -->
+
+  <!-- RSS etc -->
+  <!-- TODO: Generate an RSS feed -->
+  <!-- <link href="%s" rel="%s" type="%s" title="%s" /> -->
+</head>
+
+<body>
+<div class="sunset"></div>
+
+<main>
+    <nav>
+        <a href="https://tylermumford.com">Home</a>
+    </nav>
+
+    <h1>SAVvie</h1>
+    <hr/>
+
+    <p>Prounounced like "savvy," the name SAVvie comes from our initial prototype name, "Social Argument Voting," and the verb "vie," which means to compete. We imagined it to be an online implementation of Robert's Rules of Order --- a place suitable for online debate and <strong>group decision-making</strong>.</p>
+<p>SAVvie is a team project that was jump-started during the 24-hour Southern Utah Code Camp hackathon of 2016. I took on the responsibilities of a <strong>team leader</strong> for the four student developers who created the app: <a href="https://github.com/ktrinanm">Katrina Mehring</a>, Nick Rossi, <a href="http://jacobcward.com/">Jacob Ward</a>, and myself. After the hackathon, I continued to work on SAVvie with Katrina.</p>
+<h2 id="screenshots">Screenshots:</h2>
+<p>{{&lt; figure src="/images/savvie-1.png" alt="List of all arguments on the site including their voting scores" link="/images/savvie-1.png" &gt;}}</p>
+<p>{{&lt; figure src="/images/savvie-2.png" alt="Detail page for a single argument, including voting buttons and comments" link="/images/savvie-2.png" &gt;}}</p>
+<p>{{&lt; figure src="/images/savvie-3.png" alt="Login page with an error message" link="/images/savvie-3.png" &gt;}}</p>
+<h2 id="architecture-and-stack">Architecture and stack:</h2>
+<ul>
+<li>MVC pattern</li>
+<li><strong>Vagrant</strong> dev environments</li>
+<li>Controller: Go's standard <strong>net/http</strong> package</li>
+<li>Views: Go's standard html/template package</li>
+<li>Models:
+<ul>
+<li>C# CLI for persisting arguments and votes to filesystem</li>
+<li>Go packages for persisting users and comments to filesystem</li>
+</ul>
+</li>
+<li>No browser JavaScript yet</li>
+</ul>
+
+</main>
+
+<img src="https://tylermumford.com/images/mountains.svg" class="mountains" alt="Mountain peaks at sunset" />
+
+<div class="title-footer">
+  <faint-text class="no-wrap">&lt;!--</faint-text> Tyler Mumford's Little&nbsp;Corner of&nbsp;The&nbsp;Web&nbsp;<faint-text class="no-wrap">--&gt;</faint-text>
+</div>
+
+<!-- If you don't want GoatCounter analytics to record your page views,
+see the Fine Print section on the homepage. -->
+<script>
+  // Only record analytics for the public site.
+  if (window.location.host !== 'tylermumford.com')
+    window.goatcounter = {no_onload: true}
+</script>
+<script data-goatcounter="https://543181498.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+</body>
+</html>
