@@ -26,7 +26,8 @@ func main() {
 	prefix := "http://localhost:1111/"
 	paths := []string{
 		"",
-		//  "index.xml", // This used to exist, so a redirect is necessary.
+		// "index.xml", // Hugo made this. Zola doesn't, but I made a Netlify redirect.
+        "/rss.xml",
 		"/atom.xml",
 		"project",
 		"page/contact",

@@ -3,7 +3,8 @@ title = "Tyler Mumford"
 base_url = "https://tylermumford.com"
 
 # Yes, RSS is fantastic.
-generate_feed = true
+generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
 
 [extra]
 
